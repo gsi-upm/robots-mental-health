@@ -1,0 +1,1023 @@
+[0.000000] (-) TimerEvent: {}
+[0.010251] (chat_logic) JobQueued: {'identifier': 'chat_logic', 'dependencies': OrderedDict()}
+[0.010443] (chatbot_msgs) JobQueued: {'identifier': 'chatbot_msgs', 'dependencies': OrderedDict()}
+[0.010478] (task_msgs) JobQueued: {'identifier': 'task_msgs', 'dependencies': OrderedDict()}
+[0.010497] (chat_task) JobQueued: {'identifier': 'chat_task', 'dependencies': OrderedDict([('task_msgs', '/home/user/exchange/workspace/src/install/task_msgs')])}
+[0.010517] (mission_controller) JobQueued: {'identifier': 'mission_controller', 'dependencies': OrderedDict([('task_msgs', '/home/user/exchange/workspace/src/install/task_msgs')])}
+[0.010540] (planner_task) JobQueued: {'identifier': 'planner_task', 'dependencies': OrderedDict([('task_msgs', '/home/user/exchange/workspace/src/install/task_msgs')])}
+[0.010559] (sample_gui_task) JobQueued: {'identifier': 'sample_gui_task', 'dependencies': OrderedDict([('task_msgs', '/home/user/exchange/workspace/src/install/task_msgs')])}
+[0.010576] (ui_task) JobQueued: {'identifier': 'ui_task', 'dependencies': OrderedDict([('task_msgs', '/home/user/exchange/workspace/src/install/task_msgs')])}
+[0.010593] (task_msgs) JobStarted: {'identifier': 'task_msgs'}
+[0.026287] (chat_logic) JobStarted: {'identifier': 'chat_logic'}
+[0.036157] (chatbot_msgs) JobStarted: {'identifier': 'chatbot_msgs'}
+[0.042000] (task_msgs) JobProgress: {'identifier': 'task_msgs', 'progress': 'cmake'}
+[0.042571] (task_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/user/exchange/workspace/src/task_msgs', '-DCMAKE_INSTALL_PREFIX=/home/user/exchange/workspace/src/install/task_msgs'], 'cwd': '/home/user/exchange/workspace/src/build/task_msgs', 'env': OrderedDict([('HOSTNAME', '8b93bc518289'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/exchange/workspace'), ('ROS_PYTHON_VERSION', '3'), ('QML2_IMPORT_PATH', '/opt/pal/alum/lib/'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'file:///etc/ros/pal/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/opt/pal/alum:/opt/ros/humble'), ('PWD', '/home/user/exchange/workspace/src/build/task_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PAL_DISTRO', 'alum'), ('CMAKE_PREFIX_PATH', '/opt/pal/alum:/opt/ros/humble')]), 'shell': False}
+[0.099817] (-) TimerEvent: {}
+[0.200128] (-) TimerEvent: {}
+[0.300481] (-) TimerEvent: {}
+[0.333776] (chatbot_msgs) JobProgress: {'identifier': 'chatbot_msgs', 'progress': 'cmake'}
+[0.333833] (task_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.334688] (chatbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/user/exchange/workspace/src/chatbot_msgs', '-DCMAKE_INSTALL_PREFIX=/home/user/exchange/workspace/src/install/chatbot_msgs'], 'cwd': '/home/user/exchange/workspace/src/build/chatbot_msgs', 'env': OrderedDict([('HOSTNAME', '8b93bc518289'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/exchange/workspace'), ('ROS_PYTHON_VERSION', '3'), ('QML2_IMPORT_PATH', '/opt/pal/alum/lib/'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'file:///etc/ros/pal/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/opt/pal/alum:/opt/ros/humble'), ('PWD', '/home/user/exchange/workspace/src/build/chatbot_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PAL_DISTRO', 'alum'), ('CMAKE_PREFIX_PATH', '/opt/pal/alum:/opt/ros/humble')]), 'shell': False}
+[0.377845] (task_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.383382] (chatbot_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.389215] (task_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400584] (-) TimerEvent: {}
+[0.436863] (chatbot_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.443715] (chatbot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.463200] (task_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.472646] (task_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.473189] (task_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.474050] (task_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.478084] (task_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500702] (-) TimerEvent: {}
+[0.504611] (chatbot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.513888] (chatbot_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.514104] (chatbot_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.514427] (chatbot_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.517898] (chatbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.553015] (task_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.560392] (task_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.560723] (task_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.561218] (task_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.576069] (task_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.589605] (chatbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.596837] (chatbot_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.597116] (chatbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.597596] (chatbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.600746] (chatbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600863] (-) TimerEvent: {}
+[0.701079] (-) TimerEvent: {}
+[0.747973] (task_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.758989] (chatbot_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.804109] (-) TimerEvent: {}
+[0.901154] (task_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.904213] (-) TimerEvent: {}
+[0.906176] (chatbot_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.914649] (task_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.928125] (task_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.960279] (chat_logic) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/chat_logic', 'build', '--build-base', '/home/user/exchange/workspace/src/build/chat_logic/build', 'install', '--record', '/home/user/exchange/workspace/src/build/chat_logic/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/exchange/workspace/src/chat_logic', 'env': {'HOSTNAME': '8b93bc518289', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/exchange/workspace', 'ROS_PYTHON_VERSION': '3', 'QML2_IMPORT_PATH': '/opt/pal/alum/lib/', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROSDISTRO_INDEX_URL': 'file:///etc/ros/pal/index-v4.yaml', 'AMENT_PREFIX_PATH': '/opt/pal/alum:/opt/ros/humble', 'PWD': '/home/user/exchange/workspace/src/build/chat_logic', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/user/exchange/workspace/src/build/chat_logic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/src/install/chat_logic/lib/python3.10/site-packages:/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'PAL_DISTRO': 'alum'}, 'shell': False}
+[0.961230] (chatbot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.967922] (chatbot_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.979910] (chatbot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.998788] (chatbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.004303] (-) TimerEvent: {}
+[1.007528] (task_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.016496] (chatbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.038303] (chatbot_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.056808] (chatbot_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.104405] (-) TimerEvent: {}
+[1.204721] (-) TimerEvent: {}
+[1.239933] (chat_logic) StdoutLine: {'line': b'running egg_info\n'}
+[1.240690] (chat_logic) StdoutLine: {'line': b'creating ../build/chat_logic/chat_logic.egg-info\n'}
+[1.240908] (chat_logic) StdoutLine: {'line': b'writing ../build/chat_logic/chat_logic.egg-info/PKG-INFO\n'}
+[1.241175] (chat_logic) StdoutLine: {'line': b'writing dependency_links to ../build/chat_logic/chat_logic.egg-info/dependency_links.txt\n'}
+[1.241378] (chat_logic) StdoutLine: {'line': b'writing entry points to ../build/chat_logic/chat_logic.egg-info/entry_points.txt\n'}
+[1.241536] (chat_logic) StdoutLine: {'line': b'writing requirements to ../build/chat_logic/chat_logic.egg-info/requires.txt\n'}
+[1.241638] (chat_logic) StdoutLine: {'line': b'writing top-level names to ../build/chat_logic/chat_logic.egg-info/top_level.txt\n'}
+[1.241737] (chat_logic) StdoutLine: {'line': b"writing manifest file '../build/chat_logic/chat_logic.egg-info/SOURCES.txt'\n"}
+[1.243511] (chat_logic) StdoutLine: {'line': b"reading manifest file '../build/chat_logic/chat_logic.egg-info/SOURCES.txt'\n"}
+[1.244386] (chat_logic) StdoutLine: {'line': b"writing manifest file '../build/chat_logic/chat_logic.egg-info/SOURCES.txt'\n"}
+[1.244620] (chat_logic) StdoutLine: {'line': b'running build\n'}
+[1.244714] (chat_logic) StdoutLine: {'line': b'running build_py\n'}
+[1.244834] (chat_logic) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/chat_logic/build\n'}
+[1.245005] (chat_logic) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/chat_logic/build/lib\n'}
+[1.245106] (chat_logic) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/chat_logic/build/lib/chat_logic\n'}
+[1.245234] (chat_logic) StdoutLine: {'line': b'copying chat_logic/__init__.py -> /home/user/exchange/workspace/src/build/chat_logic/build/lib/chat_logic\n'}
+[1.245324] (chat_logic) StdoutLine: {'line': b'copying chat_logic/prompts.py -> /home/user/exchange/workspace/src/build/chat_logic/build/lib/chat_logic\n'}
+[1.245429] (chat_logic) StdoutLine: {'line': b'copying chat_logic/planner.py -> /home/user/exchange/workspace/src/build/chat_logic/build/lib/chat_logic\n'}
+[1.245668] (chat_logic) StdoutLine: {'line': b'copying chat_logic/chat_logic.py -> /home/user/exchange/workspace/src/build/chat_logic/build/lib/chat_logic\n'}
+[1.246088] (chat_logic) StdoutLine: {'line': b'running install\n'}
+[1.246448] (chat_logic) StdoutLine: {'line': b'running install_lib\n'}
+[1.247377] (chat_logic) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/chat_logic/lib/python3.10/site-packages/chat_logic\n'}
+[1.247560] (chat_logic) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/chat_logic/build/lib/chat_logic/__init__.py -> /home/user/exchange/workspace/src/install/chat_logic/lib/python3.10/site-packages/chat_logic\n'}
+[1.247688] (chat_logic) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/chat_logic/build/lib/chat_logic/prompts.py -> /home/user/exchange/workspace/src/install/chat_logic/lib/python3.10/site-packages/chat_logic\n'}
+[1.247806] (chat_logic) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/chat_logic/build/lib/chat_logic/planner.py -> /home/user/exchange/workspace/src/install/chat_logic/lib/python3.10/site-packages/chat_logic\n'}
+[1.247903] (chat_logic) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/chat_logic/build/lib/chat_logic/chat_logic.py -> /home/user/exchange/workspace/src/install/chat_logic/lib/python3.10/site-packages/chat_logic\n'}
+[1.248271] (chat_logic) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/chat_logic/lib/python3.10/site-packages/chat_logic/__init__.py to __init__.cpython-310.pyc\n'}
+[1.248486] (chat_logic) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/chat_logic/lib/python3.10/site-packages/chat_logic/prompts.py to prompts.cpython-310.pyc\n'}
+[1.248810] (chat_logic) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/chat_logic/lib/python3.10/site-packages/chat_logic/planner.py to planner.cpython-310.pyc\n'}
+[1.249444] (chat_logic) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/chat_logic/lib/python3.10/site-packages/chat_logic/chat_logic.py to chat_logic.cpython-310.pyc\n'}
+[1.249801] (chat_logic) StdoutLine: {'line': b'running install_data\n'}
+[1.249972] (chat_logic) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/chat_logic/share/ament_index\n'}
+[1.250084] (chat_logic) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/chat_logic/share/ament_index/resource_index\n'}
+[1.250216] (chat_logic) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/chat_logic/share/ament_index/resource_index/packages\n'}
+[1.250337] (chat_logic) StdoutLine: {'line': b'copying resource/chat_logic -> /home/user/exchange/workspace/src/install/chat_logic/share/ament_index/resource_index/packages\n'}
+[1.250436] (chat_logic) StdoutLine: {'line': b'copying package.xml -> /home/user/exchange/workspace/src/install/chat_logic/share/chat_logic\n'}
+[1.250529] (chat_logic) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.252193] (chat_logic) StdoutLine: {'line': b'Copying ../build/chat_logic/chat_logic.egg-info to /home/user/exchange/workspace/src/install/chat_logic/lib/python3.10/site-packages/chat_logic-0.0.0-py3.10.egg-info\n'}
+[1.253079] (chat_logic) StdoutLine: {'line': b'running install_scripts\n'}
+[1.275790] (chat_logic) StdoutLine: {'line': b"writing list of installed files to '/home/user/exchange/workspace/src/build/chat_logic/install.log'\n"}
+[1.304982] (-) TimerEvent: {}
+[1.305991] (chat_logic) CommandEnded: {'returncode': 0}
+[1.322672] (chat_logic) JobEnded: {'identifier': 'chat_logic', 'rc': 0}
+[1.372146] (chatbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.381339] (task_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.405109] (-) TimerEvent: {}
+[1.505427] (-) TimerEvent: {}
+[1.583231] (task_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.605586] (-) TimerEvent: {}
+[1.705857] (-) TimerEvent: {}
+[1.760026] (chatbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.806004] (-) TimerEvent: {}
+[1.828018] (task_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.852218] (task_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.854756] (task_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.887578] (task_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.887791] (task_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.887898] (task_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.887988] (task_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.906112] (-) TimerEvent: {}
+[1.909805] (task_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.912770] (chatbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.934778] (chatbot_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.936646] (chatbot_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.950510] (task_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.960572] (chatbot_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.960922] (chatbot_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.961032] (chatbot_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.961107] (chatbot_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.982306] (chatbot_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.988224] (task_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.990586] (task_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.992680] (task_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.995658] (task_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.006199] (-) TimerEvent: {}
+[2.027568] (task_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.039039] (task_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/user/exchange/workspace/src/build/task_msgs\n'}
+[2.040697] (chatbot_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.045926] (task_msgs) CommandEnded: {'returncode': 0}
+[2.046412] (task_msgs) JobProgress: {'identifier': 'task_msgs', 'progress': 'build'}
+[2.047243] (task_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/exchange/workspace/src/build/task_msgs', '--', '-j8', '-l8'], 'cwd': '/home/user/exchange/workspace/src/build/task_msgs', 'env': OrderedDict([('HOSTNAME', '8b93bc518289'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/exchange/workspace'), ('ROS_PYTHON_VERSION', '3'), ('QML2_IMPORT_PATH', '/opt/pal/alum/lib/'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'file:///etc/ros/pal/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/opt/pal/alum:/opt/ros/humble'), ('PWD', '/home/user/exchange/workspace/src/build/task_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PAL_DISTRO', 'alum'), ('CMAKE_PREFIX_PATH', '/opt/pal/alum:/opt/ros/humble')]), 'shell': False}
+[2.065103] (chatbot_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.066975] (chatbot_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.069762] (chatbot_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.081667] (task_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.090092] (task_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.097187] (task_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_task_msgs\n'}
+[2.106311] (-) TimerEvent: {}
+[2.117812] (chatbot_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.138072] (chatbot_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/user/exchange/workspace/src/build/chatbot_msgs\n'}
+[2.146345] (chatbot_msgs) CommandEnded: {'returncode': 0}
+[2.146996] (chatbot_msgs) JobProgress: {'identifier': 'chatbot_msgs', 'progress': 'build'}
+[2.147431] (chatbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/exchange/workspace/src/build/chatbot_msgs', '--', '-j8', '-l8'], 'cwd': '/home/user/exchange/workspace/src/build/chatbot_msgs', 'env': OrderedDict([('HOSTNAME', '8b93bc518289'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/exchange/workspace'), ('ROS_PYTHON_VERSION', '3'), ('QML2_IMPORT_PATH', '/opt/pal/alum/lib/'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'file:///etc/ros/pal/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/opt/pal/alum:/opt/ros/humble'), ('PWD', '/home/user/exchange/workspace/src/build/chatbot_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PAL_DISTRO', 'alum'), ('CMAKE_PREFIX_PATH', '/opt/pal/alum:/opt/ros/humble')]), 'shell': False}
+[2.191034] (chatbot_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.199410] (chatbot_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.206426] (-) TimerEvent: {}
+[2.212879] (chatbot_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_chatbot_msgs\n'}
+[2.306542] (-) TimerEvent: {}
+[2.396487] (task_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.397455] (task_msgs) StdoutLine: {'line': b'creating task_msgs.egg-info\n'}
+[2.397702] (task_msgs) StdoutLine: {'line': b'writing task_msgs.egg-info/PKG-INFO\n'}
+[2.397958] (task_msgs) StdoutLine: {'line': b'writing dependency_links to task_msgs.egg-info/dependency_links.txt\n'}
+[2.398179] (task_msgs) StdoutLine: {'line': b'writing top-level names to task_msgs.egg-info/top_level.txt\n'}
+[2.398447] (task_msgs) StdoutLine: {'line': b"writing manifest file 'task_msgs.egg-info/SOURCES.txt'\n"}
+[2.400978] (task_msgs) StdoutLine: {'line': b"reading manifest file 'task_msgs.egg-info/SOURCES.txt'\n"}
+[2.401642] (task_msgs) StdoutLine: {'line': b"writing manifest file 'task_msgs.egg-info/SOURCES.txt'\n"}
+[2.406651] (-) TimerEvent: {}
+[2.442317] (task_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_task_msgs_egg\n'}
+[2.506761] (-) TimerEvent: {}
+[2.607089] (-) TimerEvent: {}
+[2.621636] (chatbot_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.622743] (chatbot_msgs) StdoutLine: {'line': b'creating chatbot_msgs.egg-info\n'}
+[2.623009] (chatbot_msgs) StdoutLine: {'line': b'writing chatbot_msgs.egg-info/PKG-INFO\n'}
+[2.623260] (chatbot_msgs) StdoutLine: {'line': b'writing dependency_links to chatbot_msgs.egg-info/dependency_links.txt\n'}
+[2.623479] (chatbot_msgs) StdoutLine: {'line': b'writing top-level names to chatbot_msgs.egg-info/top_level.txt\n'}
+[2.623768] (chatbot_msgs) StdoutLine: {'line': b"writing manifest file 'chatbot_msgs.egg-info/SOURCES.txt'\n"}
+[2.626620] (chatbot_msgs) StdoutLine: {'line': b"reading manifest file 'chatbot_msgs.egg-info/SOURCES.txt'\n"}
+[2.627377] (chatbot_msgs) StdoutLine: {'line': b"writing manifest file 'chatbot_msgs.egg-info/SOURCES.txt'\n"}
+[2.665128] (chatbot_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_chatbot_msgs_egg\n'}
+[2.707204] (-) TimerEvent: {}
+[2.799416] (task_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/task_msgs__rosidl_generator_c.dir/rosidl_generator_c/task_msgs/action/detail/task_control__functions.c.o\x1b[0m\n'}
+[2.807310] (-) TimerEvent: {}
+[2.810641] (task_msgs) StdoutLine: {'line': b'[  9%] Built target task_msgs__cpp\n'}
+[2.819353] (task_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.819570] (task_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.820280] (task_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.899536] (chatbot_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/chatbot_msgs/srv/detail/get_response__functions.c.o\x1b[0m\n'}
+[2.901894] (chatbot_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/chatbot_msgs/srv/detail/reset_model__functions.c.o\x1b[0m\n'}
+[2.907428] (-) TimerEvent: {}
+[2.953658] (chatbot_msgs) StdoutLine: {'line': b'[ 10%] Built target chatbot_msgs__cpp\n'}
+[2.966217] (chatbot_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.969518] (chatbot_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.974185] (chatbot_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.985981] (chatbot_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libchatbot_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.007541] (-) TimerEvent: {}
+[3.039313] (chatbot_msgs) StdoutLine: {'line': b'[ 20%] Built target chatbot_msgs__rosidl_generator_c\n'}
+[3.043092] (task_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libtask_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.062811] (chatbot_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.063541] (chatbot_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.092473] (chatbot_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.107660] (-) TimerEvent: {}
+[3.152903] (task_msgs) StdoutLine: {'line': b'[ 22%] Built target task_msgs__rosidl_generator_c\n'}
+[3.206440] (task_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.207753] (-) TimerEvent: {}
+[3.221279] (task_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.229118] (task_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.307868] (-) TimerEvent: {}
+[3.408731] (-) TimerEvent: {}
+[3.509602] (-) TimerEvent: {}
+[3.577929] (task_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/task_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/task_msgs/action/task_control__type_support.cpp.o\x1b[0m\n'}
+[3.609755] (-) TimerEvent: {}
+[3.653227] (task_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/task_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/task_msgs/action/detail/task_control__type_support.cpp.o\x1b[0m\n'}
+[3.655525] (chatbot_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chatbot_msgs/srv/get_response__type_support.cpp.o\x1b[0m\n'}
+[3.659596] (chatbot_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chatbot_msgs/srv/reset_model__type_support.cpp.o\x1b[0m\n'}
+[3.709842] (-) TimerEvent: {}
+[3.795236] (chatbot_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chatbot_msgs/srv/detail/dds_fastrtps/get_response__type_support.cpp.o\x1b[0m\n'}
+[3.808459] (chatbot_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chatbot_msgs/srv/detail/get_response__type_support.cpp.o\x1b[0m\n'}
+[3.810147] (-) TimerEvent: {}
+[3.815111] (chatbot_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chatbot_msgs/srv/detail/dds_fastrtps/reset_model__type_support.cpp.o\x1b[0m\n'}
+[3.910256] (-) TimerEvent: {}
+[3.921859] (task_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/task_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/task_msgs/action/detail/dds_fastrtps/task_control__type_support.cpp.o\x1b[0m\n'}
+[3.981519] (chatbot_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/chatbot_msgs/srv/get_response__type_support.cpp.o\x1b[0m\n'}
+[4.010386] (-) TimerEvent: {}
+[4.100545] (chatbot_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/chatbot_msgs/srv/reset_model__type_support.cpp.o\x1b[0m\n'}
+[4.110504] (-) TimerEvent: {}
+[4.144372] (chatbot_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chatbot_msgs/srv/detail/get_response__type_support_c.cpp.o\x1b[0m\n'}
+[4.201623] (chatbot_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chatbot_msgs/srv/detail/get_response__type_support.c.o\x1b[0m\n'}
+[4.210658] (-) TimerEvent: {}
+[4.238933] (chatbot_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libchatbot_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.244865] (task_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/task_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/task_msgs/action/task_control__type_support.cpp.o\x1b[0m\n'}
+[4.310776] (-) TimerEvent: {}
+[4.333002] (chatbot_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chatbot_msgs/srv/detail/reset_model__type_support.c.o\x1b[0m\n'}
+[4.355745] (chatbot_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chatbot_msgs/srv/detail/reset_model__type_support_c.cpp.o\x1b[0m\n'}
+[4.356669] (task_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/task_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/task_msgs/action/detail/task_control__type_support_c.cpp.o\x1b[0m\n'}
+[4.358498] (chatbot_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libchatbot_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.410905] (-) TimerEvent: {}
+[4.438520] (chatbot_msgs) StdoutLine: {'line': b'[ 61%] Built target chatbot_msgs__rosidl_typesupport_c\n'}
+[4.441503] (task_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libtask_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.455588] (task_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/task_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/task_msgs/action/detail/task_control__type_support.c.o\x1b[0m\n'}
+[4.467903] (chatbot_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chatbot_msgs/srv/detail/reset_model__type_support.cpp.o\x1b[0m\n'}
+[4.511033] (-) TimerEvent: {}
+[4.516845] (chatbot_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libchatbot_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.570739] (chatbot_msgs) StdoutLine: {'line': b'[ 66%] Built target chatbot_msgs__rosidl_typesupport_cpp\n'}
+[4.611163] (-) TimerEvent: {}
+[4.679988] (task_msgs) StdoutLine: {'line': b'[ 54%] Built target task_msgs__rosidl_typesupport_c\n'}
+[4.689616] (task_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libtask_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.711292] (-) TimerEvent: {}
+[4.713894] (chatbot_msgs) StdoutLine: {'line': b'[ 66%] Built target chatbot_msgs__rosidl_typesupport_introspection_c\n'}
+[4.790445] (task_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libtask_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.811427] (-) TimerEvent: {}
+[4.853711] (task_msgs) StdoutLine: {'line': b'[ 61%] Built target task_msgs__rosidl_typesupport_introspection_c\n'}
+[4.888222] (task_msgs) StdoutLine: {'line': b'[ 61%] Built target task_msgs__rosidl_typesupport_cpp\n'}
+[4.888857] (chatbot_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libchatbot_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.911552] (-) TimerEvent: {}
+[4.955364] (chatbot_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libchatbot_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.979715] (chatbot_msgs) StdoutLine: {'line': b'[ 71%] Built target chatbot_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.001691] (task_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtask_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.011680] (-) TimerEvent: {}
+[5.049244] (task_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libtask_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.082451] (chatbot_msgs) StdoutLine: {'line': b'[ 71%] Built target chatbot_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.097804] (task_msgs) StdoutLine: {'line': b'[ 67%] Built target task_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.111794] (-) TimerEvent: {}
+[5.122763] (task_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libtask_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.136138] (task_msgs) StdoutLine: {'line': b'[ 70%] Built target task_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.164950] (chatbot_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libchatbot_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.197810] (task_msgs) StdoutLine: {'line': b'[ 70%] Built target task_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.211916] (-) TimerEvent: {}
+[5.216768] (task_msgs) StdoutLine: {'line': b'[ 70%] Built target task_msgs\n'}
+[5.229584] (chatbot_msgs) StdoutLine: {'line': b'[ 74%] Built target chatbot_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.235107] (task_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.247305] (chatbot_msgs) StdoutLine: {'line': b'[ 74%] Built target chatbot_msgs\n'}
+[5.270246] (chatbot_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.312020] (-) TimerEvent: {}
+[5.412315] (-) TimerEvent: {}
+[5.512658] (-) TimerEvent: {}
+[5.612980] (-) TimerEvent: {}
+[5.713274] (-) TimerEvent: {}
+[5.813570] (-) TimerEvent: {}
+[5.913836] (-) TimerEvent: {}
+[5.930343] (chatbot_msgs) StdoutLine: {'line': b'[ 76%] Built target chatbot_msgs__py\n'}
+[5.948457] (chatbot_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/chatbot_msgs/srv/_reset_model_s.c.o\x1b[0m\n'}
+[5.948679] (chatbot_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/chatbot_msgs/srv/_get_response_s.c.o\x1b[0m\n'}
+[6.013969] (-) TimerEvent: {}
+[6.085022] (chatbot_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chatbot_msgs/libchatbot_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[6.114080] (-) TimerEvent: {}
+[6.121049] (task_msgs) StdoutLine: {'line': b'[ 74%] Built target task_msgs__py\n'}
+[6.125251] (chatbot_msgs) StdoutLine: {'line': b'[ 84%] Built target chatbot_msgs__rosidl_generator_py\n'}
+[6.138422] (task_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/task_msgs__rosidl_generator_py.dir/rosidl_generator_py/task_msgs/action/_task_control_s.c.o\x1b[0m\n'}
+[6.143250] (chatbot_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/chatbot_msgs/_chatbot_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.143460] (chatbot_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/chatbot_msgs/_chatbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.143616] (chatbot_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/chatbot_msgs/_chatbot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.214232] (-) TimerEvent: {}
+[6.247950] (chatbot_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.248843] (chatbot_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.252654] (chatbot_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.288681] (chatbot_msgs) StdoutLine: {'line': b'[100%] Built target chatbot_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.290795] (chatbot_msgs) StdoutLine: {'line': b'[100%] Built target chatbot_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.291459] (task_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/task_msgs/libtask_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[6.293678] (chatbot_msgs) StdoutLine: {'line': b'[100%] Built target chatbot_msgs__rosidl_typesupport_c__pyext\n'}
+[6.303359] (chatbot_msgs) CommandEnded: {'returncode': 0}
+[6.303956] (chatbot_msgs) JobProgress: {'identifier': 'chatbot_msgs', 'progress': 'install'}
+[6.311371] (chatbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/exchange/workspace/src/build/chatbot_msgs'], 'cwd': '/home/user/exchange/workspace/src/build/chatbot_msgs', 'env': OrderedDict([('HOSTNAME', '8b93bc518289'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/exchange/workspace'), ('ROS_PYTHON_VERSION', '3'), ('QML2_IMPORT_PATH', '/opt/pal/alum/lib/'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'file:///etc/ros/pal/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/opt/pal/alum:/opt/ros/humble'), ('PWD', '/home/user/exchange/workspace/src/build/chatbot_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PAL_DISTRO', 'alum'), ('CMAKE_PREFIX_PATH', '/opt/pal/alum:/opt/ros/humble')]), 'shell': False}
+[6.314345] (-) TimerEvent: {}
+[6.318926] (chatbot_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.319160] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/ament_index/resource_index/rosidl_interfaces/chatbot_msgs\n'}
+[6.319275] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs\n'}
+[6.319381] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv\n'}
+[6.319463] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail\n'}
+[6.319529] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__functions.c\n'}
+[6.319617] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__functions.h\n'}
+[6.319709] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__type_support.h\n'}
+[6.319847] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__type_support.h\n'}
+[6.319940] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__functions.h\n'}
+[6.320094] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__functions.c\n'}
+[6.320251] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__struct.h\n'}
+[6.320374] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__struct.h\n'}
+[6.320471] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/reset_model.h\n'}
+[6.320575] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/get_response.h\n'}
+[6.320669] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg\n'}
+[6.321416] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.321616] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/library_path.sh\n'}
+[6.321732] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/library_path.dsv\n'}
+[6.321915] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_generator_c.so\n'}
+[6.322264] (chatbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_generator_c.so" to ""\n'}
+[6.322372] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs\n'}
+[6.322473] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv\n'}
+[6.322584] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail\n'}
+[6.322655] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__rosidl_typesupport_fastrtps_c.h\n'}
+[6.322718] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__rosidl_typesupport_fastrtps_c.h\n'}
+[6.322821] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg\n'}
+[6.322926] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.322987] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.323249] (chatbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.323342] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs\n'}
+[6.323453] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv\n'}
+[6.323528] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail\n'}
+[6.323616] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__traits.hpp\n'}
+[6.323703] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__traits.hpp\n'}
+[6.323826] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__struct.hpp\n'}
+[6.323891] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__struct.hpp\n'}
+[6.323980] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__builder.hpp\n'}
+[6.324150] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__builder.hpp\n'}
+[6.324248] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__type_support.hpp\n'}
+[6.324336] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__type_support.hpp\n'}
+[6.324427] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/reset_model.hpp\n'}
+[6.324510] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/get_response.hpp\n'}
+[6.324592] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg\n'}
+[6.324677] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.324784] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs\n'}
+[6.324891] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv\n'}
+[6.325007] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail\n'}
+[6.325091] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.325203] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/dds_fastrtps\n'}
+[6.325297] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.325391] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg\n'}
+[6.325456] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.325542] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.325769] (chatbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.325856] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs\n'}
+[6.325946] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv\n'}
+[6.326040] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail\n'}
+[6.326124] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__rosidl_typesupport_introspection_c.h\n'}
+[6.326196] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__type_support.c\n'}
+[6.326283] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__type_support.c\n'}
+[6.326372] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__rosidl_typesupport_introspection_c.h\n'}
+[6.326458] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg\n'}
+[6.326543] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.326625] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.326932] (chatbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.327019] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_c.so\n'}
+[6.327300] (chatbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_c.so" to ""\n'}
+[6.327404] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs\n'}
+[6.327500] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv\n'}
+[6.327560] (chatbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail\n'}
+[6.327622] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.327708] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__type_support.cpp\n'}
+[6.327799] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.327886] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__type_support.cpp\n'}
+[6.327985] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.328388] (chatbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.328488] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_cpp.so\n'}
+[6.328713] (chatbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[6.328801] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/pythonpath.sh\n'}
+[6.328902] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/pythonpath.dsv\n'}
+[6.329041] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs-0.0.0-py3.10.egg-info\n'}
+[6.329171] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.329273] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.329381] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.329494] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.329627] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs\n'}
+[6.329716] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/_chatbot_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.329886] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/__init__.py\n'}
+[6.329966] (task_msgs) StdoutLine: {'line': b'[ 80%] Built target task_msgs__rosidl_generator_py\n'}
+[6.330070] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/_chatbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.330167] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/_chatbot_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[6.330255] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.330378] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.330515] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv\n'}
+[6.330596] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/__init__.py\n'}
+[6.330760] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/_get_response_s.c\n'}
+[6.330855] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/_reset_model_s.c\n'}
+[6.330958] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/_reset_model.py\n'}
+[6.331079] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/_get_response.py\n'}
+[6.331231] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.331430] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/libchatbot_msgs__rosidl_generator_py.so\n'}
+[6.348327] (task_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/task_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/task_msgs/_task_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.348584] (task_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/task_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/task_msgs/_task_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.348698] (task_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/task_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/task_msgs/_task_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.371765] (chatbot_msgs) StdoutLine: {'line': b"Listing '/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs'...\n"}
+[6.372061] (chatbot_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/__init__.py'...\n"}
+[6.372198] (chatbot_msgs) StdoutLine: {'line': b"Listing '/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv'...\n"}
+[6.372296] (chatbot_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/__init__.py'...\n"}
+[6.372395] (chatbot_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/_get_response.py'...\n"}
+[6.372499] (chatbot_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/_reset_model.py'...\n"}
+[6.377016] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.377423] (chatbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.377664] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.378117] (chatbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.378357] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.378797] (chatbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.378934] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_generator_py.so\n'}
+[6.379390] (chatbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_generator_py.so" to ""\n'}
+[6.379541] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/GetResponse.idl\n'}
+[6.379744] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/ResetModel.idl\n'}
+[6.379936] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/GetResponse.srv\n'}
+[6.380243] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/GetResponse_Request.msg\n'}
+[6.380434] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/GetResponse_Response.msg\n'}
+[6.380625] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/ResetModel.srv\n'}
+[6.380832] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/ResetModel_Request.msg\n'}
+[6.381014] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/ResetModel_Response.msg\n'}
+[6.381310] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/ament_index/resource_index/package_run_dependencies/chatbot_msgs\n'}
+[6.381535] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/ament_index/resource_index/parent_prefix_path/chatbot_msgs\n'}
+[6.381749] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/ament_prefix_path.sh\n'}
+[6.381953] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/ament_prefix_path.dsv\n'}
+[6.382149] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/path.sh\n'}
+[6.382343] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/path.dsv\n'}
+[6.382539] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/local_setup.bash\n'}
+[6.382726] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/local_setup.sh\n'}
+[6.382918] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/local_setup.zsh\n'}
+[6.383107] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/local_setup.dsv\n'}
+[6.383300] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/package.dsv\n'}
+[6.383551] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/ament_index/resource_index/packages/chatbot_msgs\n'}
+[6.383846] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_generator_cExport.cmake\n'}
+[6.384032] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.384329] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.384456] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.384670] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.384889] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.385096] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.385319] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.385529] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.385761] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.385978] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.386212] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.386426] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.386652] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.386870] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.387098] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.387314] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.387520] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.387721] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.387988] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.388196] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.388408] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.388602] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.388799] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.388995] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgsConfig.cmake\n'}
+[6.389163] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgsConfig-version.cmake\n'}
+[6.389353] (chatbot_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/package.xml\n'}
+[6.391963] (chatbot_msgs) CommandEnded: {'returncode': 0}
+[6.408648] (chatbot_msgs) JobEnded: {'identifier': 'chatbot_msgs', 'rc': 0}
+[6.414461] (-) TimerEvent: {}
+[6.467547] (task_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/task_msgs/task_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.469721] (task_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/task_msgs/task_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.470598] (task_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/task_msgs/task_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.504526] (task_msgs) StdoutLine: {'line': b'[100%] Built target task_msgs__rosidl_typesupport_c__pyext\n'}
+[6.504741] (task_msgs) StdoutLine: {'line': b'[100%] Built target task_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.506465] (task_msgs) StdoutLine: {'line': b'[100%] Built target task_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.514561] (-) TimerEvent: {}
+[6.515611] (task_msgs) CommandEnded: {'returncode': 0}
+[6.516227] (task_msgs) JobProgress: {'identifier': 'task_msgs', 'progress': 'install'}
+[6.516609] (task_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/exchange/workspace/src/build/task_msgs'], 'cwd': '/home/user/exchange/workspace/src/build/task_msgs', 'env': OrderedDict([('HOSTNAME', '8b93bc518289'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/exchange/workspace'), ('ROS_PYTHON_VERSION', '3'), ('QML2_IMPORT_PATH', '/opt/pal/alum/lib/'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'file:///etc/ros/pal/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/opt/pal/alum:/opt/ros/humble'), ('PWD', '/home/user/exchange/workspace/src/build/task_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PAL_DISTRO', 'alum'), ('CMAKE_PREFIX_PATH', '/opt/pal/alum:/opt/ros/humble')]), 'shell': False}
+[6.523873] (task_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.524071] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/ament_index/resource_index/rosidl_interfaces/task_msgs\n'}
+[6.524363] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs\n'}
+[6.524461] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/msg\n'}
+[6.524531] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.524631] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action\n'}
+[6.524701] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail\n'}
+[6.524765] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail/task_control__functions.h\n'}
+[6.524843] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail/task_control__struct.h\n'}
+[6.524932] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail/task_control__type_support.h\n'}
+[6.525013] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail/task_control__functions.c\n'}
+[6.525127] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/task_control.h\n'}
+[6.525305] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/environment/library_path.sh\n'}
+[6.525434] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/environment/library_path.dsv\n'}
+[6.525610] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_generator_c.so\n'}
+[6.526011] (task_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_generator_c.so" to ""\n'}
+[6.526117] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs\n'}
+[6.526221] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/msg\n'}
+[6.526341] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.526406] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action\n'}
+[6.526479] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail\n'}
+[6.526553] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail/task_control__rosidl_typesupport_fastrtps_c.h\n'}
+[6.526651] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.526799] (task_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.526903] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs\n'}
+[6.526994] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/msg\n'}
+[6.527100] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.527169] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action\n'}
+[6.527232] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail\n'}
+[6.527319] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail/task_control__type_support.c\n'}
+[6.527389] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail/task_control__rosidl_typesupport_introspection_c.h\n'}
+[6.527486] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.527707] (task_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.527802] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_typesupport_c.so\n'}
+[6.528160] (task_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_typesupport_c.so" to ""\n'}
+[6.528285] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs\n'}
+[6.528385] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/msg\n'}
+[6.528464] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.528540] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action\n'}
+[6.528614] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail\n'}
+[6.528711] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail/task_control__type_support.hpp\n'}
+[6.528814] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail/task_control__struct.hpp\n'}
+[6.528890] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail/task_control__traits.hpp\n'}
+[6.528987] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail/task_control__builder.hpp\n'}
+[6.529112] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/task_control.hpp\n'}
+[6.529180] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs\n'}
+[6.529254] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/msg\n'}
+[6.529346] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.529444] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action\n'}
+[6.529553] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail\n'}
+[6.529627] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail/dds_fastrtps\n'}
+[6.529700] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail/task_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.529797] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.529895] (task_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.530003] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs\n'}
+[6.530082] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action\n'}
+[6.530191] (task_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail\n'}
+[6.530258] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail/task_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.530329] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/include/task_msgs/task_msgs/action/detail/task_control__type_support.cpp\n'}
+[6.530426] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.530663] (task_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.530766] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_typesupport_cpp.so\n'}
+[6.531023] (task_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[6.531125] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/environment/pythonpath.sh\n'}
+[6.531221] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/environment/pythonpath.dsv\n'}
+[6.531313] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs-0.1.0-py3.10.egg-info\n'}
+[6.531412] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.531518] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[6.531615] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[6.531714] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.531839] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs\n'}
+[6.531930] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/__init__.py\n'}
+[6.532023] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/_task_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.532166] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/task_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.532304] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/libtask_msgs__rosidl_generator_py.so\n'}
+[6.532439] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/_task_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[6.532590] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/task_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.532721] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/action\n'}
+[6.532818] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/action/__init__.py\n'}
+[6.532903] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/action/_task_control.py\n'}
+[6.533027] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/action/_task_control_s.c\n'}
+[6.533153] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/_task_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.533316] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/task_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.585402] (task_msgs) StdoutLine: {'line': b"Listing '/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs'...\n"}
+[6.585557] (task_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/__init__.py'...\n"}
+[6.585626] (task_msgs) StdoutLine: {'line': b"Listing '/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/action'...\n"}
+[6.585684] (task_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/action/__init__.py'...\n"}
+[6.585740] (task_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/action/_task_control.py'...\n"}
+[6.590215] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/task_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.590618] (task_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/task_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.590885] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/task_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.591293] (task_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/task_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.591407] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/task_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.591662] (task_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages/task_msgs/task_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.591739] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_generator_py.so\n'}
+[6.592195] (task_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/workspace/src/install/task_msgs/lib/libtask_msgs__rosidl_generator_py.so" to ""\n'}
+[6.592427] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/action/TaskControl.idl\n'}
+[6.592526] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/action/TaskControl.action\n'}
+[6.592613] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/ament_index/resource_index/package_run_dependencies/task_msgs\n'}
+[6.592703] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/ament_index/resource_index/parent_prefix_path/task_msgs\n'}
+[6.592927] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/environment/ament_prefix_path.sh\n'}
+[6.593050] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/environment/ament_prefix_path.dsv\n'}
+[6.593149] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/environment/path.sh\n'}
+[6.593265] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/environment/path.dsv\n'}
+[6.593382] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/local_setup.bash\n'}
+[6.593498] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/local_setup.sh\n'}
+[6.593617] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/local_setup.zsh\n'}
+[6.593733] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/local_setup.dsv\n'}
+[6.593848] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/package.dsv\n'}
+[6.593995] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/ament_index/resource_index/packages/task_msgs\n'}
+[6.594162] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/export_task_msgs__rosidl_generator_cExport.cmake\n'}
+[6.594298] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/export_task_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.594435] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/export_task_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.594566] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/export_task_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.594700] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/task_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.594829] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/task_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.594965] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/task_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.595094] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/task_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.595227] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/export_task_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.595375] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/export_task_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.595504] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/export_task_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.595641] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/task_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.595769] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/task_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.595903] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/task_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.596031] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/task_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.596186] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/export_task_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.596314] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/export_task_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.596438] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.596562] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.596694] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.596815] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.596940] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.597072] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.597195] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.597317] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/task_msgsConfig.cmake\n'}
+[6.597419] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/cmake/task_msgsConfig-version.cmake\n'}
+[6.597538] (task_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/workspace/src/install/task_msgs/share/task_msgs/package.xml\n'}
+[6.599632] (task_msgs) CommandEnded: {'returncode': 0}
+[6.614117] (task_msgs) JobEnded: {'identifier': 'task_msgs', 'rc': 0}
+[6.615069] (-) TimerEvent: {}
+[6.615165] (chat_task) JobStarted: {'identifier': 'chat_task'}
+[6.619453] (mission_controller) JobStarted: {'identifier': 'mission_controller'}
+[6.625180] (planner_task) JobStarted: {'identifier': 'planner_task'}
+[6.630417] (sample_gui_task) JobStarted: {'identifier': 'sample_gui_task'}
+[6.635365] (ui_task) JobStarted: {'identifier': 'ui_task'}
+[6.715175] (-) TimerEvent: {}
+[6.815433] (-) TimerEvent: {}
+[6.915740] (-) TimerEvent: {}
+[7.016031] (-) TimerEvent: {}
+[7.116312] (-) TimerEvent: {}
+[7.216638] (-) TimerEvent: {}
+[7.316975] (-) TimerEvent: {}
+[7.417307] (-) TimerEvent: {}
+[7.517591] (-) TimerEvent: {}
+[7.617904] (-) TimerEvent: {}
+[7.718234] (-) TimerEvent: {}
+[7.818491] (-) TimerEvent: {}
+[7.918759] (-) TimerEvent: {}
+[8.019116] (-) TimerEvent: {}
+[8.119462] (-) TimerEvent: {}
+[8.219797] (-) TimerEvent: {}
+[8.320086] (-) TimerEvent: {}
+[8.420417] (-) TimerEvent: {}
+[8.520745] (-) TimerEvent: {}
+[8.621123] (-) TimerEvent: {}
+[8.718205] (chat_task) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/chat_task', 'build', '--build-base', '/home/user/exchange/workspace/src/build/chat_task/build', 'install', '--record', '/home/user/exchange/workspace/src/build/chat_task/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/exchange/workspace/src/chat_task', 'env': {'HOSTNAME': '8b93bc518289', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/user/exchange/workspace/src/install/task_msgs/lib:/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/exchange/workspace', 'ROS_PYTHON_VERSION': '3', 'QML2_IMPORT_PATH': '/opt/pal/alum/lib/', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROSDISTRO_INDEX_URL': 'file:///etc/ros/pal/index-v4.yaml', 'AMENT_PREFIX_PATH': '/home/user/exchange/workspace/src/install/task_msgs:/opt/pal/alum:/opt/ros/humble', 'PWD': '/home/user/exchange/workspace/src/build/chat_task', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/user/exchange/workspace/src/build/chat_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/src/install/chat_task/lib/python3.10/site-packages:/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages:/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'PAL_DISTRO': 'alum', 'CMAKE_PREFIX_PATH': '/home/user/exchange/workspace/src/install/task_msgs'}, 'shell': False}
+[8.721287] (-) TimerEvent: {}
+[8.722584] (planner_task) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/planner_task', 'build', '--build-base', '/home/user/exchange/workspace/src/build/planner_task/build', 'install', '--record', '/home/user/exchange/workspace/src/build/planner_task/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/exchange/workspace/src/planner_task', 'env': {'HOSTNAME': '8b93bc518289', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/user/exchange/workspace/src/install/task_msgs/lib:/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/exchange/workspace', 'ROS_PYTHON_VERSION': '3', 'QML2_IMPORT_PATH': '/opt/pal/alum/lib/', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROSDISTRO_INDEX_URL': 'file:///etc/ros/pal/index-v4.yaml', 'AMENT_PREFIX_PATH': '/home/user/exchange/workspace/src/install/task_msgs:/opt/pal/alum:/opt/ros/humble', 'PWD': '/home/user/exchange/workspace/src/build/planner_task', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/user/exchange/workspace/src/build/planner_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/src/install/planner_task/lib/python3.10/site-packages:/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages:/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'PAL_DISTRO': 'alum', 'CMAKE_PREFIX_PATH': '/home/user/exchange/workspace/src/install/task_msgs'}, 'shell': False}
+[8.738783] (sample_gui_task) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/sample_gui_task', 'build', '--build-base', '/home/user/exchange/workspace/src/build/sample_gui_task/build', 'install', '--record', '/home/user/exchange/workspace/src/build/sample_gui_task/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/exchange/workspace/src/sample_gui_task', 'env': {'HOSTNAME': '8b93bc518289', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/user/exchange/workspace/src/install/task_msgs/lib:/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/exchange/workspace', 'ROS_PYTHON_VERSION': '3', 'QML2_IMPORT_PATH': '/opt/pal/alum/lib/', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROSDISTRO_INDEX_URL': 'file:///etc/ros/pal/index-v4.yaml', 'AMENT_PREFIX_PATH': '/home/user/exchange/workspace/src/install/task_msgs:/opt/pal/alum:/opt/ros/humble', 'PWD': '/home/user/exchange/workspace/src/build/sample_gui_task', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/user/exchange/workspace/src/build/sample_gui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages:/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages:/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'PAL_DISTRO': 'alum', 'CMAKE_PREFIX_PATH': '/home/user/exchange/workspace/src/install/task_msgs'}, 'shell': False}
+[8.821405] (-) TimerEvent: {}
+[8.850957] (ui_task) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ui_task', 'build', '--build-base', '/home/user/exchange/workspace/src/build/ui_task/build', 'install', '--record', '/home/user/exchange/workspace/src/build/ui_task/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/exchange/workspace/src/ui_task', 'env': {'HOSTNAME': '8b93bc518289', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/user/exchange/workspace/src/install/task_msgs/lib:/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/exchange/workspace', 'ROS_PYTHON_VERSION': '3', 'QML2_IMPORT_PATH': '/opt/pal/alum/lib/', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROSDISTRO_INDEX_URL': 'file:///etc/ros/pal/index-v4.yaml', 'AMENT_PREFIX_PATH': '/home/user/exchange/workspace/src/install/task_msgs:/opt/pal/alum:/opt/ros/humble', 'PWD': '/home/user/exchange/workspace/src/build/ui_task', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/user/exchange/workspace/src/build/ui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages:/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages:/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'PAL_DISTRO': 'alum', 'CMAKE_PREFIX_PATH': '/home/user/exchange/workspace/src/install/task_msgs'}, 'shell': False}
+[8.921516] (-) TimerEvent: {}
+[9.000380] (chat_task) StdoutLine: {'line': b'running egg_info\n'}
+[9.002952] (chat_task) StdoutLine: {'line': b'creating ../build/chat_task/chat_task.egg-info\n'}
+[9.003146] (chat_task) StdoutLine: {'line': b'writing ../build/chat_task/chat_task.egg-info/PKG-INFO\n'}
+[9.003265] (chat_task) StdoutLine: {'line': b'writing dependency_links to ../build/chat_task/chat_task.egg-info/dependency_links.txt\n'}
+[9.003371] (chat_task) StdoutLine: {'line': b'writing entry points to ../build/chat_task/chat_task.egg-info/entry_points.txt\n'}
+[9.003469] (chat_task) StdoutLine: {'line': b'writing requirements to ../build/chat_task/chat_task.egg-info/requires.txt\n'}
+[9.003566] (chat_task) StdoutLine: {'line': b'writing top-level names to ../build/chat_task/chat_task.egg-info/top_level.txt\n'}
+[9.003666] (chat_task) StdoutLine: {'line': b"writing manifest file '../build/chat_task/chat_task.egg-info/SOURCES.txt'\n"}
+[9.004201] (chat_task) StdoutLine: {'line': b"reading manifest file '../build/chat_task/chat_task.egg-info/SOURCES.txt'\n"}
+[9.004399] (chat_task) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[9.005395] (chat_task) StdoutLine: {'line': b"writing manifest file '../build/chat_task/chat_task.egg-info/SOURCES.txt'\n"}
+[9.005613] (chat_task) StdoutLine: {'line': b'running build\n'}
+[9.005800] (chat_task) StdoutLine: {'line': b'running build_py\n'}
+[9.005907] (chat_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/chat_task/build\n'}
+[9.006020] (chat_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/chat_task/build/lib\n'}
+[9.006121] (chat_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/chat_task/build/lib/chat_task\n'}
+[9.006220] (chat_task) StdoutLine: {'line': b'copying chat_task/__init__.py -> /home/user/exchange/workspace/src/build/chat_task/build/lib/chat_task\n'}
+[9.006318] (chat_task) StdoutLine: {'line': b'copying chat_task/start_task.py -> /home/user/exchange/workspace/src/build/chat_task/build/lib/chat_task\n'}
+[9.006577] (chat_task) StdoutLine: {'line': b'copying chat_task/task_impl.py -> /home/user/exchange/workspace/src/build/chat_task/build/lib/chat_task\n'}
+[9.006981] (chat_task) StdoutLine: {'line': b'running install\n'}
+[9.007362] (chat_task) StdoutLine: {'line': b'running install_lib\n'}
+[9.008228] (chat_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/chat_task/lib/python3.10/site-packages/chat_task\n'}
+[9.008428] (chat_task) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/chat_task/build/lib/chat_task/__init__.py -> /home/user/exchange/workspace/src/install/chat_task/lib/python3.10/site-packages/chat_task\n'}
+[9.008583] (chat_task) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/chat_task/build/lib/chat_task/start_task.py -> /home/user/exchange/workspace/src/install/chat_task/lib/python3.10/site-packages/chat_task\n'}
+[9.008690] (chat_task) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/chat_task/build/lib/chat_task/task_impl.py -> /home/user/exchange/workspace/src/install/chat_task/lib/python3.10/site-packages/chat_task\n'}
+[9.009081] (chat_task) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/chat_task/lib/python3.10/site-packages/chat_task/__init__.py to __init__.cpython-310.pyc\n'}
+[9.009329] (chat_task) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/chat_task/lib/python3.10/site-packages/chat_task/start_task.py to start_task.cpython-310.pyc\n'}
+[9.009646] (chat_task) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/chat_task/lib/python3.10/site-packages/chat_task/task_impl.py to task_impl.cpython-310.pyc\n'}
+[9.010701] (chat_task) StdoutLine: {'line': b'running install_data\n'}
+[9.011537] (chat_task) StdoutLine: {'line': b'copying package.xml -> /home/user/exchange/workspace/src/install/chat_task/share/chat_task\n'}
+[9.011714] (chat_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/chat_task/share/ament_index\n'}
+[9.011819] (chat_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/chat_task/share/ament_index/resource_index\n'}
+[9.011918] (chat_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/chat_task/share/ament_index/resource_index/packages\n'}
+[9.012132] (chat_task) StdoutLine: {'line': b'copying res/chat_task -> /home/user/exchange/workspace/src/install/chat_task/share/ament_index/resource_index/packages\n'}
+[9.012258] (chat_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/chat_task/share/chat_task/launch\n'}
+[9.012362] (chat_task) StdoutLine: {'line': b'copying launch/chat_task.launch.py -> /home/user/exchange/workspace/src/install/chat_task/share/chat_task/launch\n'}
+[9.012472] (chat_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/chat_task/share/ament_index/resource_index/pal_system_module\n'}
+[9.012616] (chat_task) StdoutLine: {'line': b'copying module/chat_task -> /home/user/exchange/workspace/src/install/chat_task/share/ament_index/resource_index/pal_system_module\n'}
+[9.012714] (chat_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/chat_task/share/chat_task/module\n'}
+[9.012812] (chat_task) StdoutLine: {'line': b'copying module/chat_task_module.yaml -> /home/user/exchange/workspace/src/install/chat_task/share/chat_task/module\n'}
+[9.012950] (chat_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/chat_task/share/ament_index/resource_index/pal_configuration.chat_task\n'}
+[9.013083] (chat_task) StdoutLine: {'line': b'copying config/chat_task -> /home/user/exchange/workspace/src/install/chat_task/share/ament_index/resource_index/pal_configuration.chat_task\n'}
+[9.013185] (chat_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/chat_task/share/chat_task/config\n'}
+[9.013285] (chat_task) StdoutLine: {'line': b'copying config/00-defaults.yml -> /home/user/exchange/workspace/src/install/chat_task/share/chat_task/config\n'}
+[9.013421] (chat_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/chat_task/share/chat_task/ui\n'}
+[9.013549] (chat_task) StdoutLine: {'line': b'copying res/ui/main.qml -> /home/user/exchange/workspace/src/install/chat_task/share/chat_task/ui/.\n'}
+[9.013762] (chat_task) StdoutLine: {'line': b'copying res/ui/MyButton.qml -> /home/user/exchange/workspace/src/install/chat_task/share/chat_task/ui/.\n'}
+[9.014096] (chat_task) StdoutLine: {'line': b'copying res/ui/MainPage.qml -> /home/user/exchange/workspace/src/install/chat_task/share/chat_task/ui/.\n'}
+[9.014433] (chat_task) StdoutLine: {'line': b'copying res/ui/qmldir -> /home/user/exchange/workspace/src/install/chat_task/share/chat_task/ui/.\n'}
+[9.014758] (chat_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/chat_task/share/chat_task/ui/images\n'}
+[9.014899] (chat_task) StdoutLine: {'line': b'copying res/ui/images/background.png -> /home/user/exchange/workspace/src/install/chat_task/share/chat_task/ui/images\n'}
+[9.016838] (chat_task) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.018813] (chat_task) StdoutLine: {'line': b'Copying ../build/chat_task/chat_task.egg-info to /home/user/exchange/workspace/src/install/chat_task/lib/python3.10/site-packages/chat_task-0.1.0-py3.10.egg-info\n'}
+[9.019562] (chat_task) StdoutLine: {'line': b'running install_scripts\n'}
+[9.021608] (-) TimerEvent: {}
+[9.043718] (chat_task) StdoutLine: {'line': b'Installing start_task script to /home/user/exchange/workspace/src/install/chat_task/lib/chat_task\n'}
+[9.044137] (chat_task) StdoutLine: {'line': b"writing list of installed files to '/home/user/exchange/workspace/src/build/chat_task/install.log'\n"}
+[9.082344] (chat_task) CommandEnded: {'returncode': 0}
+[9.091797] (chat_task) JobEnded: {'identifier': 'chat_task', 'rc': 0}
+[9.117837] (planner_task) StdoutLine: {'line': b'running egg_info\n'}
+[9.119340] (planner_task) StdoutLine: {'line': b'creating ../build/planner_task/planner_task.egg-info\n'}
+[9.119596] (planner_task) StdoutLine: {'line': b'writing ../build/planner_task/planner_task.egg-info/PKG-INFO\n'}
+[9.119774] (planner_task) StdoutLine: {'line': b'writing dependency_links to ../build/planner_task/planner_task.egg-info/dependency_links.txt\n'}
+[9.119909] (planner_task) StdoutLine: {'line': b'writing entry points to ../build/planner_task/planner_task.egg-info/entry_points.txt\n'}
+[9.120078] (planner_task) StdoutLine: {'line': b'writing requirements to ../build/planner_task/planner_task.egg-info/requires.txt\n'}
+[9.120225] (planner_task) StdoutLine: {'line': b'writing top-level names to ../build/planner_task/planner_task.egg-info/top_level.txt\n'}
+[9.120403] (planner_task) StdoutLine: {'line': b"writing manifest file '../build/planner_task/planner_task.egg-info/SOURCES.txt'\n"}
+[9.121703] (-) TimerEvent: {}
+[9.123262] (planner_task) StdoutLine: {'line': b"reading manifest file '../build/planner_task/planner_task.egg-info/SOURCES.txt'\n"}
+[9.123485] (planner_task) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[9.124697] (planner_task) StdoutLine: {'line': b"writing manifest file '../build/planner_task/planner_task.egg-info/SOURCES.txt'\n"}
+[9.124906] (planner_task) StdoutLine: {'line': b'running build\n'}
+[9.125017] (planner_task) StdoutLine: {'line': b'running build_py\n'}
+[9.125134] (planner_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/planner_task/build\n'}
+[9.125281] (planner_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/planner_task/build/lib\n'}
+[9.125387] (planner_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/planner_task/build/lib/planner_task\n'}
+[9.125529] (planner_task) StdoutLine: {'line': b'copying planner_task/__init__.py -> /home/user/exchange/workspace/src/build/planner_task/build/lib/planner_task\n'}
+[9.125625] (planner_task) StdoutLine: {'line': b'copying planner_task/start_task.py -> /home/user/exchange/workspace/src/build/planner_task/build/lib/planner_task\n'}
+[9.125757] (planner_task) StdoutLine: {'line': b'copying planner_task/task_impl.py -> /home/user/exchange/workspace/src/build/planner_task/build/lib/planner_task\n'}
+[9.126235] (planner_task) StdoutLine: {'line': b'running install\n'}
+[9.126742] (planner_task) StdoutLine: {'line': b'running install_lib\n'}
+[9.127919] (planner_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/planner_task/lib/python3.10/site-packages/planner_task\n'}
+[9.128170] (planner_task) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/planner_task/build/lib/planner_task/__init__.py -> /home/user/exchange/workspace/src/install/planner_task/lib/python3.10/site-packages/planner_task\n'}
+[9.128330] (planner_task) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/planner_task/build/lib/planner_task/start_task.py -> /home/user/exchange/workspace/src/install/planner_task/lib/python3.10/site-packages/planner_task\n'}
+[9.128435] (planner_task) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/planner_task/build/lib/planner_task/task_impl.py -> /home/user/exchange/workspace/src/install/planner_task/lib/python3.10/site-packages/planner_task\n'}
+[9.129265] (planner_task) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/planner_task/lib/python3.10/site-packages/planner_task/__init__.py to __init__.cpython-310.pyc\n'}
+[9.129576] (planner_task) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/planner_task/lib/python3.10/site-packages/planner_task/start_task.py to start_task.cpython-310.pyc\n'}
+[9.130076] (ui_task) StdoutLine: {'line': b'running egg_info\n'}
+[9.130192] (planner_task) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/planner_task/lib/python3.10/site-packages/planner_task/task_impl.py to task_impl.cpython-310.pyc\n'}
+[9.131022] (ui_task) StdoutLine: {'line': b'creating ../build/ui_task/ui_task.egg-info\n'}
+[9.131298] (planner_task) StderrLine: {'line': b'Sorry: IndentationError: expected an indented block after function definition on line 108 (task_impl.py, line 109)\n'}
+[9.131395] (planner_task) StdoutLine: {'line': b'running install_data\n'}
+[9.131534] (ui_task) StdoutLine: {'line': b'writing ../build/ui_task/ui_task.egg-info/PKG-INFO\n'}
+[9.131609] (planner_task) StdoutLine: {'line': b'copying package.xml -> /home/user/exchange/workspace/src/install/planner_task/share/planner_task\n'}
+[9.131680] (ui_task) StdoutLine: {'line': b'writing dependency_links to ../build/ui_task/ui_task.egg-info/dependency_links.txt\n'}
+[9.131751] (planner_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/planner_task/share/ament_index\n'}
+[9.131867] (planner_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/planner_task/share/ament_index/resource_index\n'}
+[9.132006] (ui_task) StdoutLine: {'line': b'writing entry points to ../build/ui_task/ui_task.egg-info/entry_points.txt\n'}
+[9.132089] (ui_task) StdoutLine: {'line': b'writing requirements to ../build/ui_task/ui_task.egg-info/requires.txt\n'}
+[9.132154] (ui_task) StdoutLine: {'line': b'writing top-level names to ../build/ui_task/ui_task.egg-info/top_level.txt\n'}
+[9.132225] (planner_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/planner_task/share/ament_index/resource_index/packages\n'}
+[9.132336] (planner_task) StdoutLine: {'line': b'copying res/planner_task -> /home/user/exchange/workspace/src/install/planner_task/share/ament_index/resource_index/packages\n'}
+[9.132409] (planner_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/planner_task/share/planner_task/launch\n'}
+[9.132470] (planner_task) StdoutLine: {'line': b'copying launch/planner_task.launch.py -> /home/user/exchange/workspace/src/install/planner_task/share/planner_task/launch\n'}
+[9.132532] (ui_task) StdoutLine: {'line': b"writing manifest file '../build/ui_task/ui_task.egg-info/SOURCES.txt'\n"}
+[9.132594] (planner_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/planner_task/share/ament_index/resource_index/pal_system_module\n'}
+[9.132662] (planner_task) StdoutLine: {'line': b'copying module/planner_task -> /home/user/exchange/workspace/src/install/planner_task/share/ament_index/resource_index/pal_system_module\n'}
+[9.132773] (planner_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/planner_task/share/planner_task/module\n'}
+[9.132872] (planner_task) StdoutLine: {'line': b'copying module/planner_task_module.yaml -> /home/user/exchange/workspace/src/install/planner_task/share/planner_task/module\n'}
+[9.133126] (planner_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/planner_task/share/ament_index/resource_index/pal_configuration.planner_task\n'}
+[9.133230] (planner_task) StdoutLine: {'line': b'copying config/planner_task -> /home/user/exchange/workspace/src/install/planner_task/share/ament_index/resource_index/pal_configuration.planner_task\n'}
+[9.133574] (planner_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/planner_task/share/planner_task/config\n'}
+[9.133678] (planner_task) StdoutLine: {'line': b'copying config/00-defaults.yml -> /home/user/exchange/workspace/src/install/planner_task/share/planner_task/config\n'}
+[9.134029] (planner_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/planner_task/share/planner_task/ui\n'}
+[9.134129] (ui_task) StdoutLine: {'line': b"reading manifest file '../build/ui_task/ui_task.egg-info/SOURCES.txt'\n"}
+[9.134238] (planner_task) StdoutLine: {'line': b'copying res/ui/main.qml -> /home/user/exchange/workspace/src/install/planner_task/share/planner_task/ui/.\n'}
+[9.134341] (ui_task) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[9.134459] (planner_task) StdoutLine: {'line': b'copying res/ui/MyButton.qml -> /home/user/exchange/workspace/src/install/planner_task/share/planner_task/ui/.\n'}
+[9.134804] (planner_task) StdoutLine: {'line': b'copying res/ui/MainPage.qml -> /home/user/exchange/workspace/src/install/planner_task/share/planner_task/ui/.\n'}
+[9.135160] (ui_task) StdoutLine: {'line': b"writing manifest file '../build/ui_task/ui_task.egg-info/SOURCES.txt'\n"}
+[9.135307] (planner_task) StdoutLine: {'line': b'copying res/ui/qmldir -> /home/user/exchange/workspace/src/install/planner_task/share/planner_task/ui/.\n'}
+[9.135396] (ui_task) StdoutLine: {'line': b'running build\n'}
+[9.135465] (ui_task) StdoutLine: {'line': b'running build_py\n'}
+[9.135609] (planner_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/planner_task/share/planner_task/ui/images\n'}
+[9.135686] (planner_task) StdoutLine: {'line': b'copying res/ui/images/background.png -> /home/user/exchange/workspace/src/install/planner_task/share/planner_task/ui/images\n'}
+[9.135788] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/ui_task/build\n'}
+[9.135907] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/ui_task/build/lib\n'}
+[9.135975] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/ui_task/build/lib/ui_task\n'}
+[9.136056] (ui_task) StdoutLine: {'line': b'copying ui_task/__init__.py -> /home/user/exchange/workspace/src/build/ui_task/build/lib/ui_task\n'}
+[9.136164] (ui_task) StdoutLine: {'line': b'copying ui_task/start_task.py -> /home/user/exchange/workspace/src/build/ui_task/build/lib/ui_task\n'}
+[9.136249] (ui_task) StdoutLine: {'line': b'copying ui_task/task_impl.py -> /home/user/exchange/workspace/src/build/ui_task/build/lib/ui_task\n'}
+[9.136555] (ui_task) StdoutLine: {'line': b'running install\n'}
+[9.136951] (ui_task) StdoutLine: {'line': b'running install_lib\n'}
+[9.137733] (planner_task) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.137880] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task\n'}
+[9.137972] (ui_task) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/ui_task/build/lib/ui_task/__init__.py -> /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task\n'}
+[9.138040] (ui_task) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/ui_task/build/lib/ui_task/start_task.py -> /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task\n'}
+[9.138142] (ui_task) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/ui_task/build/lib/ui_task/task_impl.py -> /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task\n'}
+[9.138700] (ui_task) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task/__init__.py to __init__.cpython-310.pyc\n'}
+[9.138904] (ui_task) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task/start_task.py to start_task.cpython-310.pyc\n'}
+[9.139228] (ui_task) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task/task_impl.py to task_impl.cpython-310.pyc\n'}
+[9.140301] (sample_gui_task) StdoutLine: {'line': b'running egg_info\n'}
+[9.140535] (planner_task) StdoutLine: {'line': b'Copying ../build/planner_task/planner_task.egg-info to /home/user/exchange/workspace/src/install/planner_task/lib/python3.10/site-packages/planner_task-0.1.0-py3.10.egg-info\n'}
+[9.140715] (ui_task) StdoutLine: {'line': b'running install_data\n'}
+[9.140837] (ui_task) StdoutLine: {'line': b'copying package.xml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task\n'}
+[9.140976] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/ui_task/share/ament_index\n'}
+[9.141081] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/ui_task/share/ament_index/resource_index\n'}
+[9.141183] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/ui_task/share/ament_index/resource_index/packages\n'}
+[9.141286] (ui_task) StdoutLine: {'line': b'copying res/ui_task -> /home/user/exchange/workspace/src/install/ui_task/share/ament_index/resource_index/packages\n'}
+[9.141382] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/launch\n'}
+[9.141472] (ui_task) StdoutLine: {'line': b'copying launch/ui_task.launch.py -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/launch\n'}
+[9.141587] (sample_gui_task) StdoutLine: {'line': b'creating ../build/sample_gui_task/sample_gui_task.egg-info\n'}
+[9.141730] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/ui_task/share/ament_index/resource_index/pal_system_module\n'}
+[9.141857] (ui_task) StdoutLine: {'line': b'copying module/ui_task -> /home/user/exchange/workspace/src/install/ui_task/share/ament_index/resource_index/pal_system_module\n'}
+[9.141951] (sample_gui_task) StdoutLine: {'line': b'writing ../build/sample_gui_task/sample_gui_task.egg-info/PKG-INFO\n'}
+[9.142134] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/module\n'}
+[9.142231] (ui_task) StdoutLine: {'line': b'copying module/ui_task_module.yaml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/module\n'}
+[9.142367] (sample_gui_task) StdoutLine: {'line': b'writing dependency_links to ../build/sample_gui_task/sample_gui_task.egg-info/dependency_links.txt\n'}
+[9.142506] (planner_task) StdoutLine: {'line': b'running install_scripts\n'}
+[9.142606] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/ui_task/share/ament_index/resource_index/pal_configuration.ui_task\n'}
+[9.142706] (sample_gui_task) StdoutLine: {'line': b'writing entry points to ../build/sample_gui_task/sample_gui_task.egg-info/entry_points.txt\n'}
+[9.142808] (ui_task) StdoutLine: {'line': b'copying config/ui_task -> /home/user/exchange/workspace/src/install/ui_task/share/ament_index/resource_index/pal_configuration.ui_task\n'}
+[9.142914] (sample_gui_task) StdoutLine: {'line': b'writing requirements to ../build/sample_gui_task/sample_gui_task.egg-info/requires.txt\n'}
+[9.143098] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/config\n'}
+[9.143248] (ui_task) StdoutLine: {'line': b'copying config/00-defaults.yml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/config\n'}
+[9.143346] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui\n'}
+[9.143441] (ui_task) StdoutLine: {'line': b'copying res/ui/TaskUI.qml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/.\n'}
+[9.143516] (sample_gui_task) StdoutLine: {'line': b'writing top-level names to ../build/sample_gui_task/sample_gui_task.egg-info/top_level.txt\n'}
+[9.143589] (sample_gui_task) StdoutLine: {'line': b"writing manifest file '../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'\n"}
+[9.143702] (ui_task) StdoutLine: {'line': b'copying res/ui/.gitignore -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/.\n'}
+[9.143814] (ui_task) StdoutLine: {'line': b'copying res/ui/ui_task.qmlproject -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/.\n'}
+[9.143988] (ui_task) StdoutLine: {'line': b'copying res/ui/IconButton.ui.qml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/.\n'}
+[9.144275] (ui_task) StdoutLine: {'line': b'copying res/ui/README.md -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/.\n'}
+[9.144543] (ui_task) StdoutLine: {'line': b'copying res/ui/qmldir -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/.\n'}
+[9.144819] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/Ros\n'}
+[9.144909] (ui_task) StdoutLine: {'line': b'copying res/ui/Ros/Param.qml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/Ros\n'}
+[9.145175] (ui_task) StdoutLine: {'line': b'copying res/ui/Ros/Topic.qml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/Ros\n'}
+[9.145472] (ui_task) StdoutLine: {'line': b'copying res/ui/Ros/Service.qml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/Ros\n'}
+[9.145575] (sample_gui_task) StdoutLine: {'line': b"reading manifest file '../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'\n"}
+[9.145752] (ui_task) StdoutLine: {'line': b'copying res/ui/Ros/qmldir -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/Ros\n'}
+[9.145847] (sample_gui_task) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[9.146051] (ui_task) StdoutLine: {'line': b'copying res/ui/Ros/Action.qml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/Ros\n'}
+[9.146343] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/fonts\n'}
+[9.146444] (ui_task) StdoutLine: {'line': b'copying res/ui/fonts/Inter.ttf -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/fonts\n'}
+[9.147117] (sample_gui_task) StdoutLine: {'line': b"writing manifest file '../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'\n"}
+[9.147276] (sample_gui_task) StdoutLine: {'line': b'running build\n'}
+[9.147370] (sample_gui_task) StdoutLine: {'line': b'running build_py\n'}
+[9.147488] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/sample_gui_task/build\n'}
+[9.147617] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/sample_gui_task/build/lib\n'}
+[9.147718] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/sample_gui_task/build/lib/sample_gui_task\n'}
+[9.147812] (sample_gui_task) StdoutLine: {'line': b'copying sample_gui_task/__init__.py -> /home/user/exchange/workspace/src/build/sample_gui_task/build/lib/sample_gui_task\n'}
+[9.147905] (sample_gui_task) StdoutLine: {'line': b'copying sample_gui_task/start_task.py -> /home/user/exchange/workspace/src/build/sample_gui_task/build/lib/sample_gui_task\n'}
+[9.148191] (sample_gui_task) StdoutLine: {'line': b'copying sample_gui_task/task_impl.py -> /home/user/exchange/workspace/src/build/sample_gui_task/build/lib/sample_gui_task\n'}
+[9.148845] (sample_gui_task) StdoutLine: {'line': b'running install\n'}
+[9.149038] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/js\n'}
+[9.149161] (ui_task) StdoutLine: {'line': b'copying res/ui/js/Constants.js -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/js\n'}
+[9.149361] (sample_gui_task) StdoutLine: {'line': b'running install_lib\n'}
+[9.149496] (ui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/images\n'}
+[9.149599] (ui_task) StdoutLine: {'line': b'copying res/ui/images/wallpaper.jpg -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/images\n'}
+[9.150335] (ui_task) StdoutLine: {'line': b'copying res/ui/images/bubble.svg -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/images\n'}
+[9.150560] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task\n'}
+[9.150730] (sample_gui_task) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/sample_gui_task/build/lib/sample_gui_task/__init__.py -> /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task\n'}
+[9.150906] (sample_gui_task) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/sample_gui_task/build/lib/sample_gui_task/start_task.py -> /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task\n'}
+[9.151039] (ui_task) StdoutLine: {'line': b'copying res/ui/images/push.svg -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/images\n'}
+[9.151155] (sample_gui_task) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/sample_gui_task/build/lib/sample_gui_task/task_impl.py -> /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task\n'}
+[9.151222] (ui_task) StdoutLine: {'line': b'copying res/ui/images/back.svg -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/images\n'}
+[9.151465] (ui_task) StdoutLine: {'line': b'copying res/ui/images/robot.jpg -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/images\n'}
+[9.151769] (sample_gui_task) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task/__init__.py to __init__.cpython-310.pyc\n'}
+[9.152110] (sample_gui_task) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task/start_task.py to start_task.cpython-310.pyc\n'}
+[9.152637] (sample_gui_task) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task/task_impl.py to task_impl.cpython-310.pyc\n'}
+[9.152830] (ui_task) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.154957] (sample_gui_task) StdoutLine: {'line': b'running install_data\n'}
+[9.155207] (ui_task) StdoutLine: {'line': b'Copying ../build/ui_task/ui_task.egg-info to /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task-0.1.0-py3.10.egg-info\n'}
+[9.155401] (sample_gui_task) StdoutLine: {'line': b'copying package.xml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task\n'}
+[9.155544] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index\n'}
+[9.155656] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index/resource_index\n'}
+[9.155764] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index/resource_index/packages\n'}
+[9.155903] (sample_gui_task) StdoutLine: {'line': b'copying res/sample_gui_task -> /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index/resource_index/packages\n'}
+[9.156063] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/launch\n'}
+[9.156246] (sample_gui_task) StdoutLine: {'line': b'copying launch/sample_gui_task.launch.py -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/launch\n'}
+[9.156399] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index/resource_index/pal_system_module\n'}
+[9.156496] (sample_gui_task) StdoutLine: {'line': b'copying module/sample_gui_task -> /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index/resource_index/pal_system_module\n'}
+[9.156630] (ui_task) StdoutLine: {'line': b'running install_scripts\n'}
+[9.156902] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/module\n'}
+[9.157056] (sample_gui_task) StdoutLine: {'line': b'copying module/sample_gui_task_module.yaml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/module\n'}
+[9.157201] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index/resource_index/pal_configuration.sample_gui_task\n'}
+[9.157322] (sample_gui_task) StdoutLine: {'line': b'copying config/sample_gui_task -> /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index/resource_index/pal_configuration.sample_gui_task\n'}
+[9.157489] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/config\n'}
+[9.157607] (sample_gui_task) StdoutLine: {'line': b'copying config/00-defaults.yml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/config\n'}
+[9.157918] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui\n'}
+[9.158061] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/MainScreen.ui.qml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/.\n'}
+[9.158419] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/sample_gui_task.qmlproject -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/.\n'}
+[9.158764] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/TaskUI.qml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/.\n'}
+[9.159129] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/.gitignore -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/.\n'}
+[9.159461] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/IconButton.ui.qml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/.\n'}
+[9.159833] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/README.md -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/.\n'}
+[9.160220] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/qmldir -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/.\n'}
+[9.160592] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/Ros\n'}
+[9.160756] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/Ros/Param.qml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/Ros\n'}
+[9.161046] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/Ros/Topic.qml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/Ros\n'}
+[9.161427] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/Ros/Service.qml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/Ros\n'}
+[9.161741] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/Ros/qmldir -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/Ros\n'}
+[9.162097] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/Ros/Action.qml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/Ros\n'}
+[9.162436] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/fonts\n'}
+[9.162593] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/fonts/Inter.ttf -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/fonts\n'}
+[9.165244] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/js\n'}
+[9.165455] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/js/Constants.js -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/js\n'}
+[9.165699] (sample_gui_task) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/images\n'}
+[9.165856] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/images/wallpaper.jpg -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/images\n'}
+[9.166603] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/images/bubble.svg -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/images\n'}
+[9.167003] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/images/push.svg -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/images\n'}
+[9.167407] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/images/back.svg -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/images\n'}
+[9.167784] (sample_gui_task) StdoutLine: {'line': b'copying res/ui/images/robot.jpg -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/images\n'}
+[9.169026] (sample_gui_task) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.171714] (sample_gui_task) StdoutLine: {'line': b'Copying ../build/sample_gui_task/sample_gui_task.egg-info to /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task-0.1.0-py3.10.egg-info\n'}
+[9.173062] (sample_gui_task) StdoutLine: {'line': b'running install_scripts\n'}
+[9.173336] (planner_task) StdoutLine: {'line': b'Installing start_task script to /home/user/exchange/workspace/src/install/planner_task/lib/planner_task\n'}
+[9.173939] (planner_task) StdoutLine: {'line': b"writing list of installed files to '/home/user/exchange/workspace/src/build/planner_task/install.log'\n"}
+[9.183610] (ui_task) StdoutLine: {'line': b'Installing start_task script to /home/user/exchange/workspace/src/install/ui_task/lib/ui_task\n'}
+[9.184036] (ui_task) StdoutLine: {'line': b"writing list of installed files to '/home/user/exchange/workspace/src/build/ui_task/install.log'\n"}
+[9.208177] (mission_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/mission_controller', 'build', '--build-base', '/home/user/exchange/workspace/src/build/mission_controller/build', 'install', '--record', '/home/user/exchange/workspace/src/build/mission_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/exchange/workspace/src/mission_controller', 'env': {'HOSTNAME': '8b93bc518289', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/user/exchange/workspace/src/install/task_msgs/lib:/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/exchange/workspace', 'ROS_PYTHON_VERSION': '3', 'QML2_IMPORT_PATH': '/opt/pal/alum/lib/', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROSDISTRO_INDEX_URL': 'file:///etc/ros/pal/index-v4.yaml', 'AMENT_PREFIX_PATH': '/home/user/exchange/workspace/src/install/task_msgs:/opt/pal/alum:/opt/ros/humble', 'PWD': '/home/user/exchange/workspace/src/build/mission_controller', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/user/exchange/workspace/src/build/mission_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/src/install/mission_controller/lib/python3.10/site-packages:/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages:/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'PAL_DISTRO': 'alum', 'CMAKE_PREFIX_PATH': '/home/user/exchange/workspace/src/install/task_msgs'}, 'shell': False}
+[9.211108] (sample_gui_task) StdoutLine: {'line': b'Installing start_task script to /home/user/exchange/workspace/src/install/sample_gui_task/lib/sample_gui_task\n'}
+[9.211700] (sample_gui_task) StdoutLine: {'line': b"writing list of installed files to '/home/user/exchange/workspace/src/build/sample_gui_task/install.log'\n"}
+[9.217858] (planner_task) CommandEnded: {'returncode': 0}
+[9.221866] (-) TimerEvent: {}
+[9.227641] (planner_task) JobEnded: {'identifier': 'planner_task', 'rc': 0}
+[9.229128] (ui_task) CommandEnded: {'returncode': 0}
+[9.236393] (ui_task) JobEnded: {'identifier': 'ui_task', 'rc': 0}
+[9.244228] (sample_gui_task) CommandEnded: {'returncode': 0}
+[9.251314] (sample_gui_task) JobEnded: {'identifier': 'sample_gui_task', 'rc': 0}
+[9.321976] (-) TimerEvent: {}
+[9.422295] (-) TimerEvent: {}
+[9.522557] (-) TimerEvent: {}
+[9.622850] (-) TimerEvent: {}
+[9.723212] (-) TimerEvent: {}
+[9.810275] (mission_controller) StdoutLine: {'line': b'running egg_info\n'}
+[9.810986] (mission_controller) StdoutLine: {'line': b'creating ../build/mission_controller/mission_controller.egg-info\n'}
+[9.811140] (mission_controller) StdoutLine: {'line': b'writing ../build/mission_controller/mission_controller.egg-info/PKG-INFO\n'}
+[9.811340] (mission_controller) StdoutLine: {'line': b'writing dependency_links to ../build/mission_controller/mission_controller.egg-info/dependency_links.txt\n'}
+[9.811451] (mission_controller) StdoutLine: {'line': b'writing entry points to ../build/mission_controller/mission_controller.egg-info/entry_points.txt\n'}
+[9.811551] (mission_controller) StdoutLine: {'line': b'writing requirements to ../build/mission_controller/mission_controller.egg-info/requires.txt\n'}
+[9.811651] (mission_controller) StdoutLine: {'line': b'writing top-level names to ../build/mission_controller/mission_controller.egg-info/top_level.txt\n'}
+[9.811819] (mission_controller) StdoutLine: {'line': b"writing manifest file '../build/mission_controller/mission_controller.egg-info/SOURCES.txt'\n"}
+[9.814376] (mission_controller) StdoutLine: {'line': b"reading manifest file '../build/mission_controller/mission_controller.egg-info/SOURCES.txt'\n"}
+[9.814561] (mission_controller) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[9.815490] (mission_controller) StdoutLine: {'line': b"writing manifest file '../build/mission_controller/mission_controller.egg-info/SOURCES.txt'\n"}
+[9.815654] (mission_controller) StdoutLine: {'line': b'running build\n'}
+[9.815724] (mission_controller) StdoutLine: {'line': b'running build_py\n'}
+[9.815823] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/mission_controller/build\n'}
+[9.815948] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/mission_controller/build/lib\n'}
+[9.816067] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/build/mission_controller/build/lib/mission_controller\n'}
+[9.816175] (mission_controller) StdoutLine: {'line': b'copying mission_controller/__init__.py -> /home/user/exchange/workspace/src/build/mission_controller/build/lib/mission_controller\n'}
+[9.816243] (mission_controller) StdoutLine: {'line': b'copying mission_controller/mission_controller.py -> /home/user/exchange/workspace/src/build/mission_controller/build/lib/mission_controller\n'}
+[9.816526] (mission_controller) StdoutLine: {'line': b'copying mission_controller/i18n.py -> /home/user/exchange/workspace/src/build/mission_controller/build/lib/mission_controller\n'}
+[9.816821] (mission_controller) StdoutLine: {'line': b'copying mission_controller/run_app.py -> /home/user/exchange/workspace/src/build/mission_controller/build/lib/mission_controller\n'}
+[9.817279] (mission_controller) StdoutLine: {'line': b'running install\n'}
+[9.817743] (mission_controller) StdoutLine: {'line': b'running install_lib\n'}
+[9.818669] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/lib/python3.10/site-packages/mission_controller\n'}
+[9.818828] (mission_controller) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/mission_controller/build/lib/mission_controller/__init__.py -> /home/user/exchange/workspace/src/install/mission_controller/lib/python3.10/site-packages/mission_controller\n'}
+[9.818941] (mission_controller) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/mission_controller/build/lib/mission_controller/mission_controller.py -> /home/user/exchange/workspace/src/install/mission_controller/lib/python3.10/site-packages/mission_controller\n'}
+[9.819035] (mission_controller) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/mission_controller/build/lib/mission_controller/i18n.py -> /home/user/exchange/workspace/src/install/mission_controller/lib/python3.10/site-packages/mission_controller\n'}
+[9.819108] (mission_controller) StdoutLine: {'line': b'copying /home/user/exchange/workspace/src/build/mission_controller/build/lib/mission_controller/run_app.py -> /home/user/exchange/workspace/src/install/mission_controller/lib/python3.10/site-packages/mission_controller\n'}
+[9.819673] (mission_controller) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/mission_controller/lib/python3.10/site-packages/mission_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[9.819875] (mission_controller) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/mission_controller/lib/python3.10/site-packages/mission_controller/mission_controller.py to mission_controller.cpython-310.pyc\n'}
+[9.821760] (mission_controller) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/mission_controller/lib/python3.10/site-packages/mission_controller/i18n.py to i18n.cpython-310.pyc\n'}
+[9.822423] (mission_controller) StdoutLine: {'line': b'byte-compiling /home/user/exchange/workspace/src/install/mission_controller/lib/python3.10/site-packages/mission_controller/run_app.py to run_app.cpython-310.pyc\n'}
+[9.822663] (mission_controller) StdoutLine: {'line': b'running install_data\n'}
+[9.822780] (mission_controller) StdoutLine: {'line': b'copying package.xml -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller\n'}
+[9.822904] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/ament_index\n'}
+[9.823032] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/ament_index/resource_index\n'}
+[9.823104] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/ament_index/resource_index/packages\n'}
+[9.823201] (-) TimerEvent: {}
+[9.823316] (mission_controller) StdoutLine: {'line': b'copying res/mission_controller -> /home/user/exchange/workspace/src/install/mission_controller/share/ament_index/resource_index/packages\n'}
+[9.823395] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/ament_index/resource_index/pal_system_module\n'}
+[9.823476] (mission_controller) StdoutLine: {'line': b'copying res/module/mission_controller -> /home/user/exchange/workspace/src/install/mission_controller/share/ament_index/resource_index/pal_system_module\n'}
+[9.823624] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/launch\n'}
+[9.823690] (mission_controller) StdoutLine: {'line': b'copying launch/mission_controller.launch.py -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/launch\n'}
+[9.823908] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/module\n'}
+[9.824000] (mission_controller) StdoutLine: {'line': b'copying res/module/mission_controller_module.yaml -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/module\n'}
+[9.824267] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/ament_index/resource_index/i18n.localized_nodes\n'}
+[9.824368] (mission_controller) StdoutLine: {'line': b'copying res/localized_nodes/mission_controller -> /home/user/exchange/workspace/src/install/mission_controller/share/ament_index/resource_index/i18n.localized_nodes\n'}
+[9.824663] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/locales\n'}
+[9.824732] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/locales/es_ES\n'}
+[9.824829] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/locales/es_ES/LC_MESSAGES\n'}
+[9.824909] (mission_controller) StdoutLine: {'line': b'copying locales/es_ES/LC_MESSAGES/messages.mo -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/locales/es_ES/LC_MESSAGES\n'}
+[9.824974] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/locales/en_US\n'}
+[9.825065] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/locales/en_US/LC_MESSAGES\n'}
+[9.825156] (mission_controller) StdoutLine: {'line': b'copying locales/en_US/LC_MESSAGES/messages.mo -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/locales/en_US/LC_MESSAGES\n'}
+[9.825252] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui\n'}
+[9.825315] (mission_controller) StdoutLine: {'line': b'copying res/ui/mission_controller.qmlproject -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/.\n'}
+[9.825490] (mission_controller) StdoutLine: {'line': b'copying res/ui/.gitignore -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/.\n'}
+[9.825793] (mission_controller) StdoutLine: {'line': b'copying res/ui/IconButton.ui.qml -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/.\n'}
+[9.826103] (mission_controller) StdoutLine: {'line': b'copying res/ui/README.md -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/.\n'}
+[9.826361] (mission_controller) StdoutLine: {'line': b'copying res/ui/MainPage.qml -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/.\n'}
+[9.826667] (mission_controller) StdoutLine: {'line': b'copying res/ui/AppUI.qml -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/.\n'}
+[9.826963] (mission_controller) StdoutLine: {'line': b'copying res/ui/qmldir -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/.\n'}
+[9.827225] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/Ros\n'}
+[9.827316] (mission_controller) StdoutLine: {'line': b'copying res/ui/Ros/Param.qml -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/Ros\n'}
+[9.827582] (mission_controller) StdoutLine: {'line': b'copying res/ui/Ros/Topic.qml -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/Ros\n'}
+[9.827886] (mission_controller) StdoutLine: {'line': b'copying res/ui/Ros/Service.qml -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/Ros\n'}
+[9.828159] (mission_controller) StdoutLine: {'line': b'copying res/ui/Ros/qmldir -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/Ros\n'}
+[9.828469] (mission_controller) StdoutLine: {'line': b'copying res/ui/Ros/Action.qml -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/Ros\n'}
+[9.828720] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/fonts\n'}
+[9.828810] (mission_controller) StdoutLine: {'line': b'copying res/ui/fonts/Inter.ttf -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/fonts\n'}
+[9.831285] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/js\n'}
+[9.831413] (mission_controller) StdoutLine: {'line': b'copying res/ui/js/Constants.js -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/js\n'}
+[9.831646] (mission_controller) StdoutLine: {'line': b'creating /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/images\n'}
+[9.831738] (mission_controller) StdoutLine: {'line': b'copying res/ui/images/main.png -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/images\n'}
+[9.835291] (mission_controller) StdoutLine: {'line': b'copying res/ui/images/wallpaper.jpg -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/images\n'}
+[9.835974] (mission_controller) StdoutLine: {'line': b'copying res/ui/images/push.svg -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/images\n'}
+[9.836399] (mission_controller) StdoutLine: {'line': b'copying res/ui/images/back.svg -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/images\n'}
+[9.836590] (mission_controller) StdoutLine: {'line': b'copying res/ui/images/robot-love.svg -> /home/user/exchange/workspace/src/install/mission_controller/share/mission_controller/ui/images\n'}
+[9.836816] (mission_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.838850] (mission_controller) StdoutLine: {'line': b'Copying ../build/mission_controller/mission_controller.egg-info to /home/user/exchange/workspace/src/install/mission_controller/lib/python3.10/site-packages/mission_controller-0.1.0-py3.10.egg-info\n'}
+[9.839626] (mission_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[9.858320] (mission_controller) StdoutLine: {'line': b'Installing run_app script to /home/user/exchange/workspace/src/install/mission_controller/lib/mission_controller\n'}
+[9.858732] (mission_controller) StdoutLine: {'line': b"writing list of installed files to '/home/user/exchange/workspace/src/build/mission_controller/install.log'\n"}
+[9.893974] (mission_controller) CommandEnded: {'returncode': 0}
+[9.899588] (mission_controller) JobEnded: {'identifier': 'mission_controller', 'rc': 0}
+[9.900273] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+sample_gui_task:
+  launch: "sample_gui_task sample_gui_task.launch.py"

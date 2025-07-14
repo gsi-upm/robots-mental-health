@@ -1,0 +1,54 @@
+[1.899s] Invoking command in '/home/user/exchange/workspace/src/planner_task': AMENT_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/task_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/build/planner_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages:/home/user/exchange/workspace/install/task_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/planner_task build --build-base /home/user/exchange/workspace/build/planner_task/build install --record /home/user/exchange/workspace/build/planner_task/install.log --single-version-externally-managed install_data
+[2.185s] running egg_info
+[2.187s] creating ../../build/planner_task/planner_task.egg-info
+[2.187s] writing ../../build/planner_task/planner_task.egg-info/PKG-INFO
+[2.188s] writing dependency_links to ../../build/planner_task/planner_task.egg-info/dependency_links.txt
+[2.189s] writing entry points to ../../build/planner_task/planner_task.egg-info/entry_points.txt
+[2.190s] writing requirements to ../../build/planner_task/planner_task.egg-info/requires.txt
+[2.190s] writing top-level names to ../../build/planner_task/planner_task.egg-info/top_level.txt
+[2.191s] writing manifest file '../../build/planner_task/planner_task.egg-info/SOURCES.txt'
+[2.194s] reading manifest file '../../build/planner_task/planner_task.egg-info/SOURCES.txt'
+[2.194s] adding license file 'LICENSE'
+[2.196s] writing manifest file '../../build/planner_task/planner_task.egg-info/SOURCES.txt'
+[2.196s] running build
+[2.196s] running build_py
+[2.196s] creating /home/user/exchange/workspace/build/planner_task/build
+[2.197s] creating /home/user/exchange/workspace/build/planner_task/build/lib
+[2.197s] creating /home/user/exchange/workspace/build/planner_task/build/lib/planner_task
+[2.197s] copying planner_task/__init__.py -> /home/user/exchange/workspace/build/planner_task/build/lib/planner_task
+[2.197s] copying planner_task/start_task.py -> /home/user/exchange/workspace/build/planner_task/build/lib/planner_task
+[2.198s] copying planner_task/task_impl.py -> /home/user/exchange/workspace/build/planner_task/build/lib/planner_task
+[2.198s] running install
+[2.199s] running install_lib
+[2.200s] creating /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task
+[2.201s] copying /home/user/exchange/workspace/build/planner_task/build/lib/planner_task/__init__.py -> /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task
+[2.201s] copying /home/user/exchange/workspace/build/planner_task/build/lib/planner_task/start_task.py -> /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task
+[2.202s] copying /home/user/exchange/workspace/build/planner_task/build/lib/planner_task/task_impl.py -> /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task
+[2.203s] byte-compiling /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task/__init__.py to __init__.cpython-310.pyc
+[2.204s] byte-compiling /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task/start_task.py to start_task.cpython-310.pyc
+[2.204s] byte-compiling /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task/task_impl.py to task_impl.cpython-310.pyc
+[2.208s] running install_data
+[2.208s] copying package.xml -> /home/user/exchange/workspace/install/planner_task/share/planner_task
+[2.209s] creating /home/user/exchange/workspace/install/planner_task/share/ament_index
+[2.209s] creating /home/user/exchange/workspace/install/planner_task/share/ament_index/resource_index
+[2.210s] creating /home/user/exchange/workspace/install/planner_task/share/ament_index/resource_index/packages
+[2.210s] copying res/planner_task -> /home/user/exchange/workspace/install/planner_task/share/ament_index/resource_index/packages
+[2.211s] creating /home/user/exchange/workspace/install/planner_task/share/planner_task/launch
+[2.211s] copying launch/planner_task.launch.py -> /home/user/exchange/workspace/install/planner_task/share/planner_task/launch
+[2.211s] creating /home/user/exchange/workspace/install/planner_task/share/ament_index/resource_index/pal_system_module
+[2.212s] copying module/planner_task -> /home/user/exchange/workspace/install/planner_task/share/ament_index/resource_index/pal_system_module
+[2.218s] creating /home/user/exchange/workspace/install/planner_task/share/planner_task/module
+[2.219s] copying module/planner_task_module.yaml -> /home/user/exchange/workspace/install/planner_task/share/planner_task/module
+[2.226s] creating /home/user/exchange/workspace/install/planner_task/share/ament_index/resource_index/pal_configuration.planner_task
+[2.226s] copying config/planner_task -> /home/user/exchange/workspace/install/planner_task/share/ament_index/resource_index/pal_configuration.planner_task
+[2.227s] creating /home/user/exchange/workspace/install/planner_task/share/planner_task/config
+[2.227s] copying config/00-defaults.yml -> /home/user/exchange/workspace/install/planner_task/share/planner_task/config
+[2.238s] creating /home/user/exchange/workspace/install/planner_task/share/planner_task/ui
+[2.238s] creating /home/user/exchange/workspace/install/planner_task/share/planner_task/ui/images
+[2.238s] copying res/ui/images/background.png -> /home/user/exchange/workspace/install/planner_task/share/planner_task/ui/images
+[2.254s] running install_egg_info
+[2.255s] Copying ../../build/planner_task/planner_task.egg-info to /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task-0.1.0-py3.10.egg-info
+[2.257s] running install_scripts
+[2.285s] Installing start_task script to /home/user/exchange/workspace/install/planner_task/lib/planner_task
+[2.285s] writing list of installed files to '/home/user/exchange/workspace/build/planner_task/install.log'
+[2.326s] Invoked command in '/home/user/exchange/workspace/src/planner_task' returned '0': AMENT_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/task_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/build/planner_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages:/home/user/exchange/workspace/install/task_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/planner_task build --build-base /home/user/exchange/workspace/build/planner_task/build install --record /home/user/exchange/workspace/build/planner_task/install.log --single-version-externally-managed install_data

@@ -1,0 +1,269 @@
+[0.300s] Invoking command in '/home/user/exchange/workspace/src/build/chatbot_msgs': CMAKE_PREFIX_PATH=/opt/pal/alum:/opt/ros/humble /usr/bin/cmake /home/user/exchange/workspace/src/chatbot_msgs -DCMAKE_INSTALL_PREFIX=/home/user/exchange/workspace/src/install/chatbot_msgs
+[0.347s] -- The C compiler identification is GNU 11.4.0
+[0.401s] -- The CXX compiler identification is GNU 11.4.0
+[0.408s] -- Detecting C compiler ABI info
+[0.468s] -- Detecting C compiler ABI info - done
+[0.478s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.478s] -- Detecting C compile features
+[0.478s] -- Detecting C compile features - done
+[0.482s] -- Detecting CXX compiler ABI info
+[0.553s] -- Detecting CXX compiler ABI info - done
+[0.561s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.561s] -- Detecting CXX compile features
+[0.561s] -- Detecting CXX compile features - done
+[0.565s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.723s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.870s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.925s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.932s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.944s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.963s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.980s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.002s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.021s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.336s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.877s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.899s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.900s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.924s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.925s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.925s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.925s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.946s] -- Found PythonExtra: .so  
+[2.004s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.029s] -- Added test 'lint_cmake' to check CMake code style
+[2.031s] -- Added test 'xmllint' to check XML markup files
+[2.034s] -- Configuring done
+[2.082s] -- Generating done
+[2.102s] -- Build files have been written to: /home/user/exchange/workspace/src/build/chatbot_msgs
+[2.110s] Invoked command in '/home/user/exchange/workspace/src/build/chatbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/pal/alum:/opt/ros/humble /usr/bin/cmake /home/user/exchange/workspace/src/chatbot_msgs -DCMAKE_INSTALL_PREFIX=/home/user/exchange/workspace/src/install/chatbot_msgs
+[2.111s] Invoking command in '/home/user/exchange/workspace/src/build/chatbot_msgs': CMAKE_PREFIX_PATH=/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/workspace/src/build/chatbot_msgs -- -j8 -l8
+[2.155s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.163s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.177s] [  5%] Built target ament_cmake_python_copy_chatbot_msgs
+[2.585s] running egg_info
+[2.587s] creating chatbot_msgs.egg-info
+[2.587s] writing chatbot_msgs.egg-info/PKG-INFO
+[2.587s] writing dependency_links to chatbot_msgs.egg-info/dependency_links.txt
+[2.587s] writing top-level names to chatbot_msgs.egg-info/top_level.txt
+[2.588s] writing manifest file 'chatbot_msgs.egg-info/SOURCES.txt'
+[2.590s] reading manifest file 'chatbot_msgs.egg-info/SOURCES.txt'
+[2.591s] writing manifest file 'chatbot_msgs.egg-info/SOURCES.txt'
+[2.629s] [  5%] Built target ament_cmake_python_build_chatbot_msgs_egg
+[2.863s] [  7%] [32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/chatbot_msgs/srv/detail/get_response__functions.c.o[0m
+[2.866s] [ 10%] [32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/chatbot_msgs/srv/detail/reset_model__functions.c.o[0m
+[2.917s] [ 10%] Built target chatbot_msgs__cpp
+[2.930s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.933s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.938s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.950s] [ 20%] [32m[1mLinking C shared library libchatbot_msgs__rosidl_generator_c.so[0m
+[3.003s] [ 20%] Built target chatbot_msgs__rosidl_generator_c
+[3.027s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.027s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.056s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.619s] [ 30%] [32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chatbot_msgs/srv/get_response__type_support.cpp.o[0m
+[3.623s] [ 33%] [32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chatbot_msgs/srv/reset_model__type_support.cpp.o[0m
+[3.759s] [ 35%] [32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chatbot_msgs/srv/detail/dds_fastrtps/get_response__type_support.cpp.o[0m
+[3.772s] [ 38%] [32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chatbot_msgs/srv/detail/get_response__type_support.cpp.o[0m
+[3.779s] [ 41%] [32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chatbot_msgs/srv/detail/dds_fastrtps/reset_model__type_support.cpp.o[0m
+[3.945s] [ 43%] [32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/chatbot_msgs/srv/get_response__type_support.cpp.o[0m
+[4.064s] [ 46%] [32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/chatbot_msgs/srv/reset_model__type_support.cpp.o[0m
+[4.108s] [ 48%] [32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chatbot_msgs/srv/detail/get_response__type_support_c.cpp.o[0m
+[4.165s] [ 51%] [32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chatbot_msgs/srv/detail/get_response__type_support.c.o[0m
+[4.203s] [ 53%] [32m[1mLinking CXX shared library libchatbot_msgs__rosidl_typesupport_c.so[0m
+[4.297s] [ 56%] [32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chatbot_msgs/srv/detail/reset_model__type_support.c.o[0m
+[4.320s] [ 58%] [32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chatbot_msgs/srv/detail/reset_model__type_support_c.cpp.o[0m
+[4.322s] [ 61%] [32m[1mLinking CXX shared library libchatbot_msgs__rosidl_typesupport_cpp.so[0m
+[4.402s] [ 61%] Built target chatbot_msgs__rosidl_typesupport_c
+[4.432s] [ 64%] [32mBuilding CXX object CMakeFiles/chatbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chatbot_msgs/srv/detail/reset_model__type_support.cpp.o[0m
+[4.481s] [ 66%] [32m[1mLinking C shared library libchatbot_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.535s] [ 66%] Built target chatbot_msgs__rosidl_typesupport_cpp
+[4.678s] [ 66%] Built target chatbot_msgs__rosidl_typesupport_introspection_c
+[4.853s] [ 69%] [32m[1mLinking CXX shared library libchatbot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.919s] [ 71%] [32m[1mLinking CXX shared library libchatbot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.944s] [ 71%] Built target chatbot_msgs__rosidl_typesupport_fastrtps_cpp
+[5.046s] [ 71%] Built target chatbot_msgs__rosidl_typesupport_fastrtps_c
+[5.129s] [ 74%] [32m[1mLinking CXX shared library libchatbot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.193s] [ 74%] Built target chatbot_msgs__rosidl_typesupport_introspection_cpp
+[5.211s] [ 74%] Built target chatbot_msgs
+[5.234s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.894s] [ 76%] Built target chatbot_msgs__py
+[5.912s] [ 82%] [32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/chatbot_msgs/srv/_reset_model_s.c.o[0m
+[5.912s] [ 82%] [32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/chatbot_msgs/srv/_get_response_s.c.o[0m
+[6.049s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/chatbot_msgs/libchatbot_msgs__rosidl_generator_py.so[0m
+[6.089s] [ 84%] Built target chatbot_msgs__rosidl_generator_py
+[6.107s] [ 89%] [32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/chatbot_msgs/_chatbot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.107s] [ 89%] [32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/chatbot_msgs/_chatbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.107s] [ 92%] [32mBuilding C object CMakeFiles/chatbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/chatbot_msgs/_chatbot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.212s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.213s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.216s] [100%] [32m[1mLinking C shared library rosidl_generator_py/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.252s] [100%] Built target chatbot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.255s] [100%] Built target chatbot_msgs__rosidl_typesupport_introspection_c__pyext
+[6.257s] [100%] Built target chatbot_msgs__rosidl_typesupport_c__pyext
+[6.267s] Invoked command in '/home/user/exchange/workspace/src/build/chatbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/workspace/src/build/chatbot_msgs -- -j8 -l8
+[6.276s] Invoking command in '/home/user/exchange/workspace/src/build/chatbot_msgs': CMAKE_PREFIX_PATH=/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/workspace/src/build/chatbot_msgs
+[6.283s] -- Install configuration: ""
+[6.283s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/ament_index/resource_index/rosidl_interfaces/chatbot_msgs
+[6.283s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs
+[6.283s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv
+[6.283s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail
+[6.283s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__functions.c
+[6.283s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__functions.h
+[6.283s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__type_support.h
+[6.284s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__type_support.h
+[6.284s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__functions.h
+[6.284s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__functions.c
+[6.284s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__struct.h
+[6.284s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__struct.h
+[6.284s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/reset_model.h
+[6.284s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/get_response.h
+[6.284s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg
+[6.285s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.285s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/library_path.sh
+[6.285s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/library_path.dsv
+[6.286s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_generator_c.so
+[6.286s] -- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_generator_c.so" to ""
+[6.286s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs
+[6.286s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv
+[6.286s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail
+[6.286s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__rosidl_typesupport_fastrtps_c.h
+[6.286s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__rosidl_typesupport_fastrtps_c.h
+[6.287s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg
+[6.287s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.287s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_fastrtps_c.so
+[6.287s] -- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.287s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs
+[6.287s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv
+[6.287s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail
+[6.287s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__traits.hpp
+[6.287s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__traits.hpp
+[6.288s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__struct.hpp
+[6.288s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__struct.hpp
+[6.288s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__builder.hpp
+[6.288s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__builder.hpp
+[6.288s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__type_support.hpp
+[6.288s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__type_support.hpp
+[6.288s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/reset_model.hpp
+[6.288s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/get_response.hpp
+[6.288s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg
+[6.288s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.289s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs
+[6.289s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv
+[6.289s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail
+[6.289s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__rosidl_typesupport_fastrtps_cpp.hpp
+[6.289s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/dds_fastrtps
+[6.289s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__rosidl_typesupport_fastrtps_cpp.hpp
+[6.289s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg
+[6.289s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.289s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.289s] -- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.290s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs
+[6.290s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv
+[6.290s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail
+[6.290s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__rosidl_typesupport_introspection_c.h
+[6.290s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__type_support.c
+[6.290s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__type_support.c
+[6.290s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__rosidl_typesupport_introspection_c.h
+[6.290s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg
+[6.290s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.290s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_introspection_c.so
+[6.291s] -- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.291s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_c.so
+[6.291s] -- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_c.so" to ""
+[6.291s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs
+[6.291s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv
+[6.291s] -- Up-to-date: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail
+[6.291s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__rosidl_typesupport_introspection_cpp.hpp
+[6.291s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__type_support.cpp
+[6.292s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/get_response__rosidl_typesupport_introspection_cpp.hpp
+[6.292s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/include/chatbot_msgs/chatbot_msgs/srv/detail/reset_model__type_support.cpp
+[6.292s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_introspection_cpp.so
+[6.292s] -- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.292s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_cpp.so
+[6.292s] -- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_typesupport_cpp.so" to ""
+[6.293s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/pythonpath.sh
+[6.293s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/pythonpath.dsv
+[6.293s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs-0.0.0-py3.10.egg-info
+[6.293s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.293s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[6.293s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[6.293s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.293s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs
+[6.293s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/_chatbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.294s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/__init__.py
+[6.294s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/_chatbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.294s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/_chatbot_msgs_s.ep.rosidl_typesupport_c.c
+[6.294s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.294s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.294s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv
+[6.294s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/__init__.py
+[6.294s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/_get_response_s.c
+[6.295s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/_reset_model_s.c
+[6.295s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/_reset_model.py
+[6.295s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/_get_response.py
+[6.295s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.295s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/libchatbot_msgs__rosidl_generator_py.so
+[6.336s] Listing '/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs'...
+[6.336s] Compiling '/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/__init__.py'...
+[6.336s] Listing '/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv'...
+[6.336s] Compiling '/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/__init__.py'...
+[6.336s] Compiling '/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/_get_response.py'...
+[6.336s] Compiling '/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/srv/_reset_model.py'...
+[6.341s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.341s] -- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.341s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.342s] -- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.342s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.343s] -- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/local/lib/python3.10/dist-packages/chatbot_msgs/chatbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.343s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_generator_py.so
+[6.343s] -- Set runtime path of "/home/user/exchange/workspace/src/install/chatbot_msgs/lib/libchatbot_msgs__rosidl_generator_py.so" to ""
+[6.343s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/GetResponse.idl
+[6.343s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/ResetModel.idl
+[6.344s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/GetResponse.srv
+[6.344s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/GetResponse_Request.msg
+[6.344s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/GetResponse_Response.msg
+[6.344s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/ResetModel.srv
+[6.345s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/ResetModel_Request.msg
+[6.345s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/srv/ResetModel_Response.msg
+[6.345s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/ament_index/resource_index/package_run_dependencies/chatbot_msgs
+[6.345s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/ament_index/resource_index/parent_prefix_path/chatbot_msgs
+[6.345s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/ament_prefix_path.sh
+[6.346s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/ament_prefix_path.dsv
+[6.346s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/path.sh
+[6.346s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/environment/path.dsv
+[6.346s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/local_setup.bash
+[6.346s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/local_setup.sh
+[6.347s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/local_setup.zsh
+[6.347s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/local_setup.dsv
+[6.347s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/package.dsv
+[6.347s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/ament_index/resource_index/packages/chatbot_msgs
+[6.348s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_generator_cExport.cmake
+[6.348s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.348s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.348s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.348s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_generator_cppExport.cmake
+[6.349s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.349s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.349s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.349s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.350s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_cExport.cmake
+[6.350s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.350s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.350s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.350s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_cppExport.cmake
+[6.351s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.351s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_generator_pyExport.cmake
+[6.351s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/export_chatbot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.351s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/rosidl_cmake-extras.cmake
+[6.351s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.352s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.352s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.352s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.352s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.353s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.353s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgsConfig.cmake
+[6.353s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/cmake/chatbot_msgsConfig-version.cmake
+[6.353s] -- Installing: /home/user/exchange/workspace/src/install/chatbot_msgs/share/chatbot_msgs/package.xml
+[6.356s] Invoked command in '/home/user/exchange/workspace/src/build/chatbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/workspace/src/build/chatbot_msgs

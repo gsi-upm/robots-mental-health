@@ -1,0 +1,23 @@
+[2.491s] Invoking command in '/home/user/exchange/workspace/src/ui_task': PYTHONPATH=/home/user/exchange/workspace/build/ui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/ui_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ui_task build --build-base /home/user/exchange/workspace/build/ui_task/build install --record /home/user/exchange/workspace/build/ui_task/install.log --single-version-externally-managed install_data
+[2.910s] running egg_info
+[2.911s] writing ../../build/ui_task/ui_task.egg-info/PKG-INFO
+[2.911s] writing dependency_links to ../../build/ui_task/ui_task.egg-info/dependency_links.txt
+[2.912s] writing entry points to ../../build/ui_task/ui_task.egg-info/entry_points.txt
+[2.912s] writing requirements to ../../build/ui_task/ui_task.egg-info/requires.txt
+[2.912s] writing top-level names to ../../build/ui_task/ui_task.egg-info/top_level.txt
+[2.915s] reading manifest file '../../build/ui_task/ui_task.egg-info/SOURCES.txt'
+[2.915s] adding license file 'LICENSE'
+[2.917s] writing manifest file '../../build/ui_task/ui_task.egg-info/SOURCES.txt'
+[2.917s] running build
+[2.917s] running build_py
+[2.918s] running install
+[2.918s] running install_lib
+[2.920s] running install_data
+[2.921s] copying res/ui/PlannerView.qml -> /home/user/exchange/workspace/install/ui_task/share/ui_task/ui/.
+[2.922s] running install_egg_info
+[2.926s] removing '/home/user/exchange/workspace/install/ui_task/lib/python3.10/site-packages/ui_task-0.1.0-py3.10.egg-info' (and everything under it)
+[2.926s] Copying ../../build/ui_task/ui_task.egg-info to /home/user/exchange/workspace/install/ui_task/lib/python3.10/site-packages/ui_task-0.1.0-py3.10.egg-info
+[2.927s] running install_scripts
+[2.960s] Installing start_task script to /home/user/exchange/workspace/install/ui_task/lib/ui_task
+[2.961s] writing list of installed files to '/home/user/exchange/workspace/build/ui_task/install.log'
+[2.991s] Invoked command in '/home/user/exchange/workspace/src/ui_task' returned '0': PYTHONPATH=/home/user/exchange/workspace/build/ui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/ui_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ui_task build --build-base /home/user/exchange/workspace/build/ui_task/build install --record /home/user/exchange/workspace/build/ui_task/install.log --single-version-externally-managed install_data

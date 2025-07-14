@@ -1,0 +1,22 @@
+[3.424s] Invoking command in '/home/user/exchange/workspace/src/chat_task': PYTHONPATH=/home/user/exchange/workspace/build/chat_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_task build --build-base /home/user/exchange/workspace/build/chat_task/build install --record /home/user/exchange/workspace/build/chat_task/install.log --single-version-externally-managed install_data
+[3.841s] running egg_info
+[3.842s] writing ../../build/chat_task/chat_task.egg-info/PKG-INFO
+[3.843s] writing dependency_links to ../../build/chat_task/chat_task.egg-info/dependency_links.txt
+[3.843s] writing entry points to ../../build/chat_task/chat_task.egg-info/entry_points.txt
+[3.843s] writing requirements to ../../build/chat_task/chat_task.egg-info/requires.txt
+[3.843s] writing top-level names to ../../build/chat_task/chat_task.egg-info/top_level.txt
+[3.847s] reading manifest file '../../build/chat_task/chat_task.egg-info/SOURCES.txt'
+[3.848s] adding license file 'LICENSE'
+[3.848s] writing manifest file '../../build/chat_task/chat_task.egg-info/SOURCES.txt'
+[3.848s] running build
+[3.848s] running build_py
+[3.848s] running install
+[3.849s] running install_lib
+[3.851s] running install_data
+[3.852s] running install_egg_info
+[3.855s] removing '/home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages/chat_task-0.1.0-py3.10.egg-info' (and everything under it)
+[3.855s] Copying ../../build/chat_task/chat_task.egg-info to /home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages/chat_task-0.1.0-py3.10.egg-info
+[3.857s] running install_scripts
+[3.885s] Installing start_task script to /home/user/exchange/workspace/install/chat_task/lib/chat_task
+[3.886s] writing list of installed files to '/home/user/exchange/workspace/build/chat_task/install.log'
+[3.916s] Invoked command in '/home/user/exchange/workspace/src/chat_task' returned '0': PYTHONPATH=/home/user/exchange/workspace/build/chat_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_task build --build-base /home/user/exchange/workspace/build/chat_task/build install --record /home/user/exchange/workspace/build/chat_task/install.log --single-version-externally-managed install_data

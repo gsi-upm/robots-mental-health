@@ -1,0 +1,2 @@
+mission_controller:
+  launch: "mission_controller mission_controller.launch.py"

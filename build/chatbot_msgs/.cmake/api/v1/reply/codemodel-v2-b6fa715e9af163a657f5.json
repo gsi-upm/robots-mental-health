@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-30e49a266b063d8443f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "chatbot_msgs__py",
+					"jsonFile" : "directory-chatbot_msgs__py-2237652ea203af695138.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/user/exchange/workspace/build/chatbot_msgs/chatbot_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "chatbot_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_chatbot_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_chatbot_msgs_egg-95d3b30326e0d799ed2b.json",
+					"name" : "ament_cmake_python_build_chatbot_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_chatbot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_chatbot_msgs-a151072aa1dedfc08c4d.json",
+					"name" : "ament_cmake_python_copy_chatbot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatbot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatbot_msgs-6fb34847252f5a55294e.json",
+					"name" : "chatbot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatbot_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatbot_msgs__cpp-abd799f42ff201b4816e.json",
+					"name" : "chatbot_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "chatbot_msgs__py::@74beee0d6a5a34d655fa",
+					"jsonFile" : "target-chatbot_msgs__py-b9e8014f046f373464e5.json",
+					"name" : "chatbot_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatbot_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatbot_msgs__rosidl_generator_c-9f2eb689cb409d658907.json",
+					"name" : "chatbot_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatbot_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatbot_msgs__rosidl_generator_py-6d965f2dc9a9ebaa5ef3.json",
+					"name" : "chatbot_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatbot_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatbot_msgs__rosidl_typesupport_c-323b374b1e15afe64cab.json",
+					"name" : "chatbot_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatbot_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatbot_msgs__rosidl_typesupport_c__pyext-76b196c03cf470950259.json",
+					"name" : "chatbot_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatbot_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatbot_msgs__rosidl_typesupport_cpp-30cb8d1e8877ca180bd8.json",
+					"name" : "chatbot_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatbot_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatbot_msgs__rosidl_typesupport_fastrtps_c-063bab3404b00ede0dce.json",
+					"name" : "chatbot_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatbot_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatbot_msgs__rosidl_typesupport_fastrtps_c__pyext-d6513afbbe8b33cb1f05.json",
+					"name" : "chatbot_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatbot_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatbot_msgs__rosidl_typesupport_fastrtps_cpp-5f0ad6473f0f1bcc75bc.json",
+					"name" : "chatbot_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatbot_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatbot_msgs__rosidl_typesupport_introspection_c-9cd1abbd136d640c2a1e.json",
+					"name" : "chatbot_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatbot_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatbot_msgs__rosidl_typesupport_introspection_c__pyext-7ad58a691c5cf5f1ec17.json",
+					"name" : "chatbot_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatbot_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatbot_msgs__rosidl_typesupport_introspection_cpp-0416162c7c5374ca87dd.json",
+					"name" : "chatbot_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatbot_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatbot_msgs_uninstall-7c4ffc9c93d86cb360d0.json",
+					"name" : "chatbot_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-707706087e12094f11fd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/exchange/workspace/build/chatbot_msgs",
+		"source" : "/home/user/exchange/workspace/src/chatbot_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

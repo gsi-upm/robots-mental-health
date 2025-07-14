@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/chat_logic/chat_logic.egg-info
+writing ../../build/chat_logic/chat_logic.egg-info/PKG-INFO
+writing dependency_links to ../../build/chat_logic/chat_logic.egg-info/dependency_links.txt
+writing entry points to ../../build/chat_logic/chat_logic.egg-info/entry_points.txt
+writing requirements to ../../build/chat_logic/chat_logic.egg-info/requires.txt
+writing top-level names to ../../build/chat_logic/chat_logic.egg-info/top_level.txt
+writing manifest file '../../build/chat_logic/chat_logic.egg-info/SOURCES.txt'
+reading manifest file '../../build/chat_logic/chat_logic.egg-info/SOURCES.txt'
+writing manifest file '../../build/chat_logic/chat_logic.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/exchange/workspace/build/chat_logic/build
+creating /home/user/exchange/workspace/build/chat_logic/build/lib
+creating /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic
+copying chat_logic/__init__.py -> /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic
+copying chat_logic/prompts.py -> /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic
+copying chat_logic/planner.py -> /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic
+copying chat_logic/chat_logic.py -> /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic
+running install
+running install_lib
+creating /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic
+copying /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic/__init__.py -> /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic
+copying /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic/prompts.py -> /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic
+copying /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic/planner.py -> /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic
+copying /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic/chat_logic.py -> /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic
+byte-compiling /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic/prompts.py to prompts.cpython-310.pyc
+byte-compiling /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic/planner.py to planner.cpython-310.pyc
+byte-compiling /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic/chat_logic.py to chat_logic.cpython-310.pyc
+running install_data
+creating /home/user/exchange/workspace/install/chat_logic/share/ament_index
+creating /home/user/exchange/workspace/install/chat_logic/share/ament_index/resource_index
+creating /home/user/exchange/workspace/install/chat_logic/share/ament_index/resource_index/packages
+copying resource/chat_logic -> /home/user/exchange/workspace/install/chat_logic/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/exchange/workspace/install/chat_logic/share/chat_logic
+running install_egg_info
+Copying ../../build/chat_logic/chat_logic.egg-info to /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/user/exchange/workspace/build/chat_logic/install.log'

@@ -1,0 +1,75 @@
+[2.110s] Invoking command in '/home/user/exchange/workspace/src/sample_gui_task': AMENT_PREFIX_PATH=/home/user/exchange/workspace/src/install/task_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/src/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/src/install/task_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/src/build/sample_gui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages:/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sample_gui_task build --build-base /home/user/exchange/workspace/src/build/sample_gui_task/build install --record /home/user/exchange/workspace/src/build/sample_gui_task/install.log --single-version-externally-managed install_data
+[2.510s] running egg_info
+[2.511s] creating ../build/sample_gui_task/sample_gui_task.egg-info
+[2.511s] writing ../build/sample_gui_task/sample_gui_task.egg-info/PKG-INFO
+[2.512s] writing dependency_links to ../build/sample_gui_task/sample_gui_task.egg-info/dependency_links.txt
+[2.512s] writing entry points to ../build/sample_gui_task/sample_gui_task.egg-info/entry_points.txt
+[2.512s] writing requirements to ../build/sample_gui_task/sample_gui_task.egg-info/requires.txt
+[2.513s] writing top-level names to ../build/sample_gui_task/sample_gui_task.egg-info/top_level.txt
+[2.513s] writing manifest file '../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'
+[2.515s] reading manifest file '../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'
+[2.515s] adding license file 'LICENSE'
+[2.517s] writing manifest file '../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'
+[2.517s] running build
+[2.517s] running build_py
+[2.517s] creating /home/user/exchange/workspace/src/build/sample_gui_task/build
+[2.517s] creating /home/user/exchange/workspace/src/build/sample_gui_task/build/lib
+[2.517s] creating /home/user/exchange/workspace/src/build/sample_gui_task/build/lib/sample_gui_task
+[2.517s] copying sample_gui_task/__init__.py -> /home/user/exchange/workspace/src/build/sample_gui_task/build/lib/sample_gui_task
+[2.517s] copying sample_gui_task/start_task.py -> /home/user/exchange/workspace/src/build/sample_gui_task/build/lib/sample_gui_task
+[2.518s] copying sample_gui_task/task_impl.py -> /home/user/exchange/workspace/src/build/sample_gui_task/build/lib/sample_gui_task
+[2.518s] running install
+[2.519s] running install_lib
+[2.520s] creating /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task
+[2.520s] copying /home/user/exchange/workspace/src/build/sample_gui_task/build/lib/sample_gui_task/__init__.py -> /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task
+[2.520s] copying /home/user/exchange/workspace/src/build/sample_gui_task/build/lib/sample_gui_task/start_task.py -> /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task
+[2.521s] copying /home/user/exchange/workspace/src/build/sample_gui_task/build/lib/sample_gui_task/task_impl.py -> /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task
+[2.521s] byte-compiling /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task/__init__.py to __init__.cpython-310.pyc
+[2.522s] byte-compiling /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task/start_task.py to start_task.cpython-310.pyc
+[2.522s] byte-compiling /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task/task_impl.py to task_impl.cpython-310.pyc
+[2.525s] running install_data
+[2.525s] copying package.xml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task
+[2.525s] creating /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index
+[2.525s] creating /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index/resource_index
+[2.525s] creating /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index/resource_index/packages
+[2.525s] copying res/sample_gui_task -> /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index/resource_index/packages
+[2.526s] creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/launch
+[2.526s] copying launch/sample_gui_task.launch.py -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/launch
+[2.526s] creating /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index/resource_index/pal_system_module
+[2.526s] copying module/sample_gui_task -> /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index/resource_index/pal_system_module
+[2.526s] creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/module
+[2.527s] copying module/sample_gui_task_module.yaml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/module
+[2.527s] creating /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index/resource_index/pal_configuration.sample_gui_task
+[2.527s] copying config/sample_gui_task -> /home/user/exchange/workspace/src/install/sample_gui_task/share/ament_index/resource_index/pal_configuration.sample_gui_task
+[2.527s] creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/config
+[2.527s] copying config/00-defaults.yml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/config
+[2.527s] creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui
+[2.528s] copying res/ui/MainScreen.ui.qml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/.
+[2.528s] copying res/ui/sample_gui_task.qmlproject -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/.
+[2.528s] copying res/ui/TaskUI.qml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/.
+[2.529s] copying res/ui/.gitignore -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/.
+[2.529s] copying res/ui/IconButton.ui.qml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/.
+[2.529s] copying res/ui/README.md -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/.
+[2.530s] copying res/ui/qmldir -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/.
+[2.530s] creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/Ros
+[2.530s] copying res/ui/Ros/Param.qml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/Ros
+[2.531s] copying res/ui/Ros/Topic.qml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/Ros
+[2.531s] copying res/ui/Ros/Service.qml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/Ros
+[2.531s] copying res/ui/Ros/qmldir -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/Ros
+[2.532s] copying res/ui/Ros/Action.qml -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/Ros
+[2.532s] creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/fonts
+[2.532s] copying res/ui/fonts/Inter.ttf -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/fonts
+[2.535s] creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/js
+[2.535s] copying res/ui/js/Constants.js -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/js
+[2.535s] creating /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/images
+[2.535s] copying res/ui/images/wallpaper.jpg -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/images
+[2.536s] copying res/ui/images/bubble.svg -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/images
+[2.537s] copying res/ui/images/push.svg -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/images
+[2.537s] copying res/ui/images/back.svg -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/images
+[2.537s] copying res/ui/images/robot.jpg -> /home/user/exchange/workspace/src/install/sample_gui_task/share/sample_gui_task/ui/images
+[2.539s] running install_egg_info
+[2.541s] Copying ../build/sample_gui_task/sample_gui_task.egg-info to /home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task-0.1.0-py3.10.egg-info
+[2.543s] running install_scripts
+[2.581s] Installing start_task script to /home/user/exchange/workspace/src/install/sample_gui_task/lib/sample_gui_task
+[2.581s] writing list of installed files to '/home/user/exchange/workspace/src/build/sample_gui_task/install.log'
+[2.614s] Invoked command in '/home/user/exchange/workspace/src/sample_gui_task' returned '0': AMENT_PREFIX_PATH=/home/user/exchange/workspace/src/install/task_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/src/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/src/install/task_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/src/build/sample_gui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/src/install/sample_gui_task/lib/python3.10/site-packages:/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sample_gui_task build --build-base /home/user/exchange/workspace/src/build/sample_gui_task/build install --record /home/user/exchange/workspace/src/build/sample_gui_task/install.log --single-version-externally-managed install_data

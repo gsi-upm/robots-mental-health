@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>chat_task</name>
+  <version>0.1.0</version>
+  <description>chat_task</description>
+
+  <maintainer email="todo@todo.todo">TODO</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Dependencias de ejecución y compilación -->
+  <depend>rclpy</depend>
+  <depend>lifecycle_msgs</depend>
+  <depend>std_msgs</depend>               <!-- para usar std_msgs/String -->
+  <depend>sample_skill_msgs</depend>     <!-- tu paquete say_skill / sample_skill_msgs -->
+  <depend>task_msgs</depend>
+  <depend>ui_msgs</depend>
+
+  <exec_depend>action_msgs</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>launch_pal</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+    <task content-type="json">
+      {
+        "name": "chat_task",
+        "description": "This task implements ...",
+        "interface": "action",
+        "default_interface_path": "/chat_task/control",
+        "datatype": "task_msgs/action/TaskControl"
+      }
+    </task>
+  </export>
+</package>
+

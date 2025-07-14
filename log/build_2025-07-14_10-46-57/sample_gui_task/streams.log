@@ -1,0 +1,75 @@
+[1.990s] Invoking command in '/home/user/exchange/workspace/src/sample_gui_task': AMENT_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/task_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/build/sample_gui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages:/home/user/exchange/workspace/install/task_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sample_gui_task build --build-base /home/user/exchange/workspace/build/sample_gui_task/build install --record /home/user/exchange/workspace/build/sample_gui_task/install.log --single-version-externally-managed install_data
+[2.382s] running egg_info
+[2.383s] creating ../../build/sample_gui_task/sample_gui_task.egg-info
+[2.383s] writing ../../build/sample_gui_task/sample_gui_task.egg-info/PKG-INFO
+[2.384s] writing dependency_links to ../../build/sample_gui_task/sample_gui_task.egg-info/dependency_links.txt
+[2.384s] writing entry points to ../../build/sample_gui_task/sample_gui_task.egg-info/entry_points.txt
+[2.384s] writing requirements to ../../build/sample_gui_task/sample_gui_task.egg-info/requires.txt
+[2.384s] writing top-level names to ../../build/sample_gui_task/sample_gui_task.egg-info/top_level.txt
+[2.385s] writing manifest file '../../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'
+[2.387s] reading manifest file '../../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'
+[2.388s] adding license file 'LICENSE'
+[2.388s] writing manifest file '../../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'
+[2.389s] running build
+[2.389s] running build_py
+[2.389s] creating /home/user/exchange/workspace/build/sample_gui_task/build
+[2.389s] creating /home/user/exchange/workspace/build/sample_gui_task/build/lib
+[2.390s] creating /home/user/exchange/workspace/build/sample_gui_task/build/lib/sample_gui_task
+[2.390s] copying sample_gui_task/__init__.py -> /home/user/exchange/workspace/build/sample_gui_task/build/lib/sample_gui_task
+[2.390s] copying sample_gui_task/start_task.py -> /home/user/exchange/workspace/build/sample_gui_task/build/lib/sample_gui_task
+[2.390s] copying sample_gui_task/task_impl.py -> /home/user/exchange/workspace/build/sample_gui_task/build/lib/sample_gui_task
+[2.390s] running install
+[2.390s] running install_lib
+[2.391s] creating /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task
+[2.392s] copying /home/user/exchange/workspace/build/sample_gui_task/build/lib/sample_gui_task/__init__.py -> /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task
+[2.392s] copying /home/user/exchange/workspace/build/sample_gui_task/build/lib/sample_gui_task/start_task.py -> /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task
+[2.392s] copying /home/user/exchange/workspace/build/sample_gui_task/build/lib/sample_gui_task/task_impl.py -> /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task
+[2.393s] byte-compiling /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task/__init__.py to __init__.cpython-310.pyc
+[2.393s] byte-compiling /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task/start_task.py to start_task.cpython-310.pyc
+[2.393s] byte-compiling /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task/task_impl.py to task_impl.cpython-310.pyc
+[2.395s] running install_data
+[2.396s] copying package.xml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task
+[2.396s] creating /home/user/exchange/workspace/install/sample_gui_task/share/ament_index
+[2.396s] creating /home/user/exchange/workspace/install/sample_gui_task/share/ament_index/resource_index
+[2.396s] creating /home/user/exchange/workspace/install/sample_gui_task/share/ament_index/resource_index/packages
+[2.396s] copying res/sample_gui_task -> /home/user/exchange/workspace/install/sample_gui_task/share/ament_index/resource_index/packages
+[2.397s] creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/launch
+[2.397s] copying launch/sample_gui_task.launch.py -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/launch
+[2.397s] creating /home/user/exchange/workspace/install/sample_gui_task/share/ament_index/resource_index/pal_system_module
+[2.397s] copying module/sample_gui_task -> /home/user/exchange/workspace/install/sample_gui_task/share/ament_index/resource_index/pal_system_module
+[2.397s] creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/module
+[2.397s] copying module/sample_gui_task_module.yaml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/module
+[2.397s] creating /home/user/exchange/workspace/install/sample_gui_task/share/ament_index/resource_index/pal_configuration.sample_gui_task
+[2.397s] copying config/sample_gui_task -> /home/user/exchange/workspace/install/sample_gui_task/share/ament_index/resource_index/pal_configuration.sample_gui_task
+[2.398s] creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/config
+[2.398s] copying config/00-defaults.yml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/config
+[2.398s] creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui
+[2.398s] copying res/ui/MainScreen.ui.qml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/.
+[2.399s] copying res/ui/sample_gui_task.qmlproject -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/.
+[2.399s] copying res/ui/TaskUI.qml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/.
+[2.399s] copying res/ui/.gitignore -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/.
+[2.400s] copying res/ui/IconButton.ui.qml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/.
+[2.400s] copying res/ui/README.md -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/.
+[2.400s] copying res/ui/qmldir -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/.
+[2.401s] creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/Ros
+[2.401s] copying res/ui/Ros/Param.qml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/Ros
+[2.401s] copying res/ui/Ros/Topic.qml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/Ros
+[2.401s] copying res/ui/Ros/Service.qml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/Ros
+[2.402s] copying res/ui/Ros/qmldir -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/Ros
+[2.402s] copying res/ui/Ros/Action.qml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/Ros
+[2.403s] creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/fonts
+[2.403s] copying res/ui/fonts/Inter.ttf -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/fonts
+[2.405s] creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/js
+[2.406s] copying res/ui/js/Constants.js -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/js
+[2.407s] creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/images
+[2.407s] copying res/ui/images/wallpaper.jpg -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/images
+[2.408s] copying res/ui/images/bubble.svg -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/images
+[2.409s] copying res/ui/images/push.svg -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/images
+[2.410s] copying res/ui/images/back.svg -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/images
+[2.410s] copying res/ui/images/robot.jpg -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/images
+[2.416s] running install_egg_info
+[2.416s] Copying ../../build/sample_gui_task/sample_gui_task.egg-info to /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task-0.1.0-py3.10.egg-info
+[2.416s] running install_scripts
+[2.452s] Installing start_task script to /home/user/exchange/workspace/install/sample_gui_task/lib/sample_gui_task
+[2.452s] writing list of installed files to '/home/user/exchange/workspace/build/sample_gui_task/install.log'
+[2.506s] Invoked command in '/home/user/exchange/workspace/src/sample_gui_task' returned '0': AMENT_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/task_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/build/sample_gui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages:/home/user/exchange/workspace/install/task_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sample_gui_task build --build-base /home/user/exchange/workspace/build/sample_gui_task/build install --record /home/user/exchange/workspace/build/sample_gui_task/install.log --single-version-externally-managed install_data

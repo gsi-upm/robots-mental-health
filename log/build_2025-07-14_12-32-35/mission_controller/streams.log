@@ -1,0 +1,24 @@
+[4.132s] Invoking command in '/home/user/exchange/workspace/src/mission_controller': PYTHONPATH=/home/user/exchange/workspace/build/mission_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/mission_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_controller build --build-base /home/user/exchange/workspace/build/mission_controller/build install --record /home/user/exchange/workspace/build/mission_controller/install.log --single-version-externally-managed install_data
+[5.099s] running egg_info
+[5.100s] writing ../../build/mission_controller/mission_controller.egg-info/PKG-INFO
+[5.100s] writing dependency_links to ../../build/mission_controller/mission_controller.egg-info/dependency_links.txt
+[5.100s] writing entry points to ../../build/mission_controller/mission_controller.egg-info/entry_points.txt
+[5.100s] writing requirements to ../../build/mission_controller/mission_controller.egg-info/requires.txt
+[5.108s] writing top-level names to ../../build/mission_controller/mission_controller.egg-info/top_level.txt
+[5.112s] reading manifest file '../../build/mission_controller/mission_controller.egg-info/SOURCES.txt'
+[5.112s] adding license file 'LICENSE'
+[5.113s] writing manifest file '../../build/mission_controller/mission_controller.egg-info/SOURCES.txt'
+[5.114s] running build
+[5.114s] running build_py
+[5.114s] running install
+[5.114s] running install_lib
+[5.117s] running install_data
+[5.117s] copying locales/es_ES/LC_MESSAGES/messages.mo -> /home/user/exchange/workspace/install/mission_controller/share/mission_controller/locales/es_ES/LC_MESSAGES
+[5.117s] copying locales/en_US/LC_MESSAGES/messages.mo -> /home/user/exchange/workspace/install/mission_controller/share/mission_controller/locales/en_US/LC_MESSAGES
+[5.131s] running install_egg_info
+[5.135s] removing '/home/user/exchange/workspace/install/mission_controller/lib/python3.10/site-packages/mission_controller-0.1.0-py3.10.egg-info' (and everything under it)
+[5.135s] Copying ../../build/mission_controller/mission_controller.egg-info to /home/user/exchange/workspace/install/mission_controller/lib/python3.10/site-packages/mission_controller-0.1.0-py3.10.egg-info
+[5.137s] running install_scripts
+[5.165s] Installing run_app script to /home/user/exchange/workspace/install/mission_controller/lib/mission_controller
+[5.167s] writing list of installed files to '/home/user/exchange/workspace/build/mission_controller/install.log'
+[5.227s] Invoked command in '/home/user/exchange/workspace/src/mission_controller' returned '0': PYTHONPATH=/home/user/exchange/workspace/build/mission_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/mission_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_controller build --build-base /home/user/exchange/workspace/build/mission_controller/build install --record /home/user/exchange/workspace/build/mission_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+module ui_task.ui
+TaskUI 1.0 TaskUI.qml
+MainPage 1.0 MainPage.qml

@@ -1,0 +1,52 @@
+running egg_info
+creating ../../build/planner_task/planner_task.egg-info
+writing ../../build/planner_task/planner_task.egg-info/PKG-INFO
+writing dependency_links to ../../build/planner_task/planner_task.egg-info/dependency_links.txt
+writing entry points to ../../build/planner_task/planner_task.egg-info/entry_points.txt
+writing requirements to ../../build/planner_task/planner_task.egg-info/requires.txt
+writing top-level names to ../../build/planner_task/planner_task.egg-info/top_level.txt
+writing manifest file '../../build/planner_task/planner_task.egg-info/SOURCES.txt'
+reading manifest file '../../build/planner_task/planner_task.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/planner_task/planner_task.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/exchange/workspace/build/planner_task/build
+creating /home/user/exchange/workspace/build/planner_task/build/lib
+creating /home/user/exchange/workspace/build/planner_task/build/lib/planner_task
+copying planner_task/__init__.py -> /home/user/exchange/workspace/build/planner_task/build/lib/planner_task
+copying planner_task/start_task.py -> /home/user/exchange/workspace/build/planner_task/build/lib/planner_task
+copying planner_task/task_impl.py -> /home/user/exchange/workspace/build/planner_task/build/lib/planner_task
+running install
+running install_lib
+creating /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task
+copying /home/user/exchange/workspace/build/planner_task/build/lib/planner_task/__init__.py -> /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task
+copying /home/user/exchange/workspace/build/planner_task/build/lib/planner_task/start_task.py -> /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task
+copying /home/user/exchange/workspace/build/planner_task/build/lib/planner_task/task_impl.py -> /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task
+byte-compiling /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task/start_task.py to start_task.cpython-310.pyc
+byte-compiling /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task/task_impl.py to task_impl.cpython-310.pyc
+running install_data
+copying package.xml -> /home/user/exchange/workspace/install/planner_task/share/planner_task
+creating /home/user/exchange/workspace/install/planner_task/share/ament_index
+creating /home/user/exchange/workspace/install/planner_task/share/ament_index/resource_index
+creating /home/user/exchange/workspace/install/planner_task/share/ament_index/resource_index/packages
+copying res/planner_task -> /home/user/exchange/workspace/install/planner_task/share/ament_index/resource_index/packages
+creating /home/user/exchange/workspace/install/planner_task/share/planner_task/launch
+copying launch/planner_task.launch.py -> /home/user/exchange/workspace/install/planner_task/share/planner_task/launch
+creating /home/user/exchange/workspace/install/planner_task/share/ament_index/resource_index/pal_system_module
+copying module/planner_task -> /home/user/exchange/workspace/install/planner_task/share/ament_index/resource_index/pal_system_module
+creating /home/user/exchange/workspace/install/planner_task/share/planner_task/module
+copying module/planner_task_module.yaml -> /home/user/exchange/workspace/install/planner_task/share/planner_task/module
+creating /home/user/exchange/workspace/install/planner_task/share/ament_index/resource_index/pal_configuration.planner_task
+copying config/planner_task -> /home/user/exchange/workspace/install/planner_task/share/ament_index/resource_index/pal_configuration.planner_task
+creating /home/user/exchange/workspace/install/planner_task/share/planner_task/config
+copying config/00-defaults.yml -> /home/user/exchange/workspace/install/planner_task/share/planner_task/config
+creating /home/user/exchange/workspace/install/planner_task/share/planner_task/ui
+creating /home/user/exchange/workspace/install/planner_task/share/planner_task/ui/images
+copying res/ui/images/background.png -> /home/user/exchange/workspace/install/planner_task/share/planner_task/ui/images
+running install_egg_info
+Copying ../../build/planner_task/planner_task.egg-info to /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task-0.1.0-py3.10.egg-info
+running install_scripts
+Installing start_task script to /home/user/exchange/workspace/install/planner_task/lib/planner_task
+writing list of installed files to '/home/user/exchange/workspace/build/planner_task/install.log'

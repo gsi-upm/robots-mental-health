@@ -1,0 +1,20 @@
+[3.867s] Invoking command in '/home/user/exchange/workspace/src/chat_logic': PYTHONPATH=/home/user/exchange/workspace/build/chat_logic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_logic build --build-base /home/user/exchange/workspace/build/chat_logic/build install --record /home/user/exchange/workspace/build/chat_logic/install.log --single-version-externally-managed install_data
+[4.310s] running egg_info
+[4.313s] writing ../../build/chat_logic/chat_logic.egg-info/PKG-INFO
+[4.314s] writing dependency_links to ../../build/chat_logic/chat_logic.egg-info/dependency_links.txt
+[4.315s] writing entry points to ../../build/chat_logic/chat_logic.egg-info/entry_points.txt
+[4.317s] writing requirements to ../../build/chat_logic/chat_logic.egg-info/requires.txt
+[4.318s] writing top-level names to ../../build/chat_logic/chat_logic.egg-info/top_level.txt
+[4.322s] reading manifest file '../../build/chat_logic/chat_logic.egg-info/SOURCES.txt'
+[4.325s] writing manifest file '../../build/chat_logic/chat_logic.egg-info/SOURCES.txt'
+[4.326s] running build
+[4.327s] running build_py
+[4.329s] running install
+[4.330s] running install_lib
+[4.334s] running install_data
+[4.335s] running install_egg_info
+[4.338s] removing '/home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic-0.0.0-py3.10.egg-info' (and everything under it)
+[4.340s] Copying ../../build/chat_logic/chat_logic.egg-info to /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic-0.0.0-py3.10.egg-info
+[4.342s] running install_scripts
+[4.397s] writing list of installed files to '/home/user/exchange/workspace/build/chat_logic/install.log'
+[4.451s] Invoked command in '/home/user/exchange/workspace/src/chat_logic' returned '0': PYTHONPATH=/home/user/exchange/workspace/build/chat_logic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_logic build --build-base /home/user/exchange/workspace/build/chat_logic/build install --record /home/user/exchange/workspace/build/chat_logic/install.log --single-version-externally-managed install_data

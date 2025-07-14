@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/mission_controller/mission_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/mission_controller/mission_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/mission_controller/mission_controller.egg-info/entry_points.txt
+writing requirements to ../../build/mission_controller/mission_controller.egg-info/requires.txt
+writing top-level names to ../../build/mission_controller/mission_controller.egg-info/top_level.txt
+reading manifest file '../../build/mission_controller/mission_controller.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/mission_controller/mission_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying locales/es_ES/LC_MESSAGES/messages.mo -> /home/user/exchange/workspace/install/mission_controller/share/mission_controller/locales/es_ES/LC_MESSAGES
+copying locales/en_US/LC_MESSAGES/messages.mo -> /home/user/exchange/workspace/install/mission_controller/share/mission_controller/locales/en_US/LC_MESSAGES
+copying res/ui/MainPage.qml -> /home/user/exchange/workspace/install/mission_controller/share/mission_controller/ui/.
+running install_egg_info
+removing '/home/user/exchange/workspace/install/mission_controller/lib/python3.10/site-packages/mission_controller-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mission_controller/mission_controller.egg-info to /home/user/exchange/workspace/install/mission_controller/lib/python3.10/site-packages/mission_controller-0.1.0-py3.10.egg-info
+running install_scripts
+Installing run_app script to /home/user/exchange/workspace/install/mission_controller/lib/mission_controller
+writing list of installed files to '/home/user/exchange/workspace/build/mission_controller/install.log'

@@ -1,0 +1,22 @@
+[2.479s] Invoking command in '/home/user/exchange/workspace/src/sample_gui_task': PYTHONPATH=/home/user/exchange/workspace/build/sample_gui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sample_gui_task build --build-base /home/user/exchange/workspace/build/sample_gui_task/build install --record /home/user/exchange/workspace/build/sample_gui_task/install.log --single-version-externally-managed install_data
+[2.784s] running egg_info
+[2.786s] writing ../../build/sample_gui_task/sample_gui_task.egg-info/PKG-INFO
+[2.787s] writing dependency_links to ../../build/sample_gui_task/sample_gui_task.egg-info/dependency_links.txt
+[2.788s] writing entry points to ../../build/sample_gui_task/sample_gui_task.egg-info/entry_points.txt
+[2.789s] writing requirements to ../../build/sample_gui_task/sample_gui_task.egg-info/requires.txt
+[2.791s] writing top-level names to ../../build/sample_gui_task/sample_gui_task.egg-info/top_level.txt
+[2.795s] reading manifest file '../../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'
+[2.797s] adding license file 'LICENSE'
+[2.798s] writing manifest file '../../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'
+[2.798s] running build
+[2.799s] running build_py
+[2.800s] running install
+[2.801s] running install_lib
+[2.808s] running install_data
+[2.808s] running install_egg_info
+[2.808s] removing '/home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task-0.1.0-py3.10.egg-info' (and everything under it)
+[2.808s] Copying ../../build/sample_gui_task/sample_gui_task.egg-info to /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task-0.1.0-py3.10.egg-info
+[2.808s] running install_scripts
+[2.830s] Installing start_task script to /home/user/exchange/workspace/install/sample_gui_task/lib/sample_gui_task
+[2.831s] writing list of installed files to '/home/user/exchange/workspace/build/sample_gui_task/install.log'
+[2.873s] Invoked command in '/home/user/exchange/workspace/src/sample_gui_task' returned '0': PYTHONPATH=/home/user/exchange/workspace/build/sample_gui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sample_gui_task build --build-base /home/user/exchange/workspace/build/sample_gui_task/build install --record /home/user/exchange/workspace/build/sample_gui_task/install.log --single-version-externally-managed install_data

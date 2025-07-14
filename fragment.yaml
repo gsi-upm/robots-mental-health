@@ -1,0 +1,5 @@
+qml_import_path: "/home/user/exchange/workspace/install/ui_task/share/ui_task/ui"
+qml_fragment: |
+  import ui_task.ui 1.0
+  TaskUI {}
+

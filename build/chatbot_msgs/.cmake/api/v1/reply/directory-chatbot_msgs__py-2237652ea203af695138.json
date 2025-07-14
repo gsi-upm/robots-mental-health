@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "chatbot_msgs__py",
+		"source" : "/home/user/exchange/workspace/build/chatbot_msgs/chatbot_msgs__py"
+	}
+}

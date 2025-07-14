@@ -1,0 +1,6 @@
+module ui_task.ui
+PlannerUI 1.0 PlannerUI.qml
+PlannerInput 1.0 PlannerInput.qml
+PlannerView 1.0 PlannerView.qml
+ChatUI 1.0 ChatUI.qml
+Chat 1.0 Chat.qml

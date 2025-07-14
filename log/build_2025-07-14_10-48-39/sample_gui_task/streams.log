@@ -1,0 +1,22 @@
+[2.283s] Invoking command in '/home/user/exchange/workspace/src/sample_gui_task': AMENT_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/task_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/build/sample_gui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages:/home/user/exchange/workspace/install/task_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sample_gui_task build --build-base /home/user/exchange/workspace/build/sample_gui_task/build install --record /home/user/exchange/workspace/build/sample_gui_task/install.log --single-version-externally-managed install_data
+[2.670s] running egg_info
+[2.672s] writing ../../build/sample_gui_task/sample_gui_task.egg-info/PKG-INFO
+[2.672s] writing dependency_links to ../../build/sample_gui_task/sample_gui_task.egg-info/dependency_links.txt
+[2.672s] writing entry points to ../../build/sample_gui_task/sample_gui_task.egg-info/entry_points.txt
+[2.672s] writing requirements to ../../build/sample_gui_task/sample_gui_task.egg-info/requires.txt
+[2.672s] writing top-level names to ../../build/sample_gui_task/sample_gui_task.egg-info/top_level.txt
+[2.676s] reading manifest file '../../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'
+[2.676s] adding license file 'LICENSE'
+[2.677s] writing manifest file '../../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'
+[2.678s] running build
+[2.678s] running build_py
+[2.678s] running install
+[2.679s] running install_lib
+[2.681s] running install_data
+[2.682s] running install_egg_info
+[2.685s] removing '/home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task-0.1.0-py3.10.egg-info' (and everything under it)
+[2.685s] Copying ../../build/sample_gui_task/sample_gui_task.egg-info to /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task-0.1.0-py3.10.egg-info
+[2.687s] running install_scripts
+[2.720s] Installing start_task script to /home/user/exchange/workspace/install/sample_gui_task/lib/sample_gui_task
+[2.721s] writing list of installed files to '/home/user/exchange/workspace/build/sample_gui_task/install.log'
+[2.763s] Invoked command in '/home/user/exchange/workspace/src/sample_gui_task' returned '0': AMENT_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/task_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/build/sample_gui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages:/home/user/exchange/workspace/install/task_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sample_gui_task build --build-base /home/user/exchange/workspace/build/sample_gui_task/build install --record /home/user/exchange/workspace/build/sample_gui_task/install.log --single-version-externally-managed install_data

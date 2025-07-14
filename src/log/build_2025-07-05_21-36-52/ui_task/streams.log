@@ -1,0 +1,74 @@
+[2.217s] Invoking command in '/home/user/exchange/workspace/src/ui_task': AMENT_PREFIX_PATH=/home/user/exchange/workspace/src/install/task_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/src/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/src/install/task_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/src/build/ui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages:/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ui_task build --build-base /home/user/exchange/workspace/src/build/ui_task/build install --record /home/user/exchange/workspace/src/build/ui_task/install.log --single-version-externally-managed install_data
+[2.494s] running egg_info
+[2.496s] creating ../build/ui_task/ui_task.egg-info
+[2.496s] writing ../build/ui_task/ui_task.egg-info/PKG-INFO
+[2.496s] writing dependency_links to ../build/ui_task/ui_task.egg-info/dependency_links.txt
+[2.496s] writing entry points to ../build/ui_task/ui_task.egg-info/entry_points.txt
+[2.496s] writing requirements to ../build/ui_task/ui_task.egg-info/requires.txt
+[2.496s] writing top-level names to ../build/ui_task/ui_task.egg-info/top_level.txt
+[2.497s] writing manifest file '../build/ui_task/ui_task.egg-info/SOURCES.txt'
+[2.498s] reading manifest file '../build/ui_task/ui_task.egg-info/SOURCES.txt'
+[2.499s] adding license file 'LICENSE'
+[2.500s] writing manifest file '../build/ui_task/ui_task.egg-info/SOURCES.txt'
+[2.500s] running build
+[2.500s] running build_py
+[2.500s] creating /home/user/exchange/workspace/src/build/ui_task/build
+[2.500s] creating /home/user/exchange/workspace/src/build/ui_task/build/lib
+[2.500s] creating /home/user/exchange/workspace/src/build/ui_task/build/lib/ui_task
+[2.500s] copying ui_task/__init__.py -> /home/user/exchange/workspace/src/build/ui_task/build/lib/ui_task
+[2.500s] copying ui_task/start_task.py -> /home/user/exchange/workspace/src/build/ui_task/build/lib/ui_task
+[2.501s] copying ui_task/task_impl.py -> /home/user/exchange/workspace/src/build/ui_task/build/lib/ui_task
+[2.501s] running install
+[2.501s] running install_lib
+[2.502s] creating /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task
+[2.502s] copying /home/user/exchange/workspace/src/build/ui_task/build/lib/ui_task/__init__.py -> /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task
+[2.502s] copying /home/user/exchange/workspace/src/build/ui_task/build/lib/ui_task/start_task.py -> /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task
+[2.502s] copying /home/user/exchange/workspace/src/build/ui_task/build/lib/ui_task/task_impl.py -> /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task
+[2.503s] byte-compiling /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task/__init__.py to __init__.cpython-310.pyc
+[2.503s] byte-compiling /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task/start_task.py to start_task.cpython-310.pyc
+[2.504s] byte-compiling /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task/task_impl.py to task_impl.cpython-310.pyc
+[2.505s] running install_data
+[2.505s] copying package.xml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task
+[2.505s] creating /home/user/exchange/workspace/src/install/ui_task/share/ament_index
+[2.505s] creating /home/user/exchange/workspace/src/install/ui_task/share/ament_index/resource_index
+[2.505s] creating /home/user/exchange/workspace/src/install/ui_task/share/ament_index/resource_index/packages
+[2.506s] copying res/ui_task -> /home/user/exchange/workspace/src/install/ui_task/share/ament_index/resource_index/packages
+[2.506s] creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/launch
+[2.506s] copying launch/ui_task.launch.py -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/launch
+[2.506s] creating /home/user/exchange/workspace/src/install/ui_task/share/ament_index/resource_index/pal_system_module
+[2.506s] copying module/ui_task -> /home/user/exchange/workspace/src/install/ui_task/share/ament_index/resource_index/pal_system_module
+[2.506s] creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/module
+[2.507s] copying module/ui_task_module.yaml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/module
+[2.507s] creating /home/user/exchange/workspace/src/install/ui_task/share/ament_index/resource_index/pal_configuration.ui_task
+[2.507s] copying config/ui_task -> /home/user/exchange/workspace/src/install/ui_task/share/ament_index/resource_index/pal_configuration.ui_task
+[2.507s] creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/config
+[2.508s] copying config/00-defaults.yml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/config
+[2.508s] creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui
+[2.508s] copying res/ui/TaskUI.qml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/.
+[2.508s] copying res/ui/.gitignore -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/.
+[2.508s] copying res/ui/ui_task.qmlproject -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/.
+[2.508s] copying res/ui/IconButton.ui.qml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/.
+[2.509s] copying res/ui/README.md -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/.
+[2.509s] copying res/ui/qmldir -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/.
+[2.509s] creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/Ros
+[2.509s] copying res/ui/Ros/Param.qml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/Ros
+[2.509s] copying res/ui/Ros/Topic.qml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/Ros
+[2.510s] copying res/ui/Ros/Service.qml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/Ros
+[2.510s] copying res/ui/Ros/qmldir -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/Ros
+[2.510s] copying res/ui/Ros/Action.qml -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/Ros
+[2.511s] creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/fonts
+[2.511s] copying res/ui/fonts/Inter.ttf -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/fonts
+[2.513s] creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/js
+[2.513s] copying res/ui/js/Constants.js -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/js
+[2.514s] creating /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/images
+[2.514s] copying res/ui/images/wallpaper.jpg -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/images
+[2.515s] copying res/ui/images/bubble.svg -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/images
+[2.515s] copying res/ui/images/push.svg -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/images
+[2.516s] copying res/ui/images/back.svg -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/images
+[2.516s] copying res/ui/images/robot.jpg -> /home/user/exchange/workspace/src/install/ui_task/share/ui_task/ui/images
+[2.517s] running install_egg_info
+[2.520s] Copying ../build/ui_task/ui_task.egg-info to /home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages/ui_task-0.1.0-py3.10.egg-info
+[2.521s] running install_scripts
+[2.548s] Installing start_task script to /home/user/exchange/workspace/src/install/ui_task/lib/ui_task
+[2.548s] writing list of installed files to '/home/user/exchange/workspace/src/build/ui_task/install.log'
+[2.594s] Invoked command in '/home/user/exchange/workspace/src/ui_task' returned '0': AMENT_PREFIX_PATH=/home/user/exchange/workspace/src/install/task_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/src/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/src/install/task_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/src/build/ui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/src/install/ui_task/lib/python3.10/site-packages:/home/user/exchange/workspace/src/install/task_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ui_task build --build-base /home/user/exchange/workspace/src/build/ui_task/build install --record /home/user/exchange/workspace/src/build/ui_task/install.log --single-version-externally-managed install_data

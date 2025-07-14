@@ -1,0 +1,2 @@
+chat_task:
+  launch: "chat_task chat_task.launch.py"

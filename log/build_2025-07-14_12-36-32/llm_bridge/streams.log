@@ -1,0 +1,23 @@
+[3.635s] Invoking command in '/home/user/exchange/workspace/src/llm_bridge': CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/chatbot_msgs:/home/user/exchange/workspace/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/chatbot_msgs/lib:/home/user/exchange/workspace/install/task_msgs/lib:/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/user/exchange/workspace/build/llm_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/llm_bridge build --build-base /home/user/exchange/workspace/build/llm_bridge/build install --record /home/user/exchange/workspace/build/llm_bridge/install.log --single-version-externally-managed install_data
+[3.995s] running egg_info
+[3.995s] writing ../../build/llm_bridge/llm_bridge.egg-info/PKG-INFO
+[3.996s] writing dependency_links to ../../build/llm_bridge/llm_bridge.egg-info/dependency_links.txt
+[3.996s] writing entry points to ../../build/llm_bridge/llm_bridge.egg-info/entry_points.txt
+[3.996s] writing requirements to ../../build/llm_bridge/llm_bridge.egg-info/requires.txt
+[3.996s] writing top-level names to ../../build/llm_bridge/llm_bridge.egg-info/top_level.txt
+[3.996s] reading manifest file '../../build/llm_bridge/llm_bridge.egg-info/SOURCES.txt'
+[3.997s] adding license file 'LICENSE'
+[3.998s] writing manifest file '../../build/llm_bridge/llm_bridge.egg-info/SOURCES.txt'
+[3.998s] running build
+[3.998s] running build_py
+[3.998s] running install
+[3.999s] running install_lib
+[4.001s] running install_data
+[4.001s] running install_egg_info
+[4.003s] removing '/home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages/llm_bridge-0.1.0-py3.10.egg-info' (and everything under it)
+[4.003s] Copying ../../build/llm_bridge/llm_bridge.egg-info to /home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages/llm_bridge-0.1.0-py3.10.egg-info
+[4.004s] running install_scripts
+[4.030s] Installing llm_bridge script to /home/user/exchange/workspace/install/llm_bridge/lib/llm_bridge
+[4.030s] Installing start_node script to /home/user/exchange/workspace/install/llm_bridge/lib/llm_bridge
+[4.031s] writing list of installed files to '/home/user/exchange/workspace/build/llm_bridge/install.log'
+[4.078s] Invoked command in '/home/user/exchange/workspace/src/llm_bridge' returned '0': CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/chatbot_msgs:/home/user/exchange/workspace/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/chatbot_msgs/lib:/home/user/exchange/workspace/install/task_msgs/lib:/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/user/exchange/workspace/build/llm_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/llm_bridge build --build-base /home/user/exchange/workspace/build/llm_bridge/build install --record /home/user/exchange/workspace/build/llm_bridge/install.log --single-version-externally-managed install_data

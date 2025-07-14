@@ -1,0 +1,3 @@
+[console_scripts]
+run_app = mission_controller.run_app:main
+

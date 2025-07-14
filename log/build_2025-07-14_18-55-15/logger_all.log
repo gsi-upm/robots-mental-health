@@ -1,0 +1,605 @@
+[0.092s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.092s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f14567410c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1456740bb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1456740bb0>>)
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.233s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/exchange/workspace'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp/launch) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp/launch) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp/launch) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp/launch) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp/launch) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp/launch) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp/launch) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp/launch) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp/launch) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp/launch) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp/launch) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp/launch) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(setupApp/launch) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_logic) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_logic) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_logic) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_logic) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_logic) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_logic) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_logic) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_logic) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_logic) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chat_logic' with type 'ros.ament_python' and name 'chat_logic'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_task) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_task) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_task) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_task) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_task) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_task) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_task) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_task) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat_task) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chat_task' with type 'ros.ament_python' and name 'chat_task'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chatbot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chatbot_msgs) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chatbot_msgs) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chatbot_msgs) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chatbot_msgs) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chatbot_msgs) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chatbot_msgs) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chatbot_msgs) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/chatbot_msgs) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chatbot_msgs' with type 'ros.ament_cmake' and name 'chatbot_msgs'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_bridge) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_bridge) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_bridge) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_bridge) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_bridge) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_bridge) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_bridge) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_bridge) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/llm_bridge' with type 'ros.ament_python' and name 'llm_bridge'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_controller) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_controller) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_controller) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_controller) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_controller) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_controller) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_controller) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_controller) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mission_controller' with type 'ros.ament_python' and name 'mission_controller'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_task) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_task) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_task) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_task) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_task) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_task) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_task) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_task) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_task) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/planner_task' with type 'ros.ament_python' and name 'planner_task'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_msgs) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_msgs) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_msgs) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_msgs) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_msgs) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_msgs) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_msgs) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task_msgs) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/task_msgs' with type 'ros.ament_cmake' and name 'task_msgs'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_test) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_test) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_test) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_test) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_test) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_test) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_test) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_test) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_test) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tts_test' with type 'ros.ament_python' and name 'tts_test'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ui_task) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ui_task) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ui_task) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ui_task) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ui_task) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ui_task) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ui_task) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ui_task) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ui_task) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ui_task' with type 'ros.ament_python' and name 'ui_task'
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chat_logic' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chat_logic' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chat_logic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chat_logic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chat_logic' build argument 'cmake_clean_first' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chat_logic' build argument 'cmake_force_configure' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chat_logic' build argument 'ament_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chat_logic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chat_logic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.292s] DEBUG:colcon.colcon_core.verb:Building package 'chat_logic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/exchange/workspace/build/chat_logic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/exchange/workspace/install/chat_logic', 'merge_install': False, 'path': '/home/user/exchange/workspace/src/chat_logic', 'symlink_install': False, 'test_result_base': None}
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chatbot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chatbot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chatbot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chatbot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chatbot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chatbot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chatbot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chatbot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'chatbot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.292s] DEBUG:colcon.colcon_core.verb:Building package 'chatbot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/exchange/workspace/build/chatbot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/exchange/workspace/install/chatbot_msgs', 'merge_install': False, 'path': '/home/user/exchange/workspace/src/chatbot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'task_msgs' build argument 'cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'task_msgs' build argument 'cmake_target' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'task_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'task_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'task_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'task_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'task_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'task_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'task_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'task_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/exchange/workspace/build/task_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/exchange/workspace/install/task_msgs', 'merge_install': False, 'path': '/home/user/exchange/workspace/src/task_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'tts_test' build argument 'cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'tts_test' build argument 'cmake_target' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'tts_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'tts_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'tts_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'tts_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'tts_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'tts_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'tts_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'tts_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/exchange/workspace/build/tts_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/exchange/workspace/install/tts_test', 'merge_install': False, 'path': '/home/user/exchange/workspace/src/tts_test', 'symlink_install': False, 'test_result_base': None}
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'chat_task' build argument 'cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'chat_task' build argument 'cmake_target' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'chat_task' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'chat_task' build argument 'cmake_clean_cache' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'chat_task' build argument 'cmake_clean_first' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'chat_task' build argument 'cmake_force_configure' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'chat_task' build argument 'ament_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'chat_task' build argument 'catkin_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'chat_task' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.294s] DEBUG:colcon.colcon_core.verb:Building package 'chat_task' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/exchange/workspace/build/chat_task', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/exchange/workspace/install/chat_task', 'merge_install': False, 'path': '/home/user/exchange/workspace/src/chat_task', 'symlink_install': False, 'test_result_base': None}
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'llm_bridge' build argument 'cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'llm_bridge' build argument 'cmake_target' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'llm_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'llm_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'llm_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'llm_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'llm_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'llm_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'llm_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.294s] DEBUG:colcon.colcon_core.verb:Building package 'llm_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/exchange/workspace/build/llm_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/exchange/workspace/install/llm_bridge', 'merge_install': False, 'path': '/home/user/exchange/workspace/src/llm_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mission_controller' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mission_controller' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mission_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mission_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mission_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mission_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mission_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mission_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mission_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.295s] DEBUG:colcon.colcon_core.verb:Building package 'mission_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/exchange/workspace/build/mission_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/exchange/workspace/install/mission_controller', 'merge_install': False, 'path': '/home/user/exchange/workspace/src/mission_controller', 'symlink_install': False, 'test_result_base': None}
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'planner_task' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'planner_task' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'planner_task' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'planner_task' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'planner_task' build argument 'cmake_clean_first' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'planner_task' build argument 'cmake_force_configure' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'planner_task' build argument 'ament_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'planner_task' build argument 'catkin_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'planner_task' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.295s] DEBUG:colcon.colcon_core.verb:Building package 'planner_task' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/exchange/workspace/build/planner_task', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/exchange/workspace/install/planner_task', 'merge_install': False, 'path': '/home/user/exchange/workspace/src/planner_task', 'symlink_install': False, 'test_result_base': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'ui_task' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'ui_task' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'ui_task' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'ui_task' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'ui_task' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'ui_task' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'ui_task' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'ui_task' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'ui_task' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'ui_task' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/exchange/workspace/build/ui_task', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/exchange/workspace/install/ui_task', 'merge_install': False, 'path': '/home/user/exchange/workspace/src/ui_task', 'symlink_install': False, 'test_result_base': None}
+[0.296s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.297s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.297s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/exchange/workspace/src/task_msgs' with build type 'ament_cmake'
+[0.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/exchange/workspace/src/task_msgs'
+[0.300s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.305s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/exchange/workspace/src/chatbot_msgs' with build type 'ament_cmake'
+[0.305s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/exchange/workspace/src/chatbot_msgs'
+[0.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.308s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/exchange/workspace/src/chat_logic' with build type 'ament_python'
+[0.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('chat_logic', 'ament_prefix_path')
+[0.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chat_logic/share/chat_logic/hook/ament_prefix_path.ps1'
+[0.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/chat_logic/share/chat_logic/hook/ament_prefix_path.dsv'
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chat_logic/share/chat_logic/hook/ament_prefix_path.sh'
+[0.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.315s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/exchange/workspace/src/tts_test' with build type 'ament_python'
+[0.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('tts_test', 'ament_prefix_path')
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/tts_test/share/tts_test/hook/ament_prefix_path.ps1'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/tts_test/share/tts_test/hook/ament_prefix_path.dsv'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/tts_test/share/tts_test/hook/ament_prefix_path.sh'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/exchange/workspace/build/task_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/workspace/install/ui_task:/home/user/exchange/workspace/install/tts_test:/home/user/exchange/workspace/install/sample_gui_task:/home/user/exchange/workspace/install/planner_task:/home/user/exchange/workspace/install/mission_controller:/home/user/exchange/workspace/install/chat_task:/home/user/exchange/workspace/install/llm_bridge:/home/user/exchange/workspace/install/chat_logic:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/workspace/build/task_msgs -- -j8 -l8
+[0.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/exchange/workspace/build/chatbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/workspace/install/ui_task:/home/user/exchange/workspace/install/tts_test:/home/user/exchange/workspace/install/sample_gui_task:/home/user/exchange/workspace/install/planner_task:/home/user/exchange/workspace/install/mission_controller:/home/user/exchange/workspace/install/chat_task:/home/user/exchange/workspace/install/llm_bridge:/home/user/exchange/workspace/install/chat_logic:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/workspace/build/chatbot_msgs -- -j8 -l8
+[0.640s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/exchange/workspace/src/chat_logic'
+[0.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.951s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/exchange/workspace/src/tts_test'
+[0.952s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.952s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/exchange/workspace/build/chatbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/workspace/install/ui_task:/home/user/exchange/workspace/install/tts_test:/home/user/exchange/workspace/install/sample_gui_task:/home/user/exchange/workspace/install/planner_task:/home/user/exchange/workspace/install/mission_controller:/home/user/exchange/workspace/install/chat_task:/home/user/exchange/workspace/install/llm_bridge:/home/user/exchange/workspace/install/chat_logic:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/workspace/build/chatbot_msgs -- -j8 -l8
+[0.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/exchange/workspace/build/chatbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/workspace/install/ui_task:/home/user/exchange/workspace/install/tts_test:/home/user/exchange/workspace/install/sample_gui_task:/home/user/exchange/workspace/install/planner_task:/home/user/exchange/workspace/install/mission_controller:/home/user/exchange/workspace/install/chat_task:/home/user/exchange/workspace/install/llm_bridge:/home/user/exchange/workspace/install/chat_logic:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/workspace/build/chatbot_msgs
+[0.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/exchange/workspace/build/task_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/workspace/install/ui_task:/home/user/exchange/workspace/install/tts_test:/home/user/exchange/workspace/install/sample_gui_task:/home/user/exchange/workspace/install/planner_task:/home/user/exchange/workspace/install/mission_controller:/home/user/exchange/workspace/install/chat_task:/home/user/exchange/workspace/install/llm_bridge:/home/user/exchange/workspace/install/chat_logic:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/workspace/build/task_msgs -- -j8 -l8
+[0.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/exchange/workspace/build/task_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/workspace/install/ui_task:/home/user/exchange/workspace/install/tts_test:/home/user/exchange/workspace/install/sample_gui_task:/home/user/exchange/workspace/install/planner_task:/home/user/exchange/workspace/install/mission_controller:/home/user/exchange/workspace/install/chat_task:/home/user/exchange/workspace/install/llm_bridge:/home/user/exchange/workspace/install/chat_logic:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/workspace/build/task_msgs
+[1.026s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task_msgs)
+[1.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/exchange/workspace/build/task_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/workspace/install/ui_task:/home/user/exchange/workspace/install/tts_test:/home/user/exchange/workspace/install/sample_gui_task:/home/user/exchange/workspace/install/planner_task:/home/user/exchange/workspace/install/mission_controller:/home/user/exchange/workspace/install/chat_task:/home/user/exchange/workspace/install/llm_bridge:/home/user/exchange/workspace/install/chat_logic:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/workspace/build/task_msgs
+[1.034s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/task_msgs' for CMake module files
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/task_msgs' for CMake config files
+[1.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('task_msgs', 'cmake_prefix_path')
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/hook/cmake_prefix_path.ps1'
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/hook/cmake_prefix_path.dsv'
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/hook/cmake_prefix_path.sh'
+[1.038s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/task_msgs/lib'
+[1.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('task_msgs', 'ld_library_path_lib')
+[1.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/hook/ld_library_path_lib.ps1'
+[1.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/hook/ld_library_path_lib.dsv'
+[1.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/hook/ld_library_path_lib.sh'
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/task_msgs/bin'
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/task_msgs/lib/pkgconfig/task_msgs.pc'
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/task_msgs/lib/python3.10/site-packages'
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/task_msgs/bin'
+[1.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/package.ps1'
+[1.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/package.dsv'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/package.sh'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/package.bash'
+[1.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/package.zsh'
+[1.043s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/exchange/workspace/install/task_msgs/share/colcon-core/packages/task_msgs)
+[1.044s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task_msgs)
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/task_msgs' for CMake module files
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/task_msgs' for CMake config files
+[1.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('task_msgs', 'cmake_prefix_path')
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/hook/cmake_prefix_path.ps1'
+[1.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/hook/cmake_prefix_path.dsv'
+[1.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/hook/cmake_prefix_path.sh'
+[1.048s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/task_msgs/lib'
+[1.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('task_msgs', 'ld_library_path_lib')
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/hook/ld_library_path_lib.ps1'
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/hook/ld_library_path_lib.dsv'
+[1.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/hook/ld_library_path_lib.sh'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/task_msgs/bin'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/task_msgs/lib/pkgconfig/task_msgs.pc'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/task_msgs/lib/python3.10/site-packages'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/task_msgs/bin'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/package.ps1'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/package.dsv'
+[1.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/package.sh'
+[1.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/package.bash'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/task_msgs/share/task_msgs/package.zsh'
+[1.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/exchange/workspace/install/task_msgs/share/colcon-core/packages/task_msgs)
+[1.052s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/exchange/workspace/src/chat_task' with build type 'ament_python'
+[1.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('chat_task', 'ament_prefix_path')
+[1.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chat_task/share/chat_task/hook/ament_prefix_path.ps1'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/chat_task/share/chat_task/hook/ament_prefix_path.dsv'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chat_task/share/chat_task/hook/ament_prefix_path.sh'
+[1.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.060s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/exchange/workspace/src/mission_controller' with build type 'ament_python'
+[1.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('mission_controller', 'ament_prefix_path')
+[1.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/mission_controller/share/mission_controller/hook/ament_prefix_path.ps1'
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/mission_controller/share/mission_controller/hook/ament_prefix_path.dsv'
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/mission_controller/share/mission_controller/hook/ament_prefix_path.sh'
+[1.062s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.062s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.066s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/exchange/workspace/src/planner_task' with build type 'ament_python'
+[1.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('planner_task', 'ament_prefix_path')
+[1.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/planner_task/share/planner_task/hook/ament_prefix_path.ps1'
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/planner_task/share/planner_task/hook/ament_prefix_path.dsv'
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/planner_task/share/planner_task/hook/ament_prefix_path.sh'
+[1.068s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.068s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.071s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/exchange/workspace/src/ui_task' with build type 'ament_python'
+[1.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('ui_task', 'ament_prefix_path')
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/ui_task/share/ui_task/hook/ament_prefix_path.ps1'
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/ui_task/share/ui_task/hook/ament_prefix_path.dsv'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/ui_task/share/ui_task/hook/ament_prefix_path.sh'
+[1.073s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.073s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.077s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chatbot_msgs)
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chatbot_msgs' for CMake module files
+[1.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/exchange/workspace/build/chatbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/workspace/install/ui_task:/home/user/exchange/workspace/install/tts_test:/home/user/exchange/workspace/install/sample_gui_task:/home/user/exchange/workspace/install/planner_task:/home/user/exchange/workspace/install/mission_controller:/home/user/exchange/workspace/install/chat_task:/home/user/exchange/workspace/install/llm_bridge:/home/user/exchange/workspace/install/chat_logic:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/workspace/build/chatbot_msgs
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chatbot_msgs' for CMake config files
+[1.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('chatbot_msgs', 'cmake_prefix_path')
+[1.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/hook/cmake_prefix_path.ps1'
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/hook/cmake_prefix_path.dsv'
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/hook/cmake_prefix_path.sh'
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chatbot_msgs/lib'
+[1.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('chatbot_msgs', 'ld_library_path_lib')
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/hook/ld_library_path_lib.ps1'
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/hook/ld_library_path_lib.dsv'
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/hook/ld_library_path_lib.sh'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chatbot_msgs/bin'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chatbot_msgs/lib/pkgconfig/chatbot_msgs.pc'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chatbot_msgs/lib/python3.10/site-packages'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chatbot_msgs/bin'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/package.ps1'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/package.dsv'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/package.sh'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/package.bash'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/package.zsh'
+[1.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/exchange/workspace/install/chatbot_msgs/share/colcon-core/packages/chatbot_msgs)
+[1.086s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chatbot_msgs)
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chatbot_msgs' for CMake module files
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chatbot_msgs' for CMake config files
+[1.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('chatbot_msgs', 'cmake_prefix_path')
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/hook/cmake_prefix_path.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/hook/cmake_prefix_path.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/hook/cmake_prefix_path.sh'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chatbot_msgs/lib'
+[1.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('chatbot_msgs', 'ld_library_path_lib')
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/hook/ld_library_path_lib.ps1'
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/hook/ld_library_path_lib.dsv'
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/hook/ld_library_path_lib.sh'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chatbot_msgs/bin'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chatbot_msgs/lib/pkgconfig/chatbot_msgs.pc'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chatbot_msgs/lib/python3.10/site-packages'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chatbot_msgs/bin'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/package.ps1'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/package.dsv'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/package.sh'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/package.bash'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chatbot_msgs/share/chatbot_msgs/package.zsh'
+[1.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/exchange/workspace/install/chatbot_msgs/share/colcon-core/packages/chatbot_msgs)
+[1.095s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/exchange/workspace/src/llm_bridge' with build type 'ament_python'
+[1.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_bridge', 'ament_prefix_path')
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/hook/ament_prefix_path.ps1'
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/hook/ament_prefix_path.dsv'
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/hook/ament_prefix_path.sh'
+[1.097s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.097s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.360s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/exchange/workspace/src/chat_task'
+[1.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.883s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/exchange/workspace/src/mission_controller'
+[1.883s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.883s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.117s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/exchange/workspace/src/planner_task'
+[2.117s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.117s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.351s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/exchange/workspace/src/ui_task'
+[2.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.587s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/exchange/workspace/src/llm_bridge'
+[2.587s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.587s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/exchange/workspace/src/chat_logic': PYTHONPATH=/home/user/exchange/workspace/build/chat_logic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_logic build --build-base /home/user/exchange/workspace/build/chat_logic/build install --record /home/user/exchange/workspace/build/chat_logic/install.log --single-version-externally-managed install_data
+[2.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/exchange/workspace/src/tts_test': PYTHONPATH=/home/user/exchange/workspace/build/tts_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/tts_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tts_test build --build-base /home/user/exchange/workspace/build/tts_test/build install --record /home/user/exchange/workspace/build/tts_test/install.log --single-version-externally-managed install_data
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chat_logic' for CMake module files
+[3.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/exchange/workspace/src/chat_logic' returned '0': PYTHONPATH=/home/user/exchange/workspace/build/chat_logic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_logic build --build-base /home/user/exchange/workspace/build/chat_logic/build install --record /home/user/exchange/workspace/build/chat_logic/install.log --single-version-externally-managed install_data
+[3.084s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chat_logic' for CMake config files
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chat_logic/lib'
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chat_logic/bin'
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chat_logic/lib/pkgconfig/chat_logic.pc'
+[3.086s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages'
+[3.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('chat_logic', 'pythonpath')
+[3.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chat_logic/share/chat_logic/hook/pythonpath.ps1'
+[3.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/chat_logic/share/chat_logic/hook/pythonpath.dsv'
+[3.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chat_logic/share/chat_logic/hook/pythonpath.sh'
+[3.089s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chat_logic/bin'
+[3.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chat_logic)
+[3.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chat_logic/share/chat_logic/package.ps1'
+[3.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/exchange/workspace/install/chat_logic/share/chat_logic/package.dsv'
+[3.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chat_logic/share/chat_logic/package.sh'
+[3.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chat_logic/share/chat_logic/package.bash'
+[3.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chat_logic/share/chat_logic/package.zsh'
+[3.095s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/exchange/workspace/install/chat_logic/share/colcon-core/packages/chat_logic)
+[3.105s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/tts_test' for CMake module files
+[3.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/exchange/workspace/src/tts_test' returned '0': PYTHONPATH=/home/user/exchange/workspace/build/tts_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/tts_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tts_test build --build-base /home/user/exchange/workspace/build/tts_test/build install --record /home/user/exchange/workspace/build/tts_test/install.log --single-version-externally-managed install_data
+[3.107s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/tts_test' for CMake config files
+[3.108s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/tts_test/lib'
+[3.108s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/tts_test/bin'
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/tts_test/lib/pkgconfig/tts_test.pc'
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/tts_test/lib/python3.10/site-packages'
+[3.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('tts_test', 'pythonpath')
+[3.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/tts_test/share/tts_test/hook/pythonpath.ps1'
+[3.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/tts_test/share/tts_test/hook/pythonpath.dsv'
+[3.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/tts_test/share/tts_test/hook/pythonpath.sh'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/tts_test/bin'
+[3.112s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tts_test)
+[3.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/tts_test/share/tts_test/package.ps1'
+[3.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/exchange/workspace/install/tts_test/share/tts_test/package.dsv'
+[3.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/tts_test/share/tts_test/package.sh'
+[3.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/tts_test/share/tts_test/package.bash'
+[3.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/tts_test/share/tts_test/package.zsh'
+[3.116s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/exchange/workspace/install/tts_test/share/colcon-core/packages/tts_test)
+[3.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/exchange/workspace/src/planner_task': PYTHONPATH=/home/user/exchange/workspace/build/planner_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/planner_task build --build-base /home/user/exchange/workspace/build/planner_task/build install --record /home/user/exchange/workspace/build/planner_task/install.log --single-version-externally-managed install_data
+[3.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/exchange/workspace/src/ui_task': PYTHONPATH=/home/user/exchange/workspace/build/ui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/ui_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ui_task build --build-base /home/user/exchange/workspace/build/ui_task/build install --record /home/user/exchange/workspace/build/ui_task/install.log --single-version-externally-managed install_data
+[3.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/exchange/workspace/src/chat_task': PYTHONPATH=/home/user/exchange/workspace/build/chat_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_task build --build-base /home/user/exchange/workspace/build/chat_task/build install --record /home/user/exchange/workspace/build/chat_task/install.log --single-version-externally-managed install_data
+[3.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/exchange/workspace/src/llm_bridge': CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/chatbot_msgs:/home/user/exchange/workspace/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/chatbot_msgs/lib:/home/user/exchange/workspace/install/task_msgs/lib:/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/user/exchange/workspace/build/llm_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/llm_bridge build --build-base /home/user/exchange/workspace/build/llm_bridge/build install --record /home/user/exchange/workspace/build/llm_bridge/install.log --single-version-externally-managed install_data
+[3.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/exchange/workspace/src/mission_controller': PYTHONPATH=/home/user/exchange/workspace/build/mission_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/mission_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_controller build --build-base /home/user/exchange/workspace/build/mission_controller/build install --record /home/user/exchange/workspace/build/mission_controller/install.log --single-version-externally-managed install_data
+[3.513s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/ui_task' for CMake module files
+[3.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/exchange/workspace/src/ui_task' returned '0': PYTHONPATH=/home/user/exchange/workspace/build/ui_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/ui_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ui_task build --build-base /home/user/exchange/workspace/build/ui_task/build install --record /home/user/exchange/workspace/build/ui_task/install.log --single-version-externally-managed install_data
+[3.514s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/ui_task' for CMake config files
+[3.515s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/ui_task/lib'
+[3.515s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/ui_task/bin'
+[3.515s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/ui_task/lib/pkgconfig/ui_task.pc'
+[3.516s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/ui_task/lib/python3.10/site-packages'
+[3.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('ui_task', 'pythonpath')
+[3.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/ui_task/share/ui_task/hook/pythonpath.ps1'
+[3.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/ui_task/share/ui_task/hook/pythonpath.dsv'
+[3.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/ui_task/share/ui_task/hook/pythonpath.sh'
+[3.518s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/ui_task/bin'
+[3.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ui_task)
+[3.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/ui_task/share/ui_task/package.ps1'
+[3.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/exchange/workspace/install/ui_task/share/ui_task/package.dsv'
+[3.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/ui_task/share/ui_task/package.sh'
+[3.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/ui_task/share/ui_task/package.bash'
+[3.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/ui_task/share/ui_task/package.zsh'
+[3.522s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/exchange/workspace/install/ui_task/share/colcon-core/packages/ui_task)
+[3.562s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/llm_bridge' for CMake module files
+[3.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/exchange/workspace/src/llm_bridge' returned '0': CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/chatbot_msgs:/home/user/exchange/workspace/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/chatbot_msgs/lib:/home/user/exchange/workspace/install/task_msgs/lib:/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/user/exchange/workspace/build/llm_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/llm_bridge build --build-base /home/user/exchange/workspace/build/llm_bridge/build install --record /home/user/exchange/workspace/build/llm_bridge/install.log --single-version-externally-managed install_data
+[3.563s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/llm_bridge' for CMake config files
+[3.563s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/llm_bridge/lib'
+[3.564s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/llm_bridge/bin'
+[3.564s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/llm_bridge/lib/pkgconfig/llm_bridge.pc'
+[3.564s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages'
+[3.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_bridge', 'pythonpath')
+[3.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/hook/pythonpath.ps1'
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/hook/pythonpath.dsv'
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/hook/pythonpath.sh'
+[3.566s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/llm_bridge/bin'
+[3.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(llm_bridge)
+[3.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/package.ps1'
+[3.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/package.dsv'
+[3.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/package.sh'
+[3.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/package.bash'
+[3.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/package.zsh'
+[3.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/exchange/workspace/install/llm_bridge/share/colcon-core/packages/llm_bridge)
+[3.638s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/planner_task' for CMake module files
+[3.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/exchange/workspace/src/planner_task' returned '0': PYTHONPATH=/home/user/exchange/workspace/build/planner_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/planner_task build --build-base /home/user/exchange/workspace/build/planner_task/build install --record /home/user/exchange/workspace/build/planner_task/install.log --single-version-externally-managed install_data
+[3.639s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/planner_task' for CMake config files
+[3.640s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/planner_task/lib'
+[3.640s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/planner_task/bin'
+[3.640s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/planner_task/lib/pkgconfig/planner_task.pc'
+[3.640s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages'
+[3.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('planner_task', 'pythonpath')
+[3.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/planner_task/share/planner_task/hook/pythonpath.ps1'
+[3.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/planner_task/share/planner_task/hook/pythonpath.dsv'
+[3.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/planner_task/share/planner_task/hook/pythonpath.sh'
+[3.643s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/planner_task/bin'
+[3.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(planner_task)
+[3.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/planner_task/share/planner_task/package.ps1'
+[3.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/exchange/workspace/install/planner_task/share/planner_task/package.dsv'
+[3.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/planner_task/share/planner_task/package.sh'
+[3.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/planner_task/share/planner_task/package.bash'
+[3.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/planner_task/share/planner_task/package.zsh'
+[3.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/exchange/workspace/install/planner_task/share/colcon-core/packages/planner_task)
+[3.669s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chat_task' for CMake module files
+[3.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/exchange/workspace/src/chat_task' returned '0': PYTHONPATH=/home/user/exchange/workspace/build/chat_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_task build --build-base /home/user/exchange/workspace/build/chat_task/build install --record /home/user/exchange/workspace/build/chat_task/install.log --single-version-externally-managed install_data
+[3.670s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chat_task' for CMake config files
+[3.671s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chat_task/lib'
+[3.671s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chat_task/bin'
+[3.671s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chat_task/lib/pkgconfig/chat_task.pc'
+[3.671s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages'
+[3.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('chat_task', 'pythonpath')
+[3.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chat_task/share/chat_task/hook/pythonpath.ps1'
+[3.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/chat_task/share/chat_task/hook/pythonpath.dsv'
+[3.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/chat_task/share/chat_task/hook/pythonpath.sh'
+[3.672s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/chat_task/bin'
+[3.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chat_task)
+[3.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chat_task/share/chat_task/package.ps1'
+[3.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/exchange/workspace/install/chat_task/share/chat_task/package.dsv'
+[3.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chat_task/share/chat_task/package.sh'
+[3.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chat_task/share/chat_task/package.bash'
+[3.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/chat_task/share/chat_task/package.zsh'
+[3.674s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/exchange/workspace/install/chat_task/share/colcon-core/packages/chat_task)
+[4.011s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/mission_controller' for CMake module files
+[4.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/exchange/workspace/src/mission_controller' returned '0': PYTHONPATH=/home/user/exchange/workspace/build/mission_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/mission_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_controller build --build-base /home/user/exchange/workspace/build/mission_controller/build install --record /home/user/exchange/workspace/build/mission_controller/install.log --single-version-externally-managed install_data
+[4.012s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/mission_controller' for CMake config files
+[4.013s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/mission_controller/lib'
+[4.013s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/mission_controller/bin'
+[4.013s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/mission_controller/lib/pkgconfig/mission_controller.pc'
+[4.013s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/mission_controller/lib/python3.10/site-packages'
+[4.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('mission_controller', 'pythonpath')
+[4.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/mission_controller/share/mission_controller/hook/pythonpath.ps1'
+[4.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/exchange/workspace/install/mission_controller/share/mission_controller/hook/pythonpath.dsv'
+[4.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/exchange/workspace/install/mission_controller/share/mission_controller/hook/pythonpath.sh'
+[4.015s] Level 1:colcon.colcon_core.environment:checking '/home/user/exchange/workspace/install/mission_controller/bin'
+[4.015s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mission_controller)
+[4.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/mission_controller/share/mission_controller/package.ps1'
+[4.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/exchange/workspace/install/mission_controller/share/mission_controller/package.dsv'
+[4.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/mission_controller/share/mission_controller/package.sh'
+[4.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/mission_controller/share/mission_controller/package.bash'
+[4.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/exchange/workspace/install/mission_controller/share/mission_controller/package.zsh'
+[4.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/exchange/workspace/install/mission_controller/share/colcon-core/packages/mission_controller)
+[4.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.018s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.018s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.018s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.024s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.024s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.024s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.024s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.026s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[4.027s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.027s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/exchange/workspace/install/local_setup.ps1'
+[4.028s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/exchange/workspace/install/_local_setup_util_ps1.py'
+[4.029s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/exchange/workspace/install/setup.ps1'
+[4.030s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/exchange/workspace/install/local_setup.sh'
+[4.031s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/exchange/workspace/install/_local_setup_util_sh.py'
+[4.031s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/exchange/workspace/install/setup.sh'
+[4.032s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/exchange/workspace/install/local_setup.bash'
+[4.033s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/exchange/workspace/install/setup.bash'
+[4.033s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/exchange/workspace/install/local_setup.zsh'
+[4.034s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/exchange/workspace/install/setup.zsh'

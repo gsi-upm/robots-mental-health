@@ -1,0 +1,73 @@
+running egg_info
+creating ../../build/sample_gui_task/sample_gui_task.egg-info
+writing ../../build/sample_gui_task/sample_gui_task.egg-info/PKG-INFO
+writing dependency_links to ../../build/sample_gui_task/sample_gui_task.egg-info/dependency_links.txt
+writing entry points to ../../build/sample_gui_task/sample_gui_task.egg-info/entry_points.txt
+writing requirements to ../../build/sample_gui_task/sample_gui_task.egg-info/requires.txt
+writing top-level names to ../../build/sample_gui_task/sample_gui_task.egg-info/top_level.txt
+writing manifest file '../../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'
+reading manifest file '../../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/sample_gui_task/sample_gui_task.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/exchange/workspace/build/sample_gui_task/build
+creating /home/user/exchange/workspace/build/sample_gui_task/build/lib
+creating /home/user/exchange/workspace/build/sample_gui_task/build/lib/sample_gui_task
+copying sample_gui_task/__init__.py -> /home/user/exchange/workspace/build/sample_gui_task/build/lib/sample_gui_task
+copying sample_gui_task/start_task.py -> /home/user/exchange/workspace/build/sample_gui_task/build/lib/sample_gui_task
+copying sample_gui_task/task_impl.py -> /home/user/exchange/workspace/build/sample_gui_task/build/lib/sample_gui_task
+running install
+running install_lib
+creating /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task
+copying /home/user/exchange/workspace/build/sample_gui_task/build/lib/sample_gui_task/__init__.py -> /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task
+copying /home/user/exchange/workspace/build/sample_gui_task/build/lib/sample_gui_task/start_task.py -> /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task
+copying /home/user/exchange/workspace/build/sample_gui_task/build/lib/sample_gui_task/task_impl.py -> /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task
+byte-compiling /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task/start_task.py to start_task.cpython-310.pyc
+byte-compiling /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task/task_impl.py to task_impl.cpython-310.pyc
+running install_data
+copying package.xml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task
+creating /home/user/exchange/workspace/install/sample_gui_task/share/ament_index
+creating /home/user/exchange/workspace/install/sample_gui_task/share/ament_index/resource_index
+creating /home/user/exchange/workspace/install/sample_gui_task/share/ament_index/resource_index/packages
+copying res/sample_gui_task -> /home/user/exchange/workspace/install/sample_gui_task/share/ament_index/resource_index/packages
+creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/launch
+copying launch/sample_gui_task.launch.py -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/launch
+creating /home/user/exchange/workspace/install/sample_gui_task/share/ament_index/resource_index/pal_system_module
+copying module/sample_gui_task -> /home/user/exchange/workspace/install/sample_gui_task/share/ament_index/resource_index/pal_system_module
+creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/module
+copying module/sample_gui_task_module.yaml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/module
+creating /home/user/exchange/workspace/install/sample_gui_task/share/ament_index/resource_index/pal_configuration.sample_gui_task
+copying config/sample_gui_task -> /home/user/exchange/workspace/install/sample_gui_task/share/ament_index/resource_index/pal_configuration.sample_gui_task
+creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/config
+copying config/00-defaults.yml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/config
+creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui
+copying res/ui/MainScreen.ui.qml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/.
+copying res/ui/sample_gui_task.qmlproject -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/.
+copying res/ui/TaskUI.qml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/.
+copying res/ui/.gitignore -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/.
+copying res/ui/IconButton.ui.qml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/.
+copying res/ui/README.md -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/.
+copying res/ui/qmldir -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/.
+creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/Ros
+copying res/ui/Ros/Param.qml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/Ros
+copying res/ui/Ros/Topic.qml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/Ros
+copying res/ui/Ros/Service.qml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/Ros
+copying res/ui/Ros/qmldir -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/Ros
+copying res/ui/Ros/Action.qml -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/Ros
+creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/fonts
+copying res/ui/fonts/Inter.ttf -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/fonts
+creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/js
+copying res/ui/js/Constants.js -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/js
+creating /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/images
+copying res/ui/images/wallpaper.jpg -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/images
+copying res/ui/images/bubble.svg -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/images
+copying res/ui/images/push.svg -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/images
+copying res/ui/images/back.svg -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/images
+copying res/ui/images/robot.jpg -> /home/user/exchange/workspace/install/sample_gui_task/share/sample_gui_task/ui/images
+running install_egg_info
+Copying ../../build/sample_gui_task/sample_gui_task.egg-info to /home/user/exchange/workspace/install/sample_gui_task/lib/python3.10/site-packages/sample_gui_task-0.1.0-py3.10.egg-info
+running install_scripts
+Installing start_task script to /home/user/exchange/workspace/install/sample_gui_task/lib/sample_gui_task
+writing list of installed files to '/home/user/exchange/workspace/build/sample_gui_task/install.log'

@@ -1,0 +1,4 @@
+[console_scripts]
+llm_bridge = llm_bridge.node_impl:main
+start_node = llm_bridge.start_node:main
+

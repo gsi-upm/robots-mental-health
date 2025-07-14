@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from chatbot_msgs/srv/GetResponse.srv
+// generated code does not contain a copyright notice
+
+
+module chatbot_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Petición")
+    struct GetResponse_Request {
+      string user_id;
+
+      string input;
+
+      @verbatim (language="comment", text=
+        "AÑADIDO para manejar el cambio de modo")
+      string model;
+    };
+    @verbatim (language="comment", text=
+      "Respuesta")
+    struct GetResponse_Response {
+      string output;
+    };
+  };
+};

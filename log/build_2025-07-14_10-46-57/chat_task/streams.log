@@ -1,0 +1,58 @@
+[1.866s] Invoking command in '/home/user/exchange/workspace/src/chat_task': AMENT_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/task_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/build/chat_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages:/home/user/exchange/workspace/install/task_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_task build --build-base /home/user/exchange/workspace/build/chat_task/build install --record /home/user/exchange/workspace/build/chat_task/install.log --single-version-externally-managed install_data
+[2.120s] running egg_info
+[2.121s] creating ../../build/chat_task/chat_task.egg-info
+[2.121s] writing ../../build/chat_task/chat_task.egg-info/PKG-INFO
+[2.121s] writing dependency_links to ../../build/chat_task/chat_task.egg-info/dependency_links.txt
+[2.121s] writing entry points to ../../build/chat_task/chat_task.egg-info/entry_points.txt
+[2.122s] writing requirements to ../../build/chat_task/chat_task.egg-info/requires.txt
+[2.122s] writing top-level names to ../../build/chat_task/chat_task.egg-info/top_level.txt
+[2.122s] writing manifest file '../../build/chat_task/chat_task.egg-info/SOURCES.txt'
+[2.124s] reading manifest file '../../build/chat_task/chat_task.egg-info/SOURCES.txt'
+[2.124s] adding license file 'LICENSE'
+[2.124s] writing manifest file '../../build/chat_task/chat_task.egg-info/SOURCES.txt'
+[2.125s] running build
+[2.125s] running build_py
+[2.125s] creating /home/user/exchange/workspace/build/chat_task/build
+[2.125s] creating /home/user/exchange/workspace/build/chat_task/build/lib
+[2.125s] creating /home/user/exchange/workspace/build/chat_task/build/lib/chat_task
+[2.125s] copying chat_task/__init__.py -> /home/user/exchange/workspace/build/chat_task/build/lib/chat_task
+[2.125s] copying chat_task/start_task.py -> /home/user/exchange/workspace/build/chat_task/build/lib/chat_task
+[2.125s] copying chat_task/task_impl.py -> /home/user/exchange/workspace/build/chat_task/build/lib/chat_task
+[2.126s] running install
+[2.126s] running install_lib
+[2.127s] creating /home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages/chat_task
+[2.127s] copying /home/user/exchange/workspace/build/chat_task/build/lib/chat_task/__init__.py -> /home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages/chat_task
+[2.127s] copying /home/user/exchange/workspace/build/chat_task/build/lib/chat_task/start_task.py -> /home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages/chat_task
+[2.127s] copying /home/user/exchange/workspace/build/chat_task/build/lib/chat_task/task_impl.py -> /home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages/chat_task
+[2.128s] byte-compiling /home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages/chat_task/__init__.py to __init__.cpython-310.pyc
+[2.128s] byte-compiling /home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages/chat_task/start_task.py to start_task.cpython-310.pyc
+[2.128s] byte-compiling /home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages/chat_task/task_impl.py to task_impl.cpython-310.pyc
+[2.130s] running install_data
+[2.130s] copying package.xml -> /home/user/exchange/workspace/install/chat_task/share/chat_task
+[2.130s] creating /home/user/exchange/workspace/install/chat_task/share/ament_index
+[2.131s] creating /home/user/exchange/workspace/install/chat_task/share/ament_index/resource_index
+[2.131s] creating /home/user/exchange/workspace/install/chat_task/share/ament_index/resource_index/packages
+[2.131s] copying res/chat_task -> /home/user/exchange/workspace/install/chat_task/share/ament_index/resource_index/packages
+[2.131s] creating /home/user/exchange/workspace/install/chat_task/share/chat_task/launch
+[2.131s] copying launch/chat_task.launch.py -> /home/user/exchange/workspace/install/chat_task/share/chat_task/launch
+[2.131s] creating /home/user/exchange/workspace/install/chat_task/share/ament_index/resource_index/pal_system_module
+[2.131s] copying module/chat_task -> /home/user/exchange/workspace/install/chat_task/share/ament_index/resource_index/pal_system_module
+[2.131s] creating /home/user/exchange/workspace/install/chat_task/share/chat_task/module
+[2.131s] copying module/chat_task_module.yaml -> /home/user/exchange/workspace/install/chat_task/share/chat_task/module
+[2.132s] creating /home/user/exchange/workspace/install/chat_task/share/ament_index/resource_index/pal_configuration.chat_task
+[2.132s] copying config/chat_task -> /home/user/exchange/workspace/install/chat_task/share/ament_index/resource_index/pal_configuration.chat_task
+[2.132s] creating /home/user/exchange/workspace/install/chat_task/share/chat_task/config
+[2.132s] copying config/00-defaults.yml -> /home/user/exchange/workspace/install/chat_task/share/chat_task/config
+[2.132s] creating /home/user/exchange/workspace/install/chat_task/share/chat_task/ui
+[2.132s] copying res/ui/main.qml -> /home/user/exchange/workspace/install/chat_task/share/chat_task/ui/.
+[2.133s] copying res/ui/MyButton.qml -> /home/user/exchange/workspace/install/chat_task/share/chat_task/ui/.
+[2.133s] copying res/ui/MainPage.qml -> /home/user/exchange/workspace/install/chat_task/share/chat_task/ui/.
+[2.133s] copying res/ui/qmldir -> /home/user/exchange/workspace/install/chat_task/share/chat_task/ui/.
+[2.134s] creating /home/user/exchange/workspace/install/chat_task/share/chat_task/ui/images
+[2.134s] copying res/ui/images/background.png -> /home/user/exchange/workspace/install/chat_task/share/chat_task/ui/images
+[2.137s] running install_egg_info
+[2.138s] Copying ../../build/chat_task/chat_task.egg-info to /home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages/chat_task-0.1.0-py3.10.egg-info
+[2.140s] running install_scripts
+[2.175s] Installing start_task script to /home/user/exchange/workspace/install/chat_task/lib/chat_task
+[2.176s] writing list of installed files to '/home/user/exchange/workspace/build/chat_task/install.log'
+[2.261s] Invoked command in '/home/user/exchange/workspace/src/chat_task' returned '0': AMENT_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/task_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/build/chat_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/chat_task/lib/python3.10/site-packages:/home/user/exchange/workspace/install/task_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_task build --build-base /home/user/exchange/workspace/build/chat_task/build install --record /home/user/exchange/workspace/build/chat_task/install.log --single-version-externally-managed install_data

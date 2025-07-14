@@ -1,0 +1,7 @@
+{
+  "package_name": "chatbot_msgs",
+  "non_idl_tuples": [
+    "/home/user/exchange/workspace/src/chatbot_msgs:srv/GetResponse.srv",
+    "/home/user/exchange/workspace/src/chatbot_msgs:srv/ResetModel.srv"
+  ]
+}

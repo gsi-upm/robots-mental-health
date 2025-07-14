@@ -1,0 +1,21 @@
+[2.753s] Invoking command in '/home/user/exchange/workspace/src/tts_test': PYTHONPATH=/home/user/exchange/workspace/build/tts_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/tts_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tts_test build --build-base /home/user/exchange/workspace/build/tts_test/build install --record /home/user/exchange/workspace/build/tts_test/install.log --single-version-externally-managed install_data
+[3.161s] running egg_info
+[3.162s] writing ../../build/tts_test/tts_test.egg-info/PKG-INFO
+[3.163s] writing dependency_links to ../../build/tts_test/tts_test.egg-info/dependency_links.txt
+[3.164s] writing entry points to ../../build/tts_test/tts_test.egg-info/entry_points.txt
+[3.164s] writing requirements to ../../build/tts_test/tts_test.egg-info/requires.txt
+[3.164s] writing top-level names to ../../build/tts_test/tts_test.egg-info/top_level.txt
+[3.168s] reading manifest file '../../build/tts_test/tts_test.egg-info/SOURCES.txt'
+[3.170s] writing manifest file '../../build/tts_test/tts_test.egg-info/SOURCES.txt'
+[3.170s] running build
+[3.170s] running build_py
+[3.171s] running install
+[3.172s] running install_lib
+[3.174s] running install_data
+[3.175s] running install_egg_info
+[3.180s] removing '/home/user/exchange/workspace/install/tts_test/lib/python3.10/site-packages/tts_test-0.0.0-py3.10.egg-info' (and everything under it)
+[3.180s] Copying ../../build/tts_test/tts_test.egg-info to /home/user/exchange/workspace/install/tts_test/lib/python3.10/site-packages/tts_test-0.0.0-py3.10.egg-info
+[3.182s] running install_scripts
+[3.216s] Installing say_client script to /home/user/exchange/workspace/install/tts_test/lib/tts_test
+[3.218s] writing list of installed files to '/home/user/exchange/workspace/build/tts_test/install.log'
+[3.274s] Invoked command in '/home/user/exchange/workspace/src/tts_test' returned '0': PYTHONPATH=/home/user/exchange/workspace/build/tts_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/tts_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tts_test build --build-base /home/user/exchange/workspace/build/tts_test/build install --record /home/user/exchange/workspace/build/tts_test/install.log --single-version-externally-managed install_data

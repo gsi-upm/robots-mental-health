@@ -1,0 +1,25 @@
+[2.662s] Invoking command in '/home/user/exchange/workspace/src/planner_task': PYTHONPATH=/home/user/exchange/workspace/build/planner_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/planner_task build --build-base /home/user/exchange/workspace/build/planner_task/build install --record /home/user/exchange/workspace/build/planner_task/install.log --single-version-externally-managed install_data
+[3.380s] running egg_info
+[3.384s] writing ../../build/planner_task/planner_task.egg-info/PKG-INFO
+[3.386s] writing dependency_links to ../../build/planner_task/planner_task.egg-info/dependency_links.txt
+[3.388s] writing entry points to ../../build/planner_task/planner_task.egg-info/entry_points.txt
+[3.388s] writing requirements to ../../build/planner_task/planner_task.egg-info/requires.txt
+[3.389s] writing top-level names to ../../build/planner_task/planner_task.egg-info/top_level.txt
+[3.392s] reading manifest file '../../build/planner_task/planner_task.egg-info/SOURCES.txt'
+[3.393s] adding license file 'LICENSE'
+[3.394s] writing manifest file '../../build/planner_task/planner_task.egg-info/SOURCES.txt'
+[3.395s] running build
+[3.395s] running build_py
+[3.395s] copying planner_task/task_impl.py -> /home/user/exchange/workspace/build/planner_task/build/lib/planner_task
+[3.396s] running install
+[3.397s] running install_lib
+[3.399s] copying /home/user/exchange/workspace/build/planner_task/build/lib/planner_task/task_impl.py -> /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task
+[3.400s] byte-compiling /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task/task_impl.py to task_impl.cpython-310.pyc
+[3.404s] running install_data
+[3.404s] running install_egg_info
+[3.407s] removing '/home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task-0.1.0-py3.10.egg-info' (and everything under it)
+[3.408s] Copying ../../build/planner_task/planner_task.egg-info to /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task-0.1.0-py3.10.egg-info
+[3.409s] running install_scripts
+[3.468s] Installing start_task script to /home/user/exchange/workspace/install/planner_task/lib/planner_task
+[3.468s] writing list of installed files to '/home/user/exchange/workspace/build/planner_task/install.log'
+[3.539s] Invoked command in '/home/user/exchange/workspace/src/planner_task' returned '0': PYTHONPATH=/home/user/exchange/workspace/build/planner_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/planner_task build --build-base /home/user/exchange/workspace/build/planner_task/build install --record /home/user/exchange/workspace/build/planner_task/install.log --single-version-externally-managed install_data

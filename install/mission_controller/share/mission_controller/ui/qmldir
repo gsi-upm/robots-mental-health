@@ -1,0 +1,3 @@
+module mission_controller.ui
+AppUI 1.0 AppUI.qml
+MainPage 1.0 MainPage.qml

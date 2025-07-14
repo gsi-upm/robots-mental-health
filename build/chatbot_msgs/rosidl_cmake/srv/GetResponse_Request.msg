@@ -1,0 +1,4 @@
+# Petición
+string user_id
+string input
+string model   # AÑADIDO para manejar el cambio de modo

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from task_msgs/action/TaskControl.action
+// generated code does not contain a copyright notice
+
+
+module task_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "sample action message to control (start/stop) a generic task." "\n"
+      "This is for illustration purpose: you probably will want to" "\n"
+      "eg pass custom data to configure your task, or return specific" "\n"
+      "values: feel free to modify it as needed.")
+    struct TaskControl_Goal {
+      string task_data;
+    };
+    struct TaskControl_Result {
+      string error_msg;
+
+      string result;
+    };
+    struct TaskControl_Feedback {
+      string status;
+    };
+  };
+};

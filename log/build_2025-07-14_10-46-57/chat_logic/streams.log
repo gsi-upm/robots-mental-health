@@ -1,0 +1,42 @@
+[0.965s] Invoking command in '/home/user/exchange/workspace/src/chat_logic': PYTHONPATH=/home/user/exchange/workspace/build/chat_logic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_logic build --build-base /home/user/exchange/workspace/build/chat_logic/build install --record /home/user/exchange/workspace/build/chat_logic/install.log --single-version-externally-managed install_data
+[1.241s] running egg_info
+[1.242s] creating ../../build/chat_logic/chat_logic.egg-info
+[1.243s] writing ../../build/chat_logic/chat_logic.egg-info/PKG-INFO
+[1.243s] writing dependency_links to ../../build/chat_logic/chat_logic.egg-info/dependency_links.txt
+[1.243s] writing entry points to ../../build/chat_logic/chat_logic.egg-info/entry_points.txt
+[1.243s] writing requirements to ../../build/chat_logic/chat_logic.egg-info/requires.txt
+[1.244s] writing top-level names to ../../build/chat_logic/chat_logic.egg-info/top_level.txt
+[1.244s] writing manifest file '../../build/chat_logic/chat_logic.egg-info/SOURCES.txt'
+[1.246s] reading manifest file '../../build/chat_logic/chat_logic.egg-info/SOURCES.txt'
+[1.247s] writing manifest file '../../build/chat_logic/chat_logic.egg-info/SOURCES.txt'
+[1.247s] running build
+[1.247s] running build_py
+[1.247s] creating /home/user/exchange/workspace/build/chat_logic/build
+[1.247s] creating /home/user/exchange/workspace/build/chat_logic/build/lib
+[1.247s] creating /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic
+[1.248s] copying chat_logic/__init__.py -> /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic
+[1.248s] copying chat_logic/prompts.py -> /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic
+[1.248s] copying chat_logic/planner.py -> /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic
+[1.248s] copying chat_logic/chat_logic.py -> /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic
+[1.248s] running install
+[1.248s] running install_lib
+[1.249s] creating /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic
+[1.249s] copying /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic/__init__.py -> /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic
+[1.249s] copying /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic/prompts.py -> /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic
+[1.249s] copying /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic/planner.py -> /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic
+[1.249s] copying /home/user/exchange/workspace/build/chat_logic/build/lib/chat_logic/chat_logic.py -> /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic
+[1.250s] byte-compiling /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic/__init__.py to __init__.cpython-310.pyc
+[1.250s] byte-compiling /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic/prompts.py to prompts.cpython-310.pyc
+[1.250s] byte-compiling /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic/planner.py to planner.cpython-310.pyc
+[1.252s] byte-compiling /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic/chat_logic.py to chat_logic.cpython-310.pyc
+[1.252s] running install_data
+[1.252s] creating /home/user/exchange/workspace/install/chat_logic/share/ament_index
+[1.253s] creating /home/user/exchange/workspace/install/chat_logic/share/ament_index/resource_index
+[1.253s] creating /home/user/exchange/workspace/install/chat_logic/share/ament_index/resource_index/packages
+[1.253s] copying resource/chat_logic -> /home/user/exchange/workspace/install/chat_logic/share/ament_index/resource_index/packages
+[1.254s] copying package.xml -> /home/user/exchange/workspace/install/chat_logic/share/chat_logic
+[1.254s] running install_egg_info
+[1.254s] Copying ../../build/chat_logic/chat_logic.egg-info to /home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages/chat_logic-0.0.0-py3.10.egg-info
+[1.255s] running install_scripts
+[1.278s] writing list of installed files to '/home/user/exchange/workspace/build/chat_logic/install.log'
+[1.311s] Invoked command in '/home/user/exchange/workspace/src/chat_logic' returned '0': PYTHONPATH=/home/user/exchange/workspace/build/chat_logic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/chat_logic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_logic build --build-base /home/user/exchange/workspace/build/chat_logic/build install --record /home/user/exchange/workspace/build/chat_logic/install.log --single-version-externally-managed install_data

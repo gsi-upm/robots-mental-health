@@ -1,0 +1,3 @@
+[console_scripts]
+start_task = sample_gui_task.start_task:main
+

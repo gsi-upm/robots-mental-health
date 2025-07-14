@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from chatbot_msgs/srv/ResetModel.srv
+// generated code does not contain a copyright notice
+
+
+module chatbot_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Petición (vacía)")
+    struct ResetModel_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Respuesta (vacía)")
+    struct ResetModel_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

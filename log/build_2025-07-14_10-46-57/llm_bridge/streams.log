@@ -1,0 +1,52 @@
+[1.805s] Invoking command in '/home/user/exchange/workspace/src/llm_bridge': AMENT_PREFIX_PATH=/home/user/exchange/workspace/install/chatbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/chatbot_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/chatbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/build/llm_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages:/home/user/exchange/workspace/install/chatbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/llm_bridge build --build-base /home/user/exchange/workspace/build/llm_bridge/build install --record /home/user/exchange/workspace/build/llm_bridge/install.log --single-version-externally-managed install_data
+[2.092s] running egg_info
+[2.093s] creating ../../build/llm_bridge/llm_bridge.egg-info
+[2.093s] writing ../../build/llm_bridge/llm_bridge.egg-info/PKG-INFO
+[2.094s] writing dependency_links to ../../build/llm_bridge/llm_bridge.egg-info/dependency_links.txt
+[2.095s] writing entry points to ../../build/llm_bridge/llm_bridge.egg-info/entry_points.txt
+[2.095s] writing requirements to ../../build/llm_bridge/llm_bridge.egg-info/requires.txt
+[2.096s] writing top-level names to ../../build/llm_bridge/llm_bridge.egg-info/top_level.txt
+[2.096s] writing manifest file '../../build/llm_bridge/llm_bridge.egg-info/SOURCES.txt'
+[2.099s] reading manifest file '../../build/llm_bridge/llm_bridge.egg-info/SOURCES.txt'
+[2.099s] adding license file 'LICENSE'
+[2.100s] writing manifest file '../../build/llm_bridge/llm_bridge.egg-info/SOURCES.txt'
+[2.100s] running build
+[2.101s] running build_py
+[2.101s] creating /home/user/exchange/workspace/build/llm_bridge/build
+[2.101s] creating /home/user/exchange/workspace/build/llm_bridge/build/lib
+[2.101s] creating /home/user/exchange/workspace/build/llm_bridge/build/lib/llm_bridge
+[2.101s] copying llm_bridge/node_impl.py -> /home/user/exchange/workspace/build/llm_bridge/build/lib/llm_bridge
+[2.102s] copying llm_bridge/__init__.py -> /home/user/exchange/workspace/build/llm_bridge/build/lib/llm_bridge
+[2.102s] copying llm_bridge/start_node.py -> /home/user/exchange/workspace/build/llm_bridge/build/lib/llm_bridge
+[2.103s] running install
+[2.104s] running install_lib
+[2.105s] creating /home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages/llm_bridge
+[2.105s] copying /home/user/exchange/workspace/build/llm_bridge/build/lib/llm_bridge/node_impl.py -> /home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages/llm_bridge
+[2.105s] copying /home/user/exchange/workspace/build/llm_bridge/build/lib/llm_bridge/__init__.py -> /home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages/llm_bridge
+[2.105s] copying /home/user/exchange/workspace/build/llm_bridge/build/lib/llm_bridge/start_node.py -> /home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages/llm_bridge
+[2.106s] byte-compiling /home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages/llm_bridge/node_impl.py to node_impl.cpython-310.pyc
+[2.107s] byte-compiling /home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages/llm_bridge/__init__.py to __init__.cpython-310.pyc
+[2.107s] byte-compiling /home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages/llm_bridge/start_node.py to start_node.cpython-310.pyc
+[2.108s] running install_data
+[2.108s] copying package.xml -> /home/user/exchange/workspace/install/llm_bridge/share/llm_bridge
+[2.108s] creating /home/user/exchange/workspace/install/llm_bridge/share/ament_index
+[2.108s] creating /home/user/exchange/workspace/install/llm_bridge/share/ament_index/resource_index
+[2.108s] creating /home/user/exchange/workspace/install/llm_bridge/share/ament_index/resource_index/packages
+[2.109s] copying res/llm_bridge -> /home/user/exchange/workspace/install/llm_bridge/share/ament_index/resource_index/packages
+[2.109s] creating /home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/launch
+[2.109s] copying launch/llm_bridge.launch.py -> /home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/launch
+[2.109s] creating /home/user/exchange/workspace/install/llm_bridge/share/ament_index/resource_index/pal_system_module
+[2.109s] copying module/llm_bridge -> /home/user/exchange/workspace/install/llm_bridge/share/ament_index/resource_index/pal_system_module
+[2.109s] creating /home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/module
+[2.109s] copying module/llm_bridge_module.yaml -> /home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/module
+[2.110s] creating /home/user/exchange/workspace/install/llm_bridge/share/ament_index/resource_index/pal_configuration.llm_bridge
+[2.110s] copying config/llm_bridge -> /home/user/exchange/workspace/install/llm_bridge/share/ament_index/resource_index/pal_configuration.llm_bridge
+[2.110s] creating /home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/config
+[2.110s] copying config/00-defaults.yml -> /home/user/exchange/workspace/install/llm_bridge/share/llm_bridge/config
+[2.110s] running install_egg_info
+[2.113s] Copying ../../build/llm_bridge/llm_bridge.egg-info to /home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages/llm_bridge-0.1.0-py3.10.egg-info
+[2.114s] running install_scripts
+[2.146s] Installing llm_bridge script to /home/user/exchange/workspace/install/llm_bridge/lib/llm_bridge
+[2.147s] Installing start_node script to /home/user/exchange/workspace/install/llm_bridge/lib/llm_bridge
+[2.148s] writing list of installed files to '/home/user/exchange/workspace/build/llm_bridge/install.log'
+[2.199s] Invoked command in '/home/user/exchange/workspace/src/llm_bridge' returned '0': AMENT_PREFIX_PATH=/home/user/exchange/workspace/install/chatbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/chatbot_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/chatbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/build/llm_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/llm_bridge/lib/python3.10/site-packages:/home/user/exchange/workspace/install/chatbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/llm_bridge build --build-base /home/user/exchange/workspace/build/llm_bridge/build install --record /home/user/exchange/workspace/build/llm_bridge/install.log --single-version-externally-managed install_data

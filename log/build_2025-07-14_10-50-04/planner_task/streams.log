@@ -1,0 +1,22 @@
+[2.268s] Invoking command in '/home/user/exchange/workspace/src/planner_task': AMENT_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/task_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/build/planner_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages:/home/user/exchange/workspace/install/task_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/planner_task build --build-base /home/user/exchange/workspace/build/planner_task/build install --record /home/user/exchange/workspace/build/planner_task/install.log --single-version-externally-managed install_data
+[2.534s] running egg_info
+[2.535s] writing ../../build/planner_task/planner_task.egg-info/PKG-INFO
+[2.536s] writing dependency_links to ../../build/planner_task/planner_task.egg-info/dependency_links.txt
+[2.536s] writing entry points to ../../build/planner_task/planner_task.egg-info/entry_points.txt
+[2.536s] writing requirements to ../../build/planner_task/planner_task.egg-info/requires.txt
+[2.536s] writing top-level names to ../../build/planner_task/planner_task.egg-info/top_level.txt
+[2.538s] reading manifest file '../../build/planner_task/planner_task.egg-info/SOURCES.txt'
+[2.538s] adding license file 'LICENSE'
+[2.540s] writing manifest file '../../build/planner_task/planner_task.egg-info/SOURCES.txt'
+[2.540s] running build
+[2.541s] running build_py
+[2.541s] running install
+[2.541s] running install_lib
+[2.542s] running install_data
+[2.543s] running install_egg_info
+[2.545s] removing '/home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task-0.1.0-py3.10.egg-info' (and everything under it)
+[2.545s] Copying ../../build/planner_task/planner_task.egg-info to /home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages/planner_task-0.1.0-py3.10.egg-info
+[2.546s] running install_scripts
+[2.567s] Installing start_task script to /home/user/exchange/workspace/install/planner_task/lib/planner_task
+[2.567s] writing list of installed files to '/home/user/exchange/workspace/build/planner_task/install.log'
+[2.605s] Invoked command in '/home/user/exchange/workspace/src/planner_task' returned '0': AMENT_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/workspace/install/task_msgs LD_LIBRARY_PATH=/home/user/exchange/workspace/install/task_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/workspace/build/planner_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/workspace/install/planner_task/lib/python3.10/site-packages:/home/user/exchange/workspace/install/task_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/planner_task build --build-base /home/user/exchange/workspace/build/planner_task/build install --record /home/user/exchange/workspace/build/planner_task/install.log --single-version-externally-managed install_data

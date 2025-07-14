@@ -1,0 +1,9 @@
+setup.py
+chatbot_msgs/__init__.py
+chatbot_msgs.egg-info/PKG-INFO
+chatbot_msgs.egg-info/SOURCES.txt
+chatbot_msgs.egg-info/dependency_links.txt
+chatbot_msgs.egg-info/top_level.txt
+chatbot_msgs/srv/__init__.py
+chatbot_msgs/srv/_get_response.py
+chatbot_msgs/srv/_reset_model.py

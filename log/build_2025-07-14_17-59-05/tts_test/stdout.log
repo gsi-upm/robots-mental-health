@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/tts_test/tts_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/tts_test/tts_test.egg-info/dependency_links.txt
+writing entry points to ../../build/tts_test/tts_test.egg-info/entry_points.txt
+writing requirements to ../../build/tts_test/tts_test.egg-info/requires.txt
+writing top-level names to ../../build/tts_test/tts_test.egg-info/top_level.txt
+reading manifest file '../../build/tts_test/tts_test.egg-info/SOURCES.txt'
+writing manifest file '../../build/tts_test/tts_test.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/user/exchange/workspace/install/tts_test/lib/python3.10/site-packages/tts_test-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/tts_test/tts_test.egg-info to /home/user/exchange/workspace/install/tts_test/lib/python3.10/site-packages/tts_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing say_client script to /home/user/exchange/workspace/install/tts_test/lib/tts_test
+writing list of installed files to '/home/user/exchange/workspace/build/tts_test/install.log'
