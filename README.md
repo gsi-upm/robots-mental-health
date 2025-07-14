@@ -27,6 +27,7 @@ El asistente se compone de los siguientes módulos ROS 2:
 - `planner_task`: modo planificación académica.
 - `llm_bridge`: interfaz con modelos de lenguaje vía OpenRouter.
 - `say_skill`: síntesis de voz del robot.
+- `chat_logic`: biblioteca con el backend (chat_logic.py, prompts.py y planner.py).
 - `ui_task`: interfaz gráfica en QML (pantalla del robot).
 
 La lógica de planificación se implementa en `planner.py` mediante un algoritmo determinista que distribuye tareas según deadlines y dificultad.
