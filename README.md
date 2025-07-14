@@ -14,7 +14,7 @@ Este repositorio contiene el código fuente y los recursos desarrollados en el m
 El sistema se ha implementado sobre el software de los robots sociales de PAL Robotics (TIAGo Head / ARI) y utiliza ROS 2, QML y OpenRouter para la interacción natural en dos modos:
 
 - **Modo conversacional**: proporciona apoyo emocional basado en el lenguaje natural.
-- **Modo planificación**: genera un plan de estudio semanal personalizado, adaptado a tareas, disponibilidad y nivel de estrés percibido.
+- **Modo planificación**: genera un plan de estudio semanal personalizado, adaptado a tareas, disponibilidad y nivel de dificultad.
 
 
 
